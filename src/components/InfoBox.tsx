@@ -54,8 +54,37 @@ export default function InfoBox() {
       </div>
 
       {/* [INFO-02] Side content */}
-      <div className="flex-shrink-0 w-[240px] flex flex-col gap-2">
-        {/* [INFO-02a] Keywords */}
+      <div className="flex-shrink-0 w-[280px] flex flex-col gap-2">
+        {/* [INFO-02a] Date Index Score */}
+        {restaurant.dateIndex > 0 && (
+          <div className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-lg p-3">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-[12px] font-semibold text-rose-700">Date Index</span>
+              <span className="text-[20px] font-bold text-rose-600">{restaurant.dateIndex.toFixed(1)}</span>
+            </div>
+            <div className="flex flex-col gap-1.5">
+              {[
+                { label: 'Atmosphere', value: restaurant.scoreAtmosphere, color: '#f472b6' },
+                { label: 'Noise (quiet)', value: restaurant.scoreNoise, color: '#a78bfa' },
+                { label: 'Waiting', value: restaurant.scoreWaiting, color: '#34d399' },
+                { label: 'Distance', value: restaurant.scoreDistance, color: '#60a5fa' },
+              ].map((item) => (
+                <div key={item.label} className="flex items-center gap-2">
+                  <span className="text-[10px] text-slate-500 w-[70px] shrink-0">{item.label}</span>
+                  <div className="flex-1 bg-slate-200 rounded-full h-[5px] overflow-hidden">
+                    <div
+                      className="h-full rounded-full transition-all"
+                      style={{ width: `${(item.value / 10) * 100}%`, backgroundColor: item.color }}
+                    />
+                  </div>
+                  <span className="text-[10px] font-medium text-slate-600 w-[22px] text-right">{item.value.toFixed(1)}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* [INFO-02b] Keywords */}
         {restaurant.keywords.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {restaurant.keywords.map((kw, i) => (
@@ -69,23 +98,23 @@ export default function InfoBox() {
           </div>
         )}
 
-        {/* [INFO-02b] External links */}
-        <div className="flex flex-col gap-1.5">
+        {/* [INFO-02c] External links */}
+        <div className="flex gap-1.5">
           <a
             href={restaurant.kakaoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-center py-2 bg-[#FEE500] text-[#191919] text-[12px] font-medium rounded-lg hover:brightness-95 transition-all"
+            className="flex-1 text-center py-2 bg-[#FEE500] text-[#191919] text-[12px] font-medium rounded-lg hover:brightness-95 transition-all"
           >
-            카카오맵에서 보기
+            카카오맵
           </a>
           <a
             href={restaurant.naverLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-center py-2 bg-[#03C75A] text-white text-[12px] font-medium rounded-lg hover:brightness-95 transition-all"
+            className="flex-1 text-center py-2 bg-[#03C75A] text-white text-[12px] font-medium rounded-lg hover:brightness-95 transition-all"
           >
-            네이버지도에서 보기
+            네이버지도
           </a>
         </div>
       </div>

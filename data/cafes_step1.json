@@ -1,0 +1,1684 @@
+{
+  "restaurants": [
+    {
+      "restaurant_name": "룸28",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 서원구 흥덕로 28",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1261643684",
+        "naver_map": "https://m.place.naver.com/restaurant/2021092371/home"
+      }
+    },
+    {
+      "restaurant_name": "디온 디저트의온기",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 서원구 호국로 93",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1784023775",
+        "naver_map": "https://m.place.naver.com/restaurant/2050986980/home"
+      }
+    },
+    {
+      "restaurant_name": "오늘이시간지금",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 264",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1469502265",
+        "naver_map": "https://m.place.naver.com/restaurant/1991270329/home"
+      }
+    },
+    {
+      "restaurant_name": "스타벅스 청주사직DT점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 302",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/890582670",
+        "naver_map": "https://m.place.naver.com/restaurant/1038426081/home"
+      }
+    },
+    {
+      "restaurant_name": "이디야커피 청주사직중앙점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 이디야커피",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 282",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2132747675",
+        "naver_map": "https://m.place.naver.com/restaurant/1871817354/home"
+      }
+    },
+    {
+      "restaurant_name": "르네상스다실",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "다방"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 270",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8943368",
+        "naver_map": "https://m.place.naver.com/restaurant/17459319/home"
+      }
+    },
+    {
+      "restaurant_name": "사직다실",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "다방"
+      },
+      "road_address": "충북 청주시 서원구 사운로111번길 4",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/17467199",
+        "naver_map": "https://m.place.naver.com/restaurant/21556461/home"
+      }
+    },
+    {
+      "restaurant_name": "알콩커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 서원구 대원로 28",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/240156947",
+        "naver_map": "https://m.place.naver.com/restaurant/1010317971/home"
+      }
+    },
+    {
+      "restaurant_name": "라토커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 성안로74번길 94-12",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1576436289",
+        "naver_map": "https://m.place.naver.com/restaurant/298445141/home"
+      }
+    },
+    {
+      "restaurant_name": "모퉁이찻집",
+      "category": {
+        "kakao": "음식점 > 카페 > 전통찻집",
+        "naver": "차"
+      },
+      "road_address": "충북 청주시 상당구 무심동로302번길 6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1608653363",
+        "naver_map": "https://m.place.naver.com/restaurant/1518816141/home"
+      }
+    },
+    {
+      "restaurant_name": "주니스커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 무심동로 364-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1228280610",
+        "naver_map": "https://m.place.naver.com/restaurant/1691123631/home"
+      }
+    },
+    {
+      "restaurant_name": "소수점",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 남사로93번길 13",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/103009095",
+        "naver_map": "https://m.place.naver.com/restaurant/1861441944/home"
+      }
+    },
+    {
+      "restaurant_name": "차마시는뜰",
+      "category": {
+        "kakao": "음식점 > 카페 > 전통찻집",
+        "naver": "차"
+      },
+      "road_address": "충북 청주시 상당구 남사로89번길 4",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/146642855",
+        "naver_map": "https://m.place.naver.com/restaurant/1620808336/home"
+      }
+    },
+    {
+      "restaurant_name": "카페150",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 무심동로 398-3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/239161581",
+        "naver_map": "https://m.place.naver.com/restaurant/1188367445/home"
+      }
+    },
+    {
+      "restaurant_name": "해호미",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 308-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1446194807",
+        "naver_map": "https://m.place.naver.com/restaurant/1776967407/home"
+      }
+    },
+    {
+      "restaurant_name": "카페509",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 서원구 무심서로 509",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/57803947",
+        "naver_map": "https://m.place.naver.com/restaurant/1322041563/home"
+      }
+    },
+    {
+      "restaurant_name": "카페사운드벙커",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "술집"
+      },
+      "road_address": "충북 청주시 상당구 무심동로392번길 7-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/106424601",
+        "naver_map": "https://m.place.naver.com/restaurant/1092423921/home"
+      }
+    },
+    {
+      "restaurant_name": "사북로96",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 서원구 사북로 96",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/270356581",
+        "naver_map": "https://m.place.naver.com/restaurant/1968496642/home"
+      }
+    },
+    {
+      "restaurant_name": "멀티피치",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 중앙로61번길 45",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/274850939",
+        "naver_map": "https://m.place.naver.com/restaurant/1261528686/home"
+      }
+    },
+    {
+      "restaurant_name": "커피에반하다 청주성안점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 커피에반하다",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 성안로 68",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/74651842",
+        "naver_map": "https://m.place.naver.com/restaurant/1443179182/home"
+      }
+    },
+    {
+      "restaurant_name": "케이키",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로69번길 3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/876446141",
+        "naver_map": "https://m.place.naver.com/restaurant/1573710310/home"
+      }
+    },
+    {
+      "restaurant_name": "REC",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "술집"
+      },
+      "road_address": "충북 청주시 상당구 무심동로336번길 94-5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1661100365",
+        "naver_map": "https://m.place.naver.com/restaurant/1523818497/home"
+      }
+    },
+    {
+      "restaurant_name": "브루코",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 남사로 129",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/88052548",
+        "naver_map": "https://m.place.naver.com/restaurant/1749915740/home"
+      }
+    },
+    {
+      "restaurant_name": "빽다방 청주중앙공원점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 빽다방",
+        "naver": "테이크아웃커피"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 13",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/27096005",
+        "naver_map": "https://m.place.naver.com/restaurant/37130520/home"
+      }
+    },
+    {
+      "restaurant_name": "히히하하호호",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로362번길 72",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/398137356",
+        "naver_map": "https://m.place.naver.com/restaurant/1568646280/home"
+      }
+    },
+    {
+      "restaurant_name": "화이트캐슬",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페",
+        "naver": "룸카페"
+      },
+      "road_address": "충북 청주시 상당구 성안로 26-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/22218889",
+        "naver_map": "https://m.place.naver.com/restaurant/1323624091/home"
+      }
+    },
+    {
+      "restaurant_name": "그리프커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로350번길 60",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1169389538",
+        "naver_map": "https://m.place.naver.com/restaurant/1050557445/home"
+      }
+    },
+    {
+      "restaurant_name": "라포르",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 72-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1188893420",
+        "naver_map": "https://m.place.naver.com/restaurant/1789842855/home"
+      }
+    },
+    {
+      "restaurant_name": "커피올림#",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로55번길 40-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21526587",
+        "naver_map": "https://m.place.naver.com/restaurant/953751558/home"
+      }
+    },
+    {
+      "restaurant_name": "란다랑",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "차"
+      },
+      "road_address": "충북 청주시 상당구 남사로 104-11",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21451192",
+        "naver_map": "https://m.place.naver.com/restaurant/1761079115/home"
+      }
+    },
+    {
+      "restaurant_name": "미오",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 29",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/246985723",
+        "naver_map": "https://m.place.naver.com/restaurant/1792570179/home"
+      }
+    },
+    {
+      "restaurant_name": "콩쥐다방",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "다방"
+      },
+      "road_address": "충북 청주시 상당구 남사로102번길 8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/153510202",
+        "naver_map": "https://m.place.naver.com/restaurant/1409684407/home"
+      }
+    },
+    {
+      "restaurant_name": "우리다방",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "다방"
+      },
+      "road_address": "충북 청주시 상당구 무심동로336번길 100-5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/174031861",
+        "naver_map": "https://m.place.naver.com/restaurant/1575358635/home"
+      }
+    },
+    {
+      "restaurant_name": "제일다방",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "다방"
+      },
+      "road_address": "충북 청주시 상당구 무심동로336번길 108-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21522278",
+        "naver_map": "https://m.place.naver.com/restaurant/1155318088/home"
+      }
+    },
+    {
+      "restaurant_name": "NSR136",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 남사로 136",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1514048468",
+        "naver_map": "https://m.place.naver.com/restaurant/2005073435/home"
+      }
+    },
+    {
+      "restaurant_name": "오드커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 45-3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/959446233",
+        "naver_map": "https://m.place.naver.com/restaurant/1860868561/home"
+      }
+    },
+    {
+      "restaurant_name": "리브커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "북카페"
+      },
+      "road_address": "충북 청주시 상당구 남사로93번길 28",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/861556791",
+        "naver_map": "https://m.place.naver.com/restaurant/1729700780/home"
+      }
+    },
+    {
+      "restaurant_name": "담담주스",
+      "category": {
+        "kakao": "음식점 > 카페 > 생과일전문점",
+        "naver": "과일,주스전문점"
+      },
+      "road_address": "충북 청주시 상당구 상당로69번길 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2059089194",
+        "naver_map": "https://m.place.naver.com/restaurant/2075520386/home"
+      }
+    },
+    {
+      "restaurant_name": "남문갤러리카페",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 갤러리카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 무심동로336번길 105",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/326270541",
+        "naver_map": "https://m.place.naver.com/restaurant/1437281778/home"
+      }
+    },
+    {
+      "restaurant_name": "키넥텀",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "공방"
+      },
+      "road_address": "충북 청주시 상당구 사직대로350번길 57",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/77112394",
+        "naver_map": "https://m.place.naver.com/restaurant/1954190475/home"
+      }
+    },
+    {
+      "restaurant_name": "벌툰 몽유도원 청주성안길점",
+      "category": {
+        "kakao": "가정,생활 > 여가시설 > 만화방 > 만화카페 > 벌툰",
+        "naver": "만화방"
+      },
+      "road_address": "충북 청주시 상당구 성안로 19-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/776550801",
+        "naver_map": "https://m.place.naver.com/restaurant/2089896742/home"
+      }
+    },
+    {
+      "restaurant_name": "레드버튼 청주성안길점",
+      "category": {
+        "kakao": "가정,생활 > 여가시설 > 보드카페 > 레드버튼",
+        "naver": "보드카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 36",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2052885150",
+        "naver_map": "https://m.place.naver.com/restaurant/1628474157/home"
+      }
+    },
+    {
+      "restaurant_name": "비올라",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/627177949",
+        "naver_map": "https://m.place.naver.com/restaurant/1939765417/home"
+      }
+    },
+    {
+      "restaurant_name": "스타벅스 청주서문점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 무심동로392번길 20",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/17884790",
+        "naver_map": "https://m.place.naver.com/restaurant/31317471/home"
+      }
+    },
+    {
+      "restaurant_name": "어반브라운",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 44-10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21400243",
+        "naver_map": "https://m.place.naver.com/restaurant/36878743/home"
+      }
+    },
+    {
+      "restaurant_name": "가토주니",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "케이크전문"
+      },
+      "road_address": "충북 청주시 상당구 사직대로 353-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/26304776",
+        "naver_map": "https://m.place.naver.com/restaurant/19805662/home"
+      }
+    },
+    {
+      "restaurant_name": "메가MGC커피 청주성안길점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 메가MGC커피",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 성안로 9",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1919660088",
+        "naver_map": "https://m.place.naver.com/restaurant/1771516921/home"
+      }
+    },
+    {
+      "restaurant_name": "홍스구락부",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로69번길 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1942811816",
+        "naver_map": "https://m.place.naver.com/restaurant/1618929390/home"
+      }
+    },
+    {
+      "restaurant_name": "골목다방",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 라이브카페",
+        "naver": "라이브카페"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 8-14",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/15545694",
+        "naver_map": "https://m.place.naver.com/restaurant/20284064/home"
+      }
+    },
+    {
+      "restaurant_name": "룸앤톡",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페",
+        "naver": "보드카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로91번길 16-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/606240251",
+        "naver_map": "https://m.place.naver.com/restaurant/1416603730/home"
+      }
+    },
+    {
+      "restaurant_name": "냥이싸롱",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 고양이카페",
+        "naver": "고양이카페"
+      },
+      "road_address": "충북 청주시 상당구 성안로 10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/57097434",
+        "naver_map": "https://m.place.naver.com/restaurant/1059133116/home"
+      }
+    },
+    {
+      "restaurant_name": "컴포즈커피 청주성안길점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 컴포즈커피",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 성안로 19-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1938185905",
+        "naver_map": "https://m.place.naver.com/restaurant/1442020151/home"
+      }
+    },
+    {
+      "restaurant_name": "투썸플레이스 청주성안점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 투썸플레이스",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 성안로 8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21533231",
+        "naver_map": "https://m.place.naver.com/restaurant/21892808/home"
+      }
+    },
+    {
+      "restaurant_name": "멍이와쿤이",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페",
+        "naver": "애견카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 9-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1389651518",
+        "naver_map": "https://m.place.naver.com/restaurant/650885616/home"
+      }
+    },
+    {
+      "restaurant_name": "반지대학 청주캠퍼스",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페",
+        "naver": "공방"
+      },
+      "road_address": "충북 청주시 상당구 상당로91번길 39-7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/26096580",
+        "naver_map": "https://m.place.naver.com/restaurant/35769922/home"
+      }
+    },
+    {
+      "restaurant_name": "땡큐베리머치",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로 370",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/242241035",
+        "naver_map": "https://m.place.naver.com/restaurant/1692499643/home"
+      }
+    },
+    {
+      "restaurant_name": "픽베이크 청주점",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 64",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1853010427",
+        "naver_map": "https://m.place.naver.com/restaurant/2036333903/home"
+      }
+    },
+    {
+      "restaurant_name": "커피호스텔",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 7-3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1860427714",
+        "naver_map": "https://m.place.naver.com/restaurant/1489396709/home"
+      }
+    },
+    {
+      "restaurant_name": "제이델링 청주성안길 본점",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "케이크전문"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 22-7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1910651834",
+        "naver_map": "https://m.place.naver.com/restaurant/1516492717/home"
+      }
+    },
+    {
+      "restaurant_name": "빽다방 청주성안롯데점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 빽다방",
+        "naver": "테이크아웃커피"
+      },
+      "road_address": "충북 청주시 상당구 성안로 13",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/27402773",
+        "naver_map": "https://m.place.naver.com/restaurant/37107145/home"
+      }
+    },
+    {
+      "restaurant_name": "아베크케이크",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 5-5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2120985247",
+        "naver_map": "https://m.place.naver.com/restaurant/1450978388/home"
+      }
+    },
+    {
+      "restaurant_name": "앤",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "케이크전문"
+      },
+      "road_address": "충북 청주시 상당구 교서로 8-16",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9265799",
+        "naver_map": "https://m.place.naver.com/restaurant/11845670/home"
+      }
+    },
+    {
+      "restaurant_name": "코우즈",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 8-13",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1547433302",
+        "naver_map": "https://m.place.naver.com/restaurant/1658339451/home"
+      }
+    },
+    {
+      "restaurant_name": "글랜스오프",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 23",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/739198434",
+        "naver_map": "https://m.place.naver.com/restaurant/1574596125/home"
+      }
+    },
+    {
+      "restaurant_name": "셜록홈즈 청주점",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페",
+        "naver": "방탈출카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 58",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/820705241",
+        "naver_map": "https://m.place.naver.com/restaurant/1153403331/home"
+      }
+    },
+    {
+      "restaurant_name": "아카이브",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 14-8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1483170204",
+        "naver_map": "https://m.place.naver.com/restaurant/1048117883/home"
+      }
+    },
+    {
+      "restaurant_name": "쿼드커피 청주성안점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로362번길 23",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1054818528",
+        "naver_map": "https://m.place.naver.com/restaurant/1379802392/home"
+      }
+    },
+    {
+      "restaurant_name": "모스아워",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 교서로 8-10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2101842598",
+        "naver_map": "https://m.place.naver.com/restaurant/1218613562/home"
+      }
+    },
+    {
+      "restaurant_name": "메가MGC커피 청주서문점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 메가MGC커피",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 70",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2016105896",
+        "naver_map": "https://m.place.naver.com/restaurant/2063038843/home"
+      }
+    },
+    {
+      "restaurant_name": "하이퍼마켓",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 5-8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/141589020",
+        "naver_map": "https://m.place.naver.com/restaurant/1617954105/home"
+      }
+    },
+    {
+      "restaurant_name": "더어반",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 성안로 10-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/158606296",
+        "naver_map": "https://m.place.naver.com/restaurant/1296886845/home"
+      }
+    },
+    {
+      "restaurant_name": "소왓커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 9-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2030931224",
+        "naver_map": "https://m.place.naver.com/restaurant/1094767290/home"
+      }
+    },
+    {
+      "restaurant_name": "우지커피 청주성안길점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 우지커피",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로 75",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1138826604",
+        "naver_map": "https://m.place.naver.com/restaurant/1641629406/home"
+      }
+    },
+    {
+      "restaurant_name": "언씬",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "베이커리"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 14-9",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/556472021",
+        "naver_map": "https://m.place.naver.com/restaurant/1468350342/home"
+      }
+    },
+    {
+      "restaurant_name": "옵스트",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 7-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1408484905",
+        "naver_map": "https://m.place.naver.com/restaurant/1190647388/home"
+      }
+    },
+    {
+      "restaurant_name": "커슐랭 영동점",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 교서로 8-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1348597328",
+        "naver_map": "https://m.place.naver.com/restaurant/1162436651/home"
+      }
+    },
+    {
+      "restaurant_name": "이디야커피 청주상당로점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 이디야커피",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로 112",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1489173978",
+        "naver_map": "https://m.place.naver.com/restaurant/1016613706/home"
+      }
+    },
+    {
+      "restaurant_name": "미결의 미학",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로362번길 5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2019389099",
+        "naver_map": "https://m.place.naver.com/restaurant/2000005172/home"
+      }
+    },
+    {
+      "restaurant_name": "폴앤주비",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 67",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/306789820",
+        "naver_map": "https://m.place.naver.com/restaurant/437215678/home"
+      }
+    },
+    {
+      "restaurant_name": "카페목간",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 46",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1413909143",
+        "naver_map": "https://m.place.naver.com/restaurant/1135498950/home"
+      }
+    },
+    {
+      "restaurant_name": "시차",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 50",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1375964401",
+        "naver_map": "https://m.place.naver.com/restaurant/1019024539/home"
+      }
+    },
+    {
+      "restaurant_name": "커피하우스큐",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로131번길 8-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/132824389",
+        "naver_map": "https://m.place.naver.com/restaurant/1231263127/home"
+      }
+    },
+    {
+      "restaurant_name": "올드파인",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로131번길 8-8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1435459994",
+        "naver_map": "https://m.place.naver.com/restaurant/2080862744/home"
+      }
+    },
+    {
+      "restaurant_name": "이성근커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로 117-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/26511349",
+        "naver_map": "https://m.place.naver.com/restaurant/36399085/home"
+      }
+    },
+    {
+      "restaurant_name": "비토커피로스터스",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 65",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2095336074",
+        "naver_map": "https://m.place.naver.com/restaurant/1364450219/home"
+      }
+    },
+    {
+      "restaurant_name": "블랙커피웍스",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 37",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1052322886",
+        "naver_map": "https://m.place.naver.com/restaurant/1507663021/home"
+      }
+    },
+    {
+      "restaurant_name": "사푸",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 44",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/121530516",
+        "naver_map": "https://m.place.naver.com/restaurant/2018575170/home"
+      }
+    },
+    {
+      "restaurant_name": "콜링커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 32-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1780557267",
+        "naver_map": "https://m.place.naver.com/restaurant/2083703539/home"
+      }
+    },
+    {
+      "restaurant_name": "로로디",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 61",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1165339795",
+        "naver_map": "https://m.place.naver.com/restaurant/1440007297/home"
+      }
+    },
+    {
+      "restaurant_name": "지유명차 청주점",
+      "category": {
+        "kakao": "음식점 > 카페 > 전통찻집",
+        "naver": "차,커피"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 47",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/14544097",
+        "naver_map": "https://m.place.naver.com/restaurant/38633090/home"
+      }
+    },
+    {
+      "restaurant_name": "이사프커피스탠드",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로143번길 31-16",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1086158705",
+        "naver_map": "https://m.place.naver.com/restaurant/1786056344/home"
+      }
+    },
+    {
+      "restaurant_name": "그앤푸",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로131번길 7-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1806589565",
+        "naver_map": "https://m.place.naver.com/restaurant/2047860211/home"
+      }
+    },
+    {
+      "restaurant_name": "구오커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 26",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1115316916",
+        "naver_map": "https://m.place.naver.com/restaurant/1310347599/home"
+      }
+    },
+    {
+      "restaurant_name": "루체테커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 41",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/996471666",
+        "naver_map": "https://m.place.naver.com/restaurant/1140410295/home"
+      }
+    },
+    {
+      "restaurant_name": "모이어티",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 34",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1652908497",
+        "naver_map": "https://m.place.naver.com/restaurant/1995382753/home"
+      }
+    },
+    {
+      "restaurant_name": "LDK",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로131번길 15-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1555426209",
+        "naver_map": "https://m.place.naver.com/restaurant/2045512860/home"
+      }
+    },
+    {
+      "restaurant_name": "3번출구",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/133619226",
+        "naver_map": "https://m.place.naver.com/restaurant/1839668684/home"
+      }
+    },
+    {
+      "restaurant_name": "버드케이크하우스",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 7-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/962598994",
+        "naver_map": "https://m.place.naver.com/restaurant/1732936183/home"
+      }
+    },
+    {
+      "restaurant_name": "프리랜스커피클럽",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 41-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1262093721",
+        "naver_map": "https://m.place.naver.com/restaurant/1489088545/home"
+      }
+    },
+    {
+      "restaurant_name": "프롬버터",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "베이커리"
+      },
+      "road_address": "충북 청주시 상당구 상당로 144",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/181419714",
+        "naver_map": "https://m.place.naver.com/restaurant/1556255531/home"
+      }
+    },
+    {
+      "restaurant_name": "레츠커피로스터스",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 우암산로 2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1993090418",
+        "naver_map": "https://m.place.naver.com/restaurant/1233153676/home"
+      }
+    },
+    {
+      "restaurant_name": "카페91플랜",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/895353795",
+        "naver_map": "https://m.place.naver.com/restaurant/1676964528/home"
+      }
+    },
+    {
+      "restaurant_name": "백설",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "빙수"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 37-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2074948103",
+        "naver_map": "https://m.place.naver.com/restaurant/1189608634/home"
+      }
+    },
+    {
+      "restaurant_name": "포코아포코",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로143번길 28",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/867186483",
+        "naver_map": "https://m.place.naver.com/restaurant/1714563131/home"
+      }
+    },
+    {
+      "restaurant_name": "새미림다실",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "다방"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9815604",
+        "naver_map": "https://m.place.naver.com/restaurant/17198860/home"
+      }
+    },
+    {
+      "restaurant_name": "언코트",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 70",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1606137633",
+        "naver_map": "https://m.place.naver.com/restaurant/1106623883/home"
+      }
+    },
+    {
+      "restaurant_name": "안녕홍차",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 23",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/170004783",
+        "naver_map": "https://m.place.naver.com/restaurant/1914538534/home"
+      }
+    },
+    {
+      "restaurant_name": "메가MGC커피 청주시청점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 메가MGC커피",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 80",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1102200304",
+        "naver_map": "https://m.place.naver.com/restaurant/1984865537/home"
+      }
+    },
+    {
+      "restaurant_name": "류스",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 53",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/29372638",
+        "naver_map": "https://m.place.naver.com/restaurant/1962752510/home"
+      }
+    },
+    {
+      "restaurant_name": "카페콩 가온숲",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 111",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1775544018",
+        "naver_map": "https://m.place.naver.com/restaurant/827349561/home"
+      }
+    },
+    {
+      "restaurant_name": "카페요셉",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 중앙로61번길 16",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1107376772",
+        "naver_map": "https://m.place.naver.com/restaurant/1298533423/home"
+      }
+    },
+    {
+      "restaurant_name": "카페공기",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로26번길 15-7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/710942765",
+        "naver_map": "https://m.place.naver.com/restaurant/1700717049/home"
+      }
+    },
+    {
+      "restaurant_name": "스타벅스 충북도청점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로 66",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1828560986",
+        "naver_map": "https://m.place.naver.com/restaurant/1391247727/home"
+      }
+    },
+    {
+      "restaurant_name": "본정케익 &초콜릿 도청점",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 대성로 101",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1104134165",
+        "naver_map": "https://m.place.naver.com/restaurant/1661922179/home"
+      }
+    },
+    {
+      "restaurant_name": "달콤N 충북도청점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 달콤커피",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로 82",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1613112550",
+        "naver_map": "https://m.place.naver.com/restaurant/2002044213/home"
+      }
+    },
+    {
+      "restaurant_name": "세라젬웰카페 청주남문직영점",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페",
+        "naver": "건강,의료용품"
+      },
+      "road_address": "충북 청주시 상당구 상당로 49",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1554579092",
+        "naver_map": "https://m.place.naver.com/restaurant/1637671351/home"
+      }
+    },
+    {
+      "restaurant_name": "다이어커피",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 대성로 86",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1089163550",
+        "naver_map": "https://m.place.naver.com/restaurant/1717614193/home"
+      }
+    },
+    {
+      "restaurant_name": "더리터 청주남문로점",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점 > 더리터",
+        "naver": "테이크아웃커피"
+      },
+      "road_address": "충북 청주시 상당구 상당로 53",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1490162711",
+        "naver_map": "https://m.place.naver.com/restaurant/310428907/home"
+      }
+    },
+    {
+      "restaurant_name": "헤븐커피숍",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 용담로 19",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1473551069",
+        "naver_map": "https://m.place.naver.com/restaurant/1926597482/home"
+      }
+    },
+    {
+      "restaurant_name": "본정다방",
+      "category": {
+        "kakao": "음식점 > 카페 > 다방",
+        "naver": "다방"
+      },
+      "road_address": "충북 청주시 상당구 남사로 137",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9036071",
+        "naver_map": "https://m.place.naver.com/restaurant/17206674/home"
+      }
+    },
+    {
+      "restaurant_name": "팍스커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 용담로 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2062863646",
+        "naver_map": "https://m.place.naver.com/restaurant/1951894003/home"
+      }
+    },
+    {
+      "restaurant_name": "카페멜로",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 대성로 94",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/80910646",
+        "naver_map": "https://m.place.naver.com/restaurant/1252231920/home"
+      }
+    },
+    {
+      "restaurant_name": "커피333",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 탑동로1번길 104",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/27495290",
+        "naver_map": "https://m.place.naver.com/restaurant/37101382/home"
+      }
+    },
+    {
+      "restaurant_name": "사랑채",
+      "category": {
+        "kakao": "음식점 > 카페 > 전통찻집",
+        "naver": "차"
+      },
+      "road_address": "충북 청주시 상당구 상당로 40-14",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/248705891",
+        "naver_map": "https://m.place.naver.com/restaurant/1953442770/home"
+      }
+    },
+    {
+      "restaurant_name": "토트카페 본점",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로 66",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/614981709",
+        "naver_map": "https://m.place.naver.com/restaurant/1910883867/home"
+      }
+    },
+    {
+      "restaurant_name": "터피",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 대성로122번길 27-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1696546805",
+        "naver_map": "https://m.place.naver.com/restaurant/2099148891/home"
+      }
+    },
+    {
+      "restaurant_name": "노이즈",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 교동로 24",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/549188174",
+        "naver_map": "https://m.place.naver.com/restaurant/1237079738/home"
+      }
+    },
+    {
+      "restaurant_name": "버터캐스팅",
+      "category": {
+        "kakao": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 대성로122번길 17-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/968727737",
+        "naver_map": "https://m.place.naver.com/restaurant/1503749167/home"
+      }
+    },
+    {
+      "restaurant_name": "잇츠베이글 향리단길점",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "베이커리"
+      },
+      "road_address": "충북 청주시 상당구 대성로122번길 43",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1553823032",
+        "naver_map": "https://m.place.naver.com/restaurant/1562670303/home"
+      }
+    },
+    {
+      "restaurant_name": "코어피크커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 교동로 26",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/114489589",
+        "naver_map": "https://m.place.naver.com/restaurant/2032285330/home"
+      }
+    },
+    {
+      "restaurant_name": "우암산다방",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 대성로122번길 27-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1264333871",
+        "naver_map": "https://m.place.naver.com/restaurant/1416361466/home"
+      }
+    },
+    {
+      "restaurant_name": "파이또파이",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 대성로122번길 17-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1705896657",
+        "naver_map": "https://m.place.naver.com/restaurant/2068336696/home"
+      }
+    },
+    {
+      "restaurant_name": "떰즈업",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 교동로 20",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1343313350",
+        "naver_map": "https://m.place.naver.com/restaurant/1085386767/home"
+      }
+    },
+    {
+      "restaurant_name": "킹스웨이",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "꽃집,꽃배달"
+      },
+      "road_address": "충북 청주시 상당구 교동로 38-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/569588018",
+        "naver_map": "https://m.place.naver.com/restaurant/1282038204/home"
+      }
+    },
+    {
+      "restaurant_name": "더나이스커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 우암산로 11-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/182071249",
+        "naver_map": "https://m.place.naver.com/restaurant/2029747515/home"
+      }
+    },
+    {
+      "restaurant_name": "바리스타컴퍼니",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 우암산로 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/15707773",
+        "naver_map": "https://m.place.naver.com/restaurant/876971755/home"
+      }
+    },
+    {
+      "restaurant_name": "수동커피",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 상당로144번길 26",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1893501405",
+        "naver_map": "https://m.place.naver.com/restaurant/1698723680/home"
+      }
+    },
+    {
+      "restaurant_name": "팔레트",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 상당구 대성로180번길 4",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1807752224",
+        "naver_map": "https://m.place.naver.com/restaurant/1458020345/home"
+      }
+    },
+    {
+      "restaurant_name": "로스터컴퍼니",
+      "category": {
+        "kakao": "음식점 > 카페 > 커피전문점",
+        "naver": "커피가공,제조"
+      },
+      "road_address": "충북 청주시 상당구 우암산로 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1370861940",
+        "naver_map": "https://m.place.naver.com/restaurant/1187554108/home"
+      }
+    },
+    {
+      "restaurant_name": "카페몰리",
+      "category": {
+        "kakao": "음식점 > 카페",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 상당로158번길 22-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1053570301",
+        "naver_map": "https://m.place.naver.com/restaurant/1434189382/home"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2332 @@
+{
+  "restaurants": [
+    {
+      "restaurant_name": "한우리식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 서원구 충렬로 50",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10938721",
+        "naver_map": "https://m.place.naver.com/restaurant/17460248/home"
+      }
+    },
+    {
+      "restaurant_name": "해란강식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 서원구 호국로 94",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1655738600",
+        "naver_map": "https://m.place.naver.com/restaurant/19917118/home"
+      }
+    },
+    {
+      "restaurant_name": "도니수제돈까스",
+      "category": {
+        "kakao": "음식점 > 일식 > 돈까스,우동",
+        "naver": "돈가스"
+      },
+      "road_address": "충북 청주시 서원구 호국로 99",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2059354348",
+        "naver_map": "https://m.place.naver.com/restaurant/1712035590/home"
+      }
+    },
+    {
+      "restaurant_name": "한양전집",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "퓨전음식"
+      },
+      "road_address": "충북 청주시 서원구 호국로 100",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10934905",
+        "naver_map": "https://m.place.naver.com/restaurant/17455710/home"
+      }
+    },
+    {
+      "restaurant_name": "청주한식뷔페",
+      "category": {
+        "kakao": "음식점 > 뷔페 > 한식뷔페",
+        "naver": "한식뷔페"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 264",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/189404890",
+        "naver_map": "https://m.place.naver.com/restaurant/1858122530/home"
+      }
+    },
+    {
+      "restaurant_name": "왕천파닭 사직점",
+      "category": {
+        "kakao": "음식점 > 치킨",
+        "naver": "치킨,닭강정"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 266",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/831942477",
+        "naver_map": "https://m.place.naver.com/restaurant/35662311/home"
+      }
+    },
+    {
+      "restaurant_name": "주성루손짜장 2호점",
+      "category": {
+        "kakao": "음식점 > 중식 > 중국요리",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 서원구 호국로 103",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2122579874",
+        "naver_map": "https://m.place.naver.com/restaurant/1095410963/home"
+      }
+    },
+    {
+      "restaurant_name": "소랑돼지랑",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "정육식당"
+      },
+      "road_address": "충북 청주시 서원구 호국로97번길 4",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2087925587",
+        "naver_map": "https://m.place.naver.com/restaurant/1154784333/home"
+      }
+    },
+    {
+      "restaurant_name": "소담소담",
+      "category": {
+        "kakao": "음식점 > 도시락",
+        "naver": "도시락,컵밥"
+      },
+      "road_address": "충북 청주시 서원구 호국로 106-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1854256950",
+        "naver_map": "https://m.place.naver.com/restaurant/1479318336/home"
+      }
+    },
+    {
+      "restaurant_name": "삼겹살은촌놈집에서",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 서원구 호국로 105",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1424012409",
+        "naver_map": "https://m.place.naver.com/restaurant/1350239515/home"
+      }
+    },
+    {
+      "restaurant_name": "행복밥상",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "백반,가정식"
+      },
+      "road_address": "충북 청주시 서원구 호국로 92",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1429804563",
+        "naver_map": "https://m.place.naver.com/restaurant/1282155785/home"
+      }
+    },
+    {
+      "restaurant_name": "바로파스타 청주사직점",
+      "category": {
+        "kakao": "음식점 > 양식 > 이탈리안",
+        "naver": "스파게티,파스타전문"
+      },
+      "road_address": "충북 청주시 서원구 호국로 104",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/539269190",
+        "naver_map": "https://m.place.naver.com/restaurant/1971675757/home"
+      }
+    },
+    {
+      "restaurant_name": "맛난김밥사랑",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "김밥"
+      },
+      "road_address": "충북 청주시 서원구 사직대로265번길 19",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16914461",
+        "naver_map": "https://m.place.naver.com/restaurant/831162520/home"
+      }
+    },
+    {
+      "restaurant_name": "또래분식",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "종합분식"
+      },
+      "road_address": "충북 청주시 서원구 호국로123번길 3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1465150076",
+        "naver_map": "https://m.place.naver.com/restaurant/875870743/home"
+      }
+    },
+    {
+      "restaurant_name": "무심천생고기",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 서원구 무심서로 435",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1494481005",
+        "naver_map": "https://m.place.naver.com/restaurant/2073547492/home"
+      }
+    },
+    {
+      "restaurant_name": "타볼라",
+      "category": {
+        "kakao": "음식점 > 양식 > 이탈리안",
+        "naver": "이탈리아음식"
+      },
+      "road_address": "충북 청주시 서원구 사운로46번길 21",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/213242053",
+        "naver_map": "https://m.place.naver.com/restaurant/1535651497/home"
+      }
+    },
+    {
+      "restaurant_name": "곤드레남원추어탕",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 추어",
+        "naver": "추어탕"
+      },
+      "road_address": "충북 청주시 서원구 사운로45번길 11",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1515551472",
+        "naver_map": "https://m.place.naver.com/restaurant/1843268225/home"
+      }
+    },
+    {
+      "restaurant_name": "와우 버섯집",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 서원구 사운로 47",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16830870",
+        "naver_map": "https://m.place.naver.com/restaurant/36666343/home"
+      }
+    },
+    {
+      "restaurant_name": "25시가마솥통닭",
+      "category": {
+        "kakao": "음식점 > 치킨",
+        "naver": "치킨,닭강정"
+      },
+      "road_address": "충북 청주시 서원구 무심서로 455",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1727059225",
+        "naver_map": "https://m.place.naver.com/restaurant/38632942/home"
+      }
+    },
+    {
+      "restaurant_name": "달MOON카페",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "차"
+      },
+      "road_address": "충북 청주시 서원구 무심서로 473",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/256901295",
+        "naver_map": "https://m.place.naver.com/restaurant/1636139987/home"
+      }
+    },
+    {
+      "restaurant_name": "작은백로식당",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 서원구 사직대로272번길 4",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10073669",
+        "naver_map": "https://m.place.naver.com/restaurant/13335464/home"
+      }
+    },
+    {
+      "restaurant_name": "가마솥뼈다귀해장국감자탕",
+      "category": {
+        "kakao": "음식점 > 한식 > 해장국",
+        "naver": "감자탕"
+      },
+      "road_address": "충북 청주시 서원구 사운로 83",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10119364",
+        "naver_map": "https://m.place.naver.com/restaurant/1437077181/home"
+      }
+    },
+    {
+      "restaurant_name": "성미 아구찜",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 아구",
+        "naver": "아귀찜,해물찜"
+      },
+      "road_address": "충북 청주시 서원구 사운로85번길 9",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/20058678",
+        "naver_map": "https://m.place.naver.com/restaurant/1771024853/home"
+      }
+    },
+    {
+      "restaurant_name": "샐드위치",
+      "category": {
+        "kakao": "음식점 > 패스트푸드 > 샌드위치",
+        "naver": "카페,디저트"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 300",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/13914385",
+        "naver_map": "https://m.place.naver.com/restaurant/1492986805/home"
+      }
+    },
+    {
+      "restaurant_name": "마산아구찜",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 아구",
+        "naver": "아귀찜,해물찜"
+      },
+      "road_address": "충북 청주시 서원구 사운로100번길 3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16743835",
+        "naver_map": "https://m.place.naver.com/restaurant/17454978/home"
+      }
+    },
+    {
+      "restaurant_name": "바다면발",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선",
+        "naver": "해물,생선요리"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 279-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9012074",
+        "naver_map": "https://m.place.naver.com/restaurant/35911956/home"
+      }
+    },
+    {
+      "restaurant_name": "김밥여행",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "김밥"
+      },
+      "road_address": "충북 청주시 서원구 사운로 83",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16567235",
+        "naver_map": "https://m.place.naver.com/restaurant/1686919462/home"
+      }
+    },
+    {
+      "restaurant_name": "끼니와새참",
+      "category": {
+        "kakao": "음식점 > 중식 > 중국요리",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 280",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21450676",
+        "naver_map": "https://m.place.naver.com/restaurant/21738036/home"
+      }
+    },
+    {
+      "restaurant_name": "사직칼국수",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수 > 칼국수",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 서원구 사운로 103",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1207538622",
+        "naver_map": "https://m.place.naver.com/restaurant/17453888/home"
+      }
+    },
+    {
+      "restaurant_name": "연일생고기갈비",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 갈비",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 서원구 사운로 106",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1439908144",
+        "naver_map": "https://m.place.naver.com/restaurant/17455481/home"
+      }
+    },
+    {
+      "restaurant_name": "고기에반하다",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 서원구 사운로172번길 38",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1401120089",
+        "naver_map": "https://m.place.naver.com/restaurant/1092969510/home"
+      }
+    },
+    {
+      "restaurant_name": "남주동해장국",
+      "category": {
+        "kakao": "음식점 > 한식 > 해장국",
+        "naver": "해장국"
+      },
+      "road_address": "충북 청주시 상당구 무심동로304번길 10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8849442",
+        "naver_map": "https://m.place.naver.com/restaurant/17215611/home"
+      }
+    },
+    {
+      "restaurant_name": "뚝방갈비",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 갈비",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 상당구 남사로84번길 39",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2019968947",
+        "naver_map": "https://m.place.naver.com/restaurant/1362988234/home"
+      }
+    },
+    {
+      "restaurant_name": "부흥수산",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선",
+        "naver": "수산물"
+      },
+      "road_address": "충북 청주시 상당구 무심동로302번길 13",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/13026551",
+        "naver_map": "https://m.place.naver.com/restaurant/1996883427/home"
+      }
+    },
+    {
+      "restaurant_name": "삼남매생삼겹살",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 21-10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/19706690",
+        "naver_map": "https://m.place.naver.com/restaurant/21514676/home"
+      }
+    },
+    {
+      "restaurant_name": "부부꼼장어",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 장어",
+        "naver": "장어,먹장어요리"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 22-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9039169",
+        "naver_map": "https://m.place.naver.com/restaurant/17214439/home"
+      }
+    },
+    {
+      "restaurant_name": "통일식당",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로89번길 50",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1282234362",
+        "naver_map": "https://m.place.naver.com/restaurant/37699685/home"
+      }
+    },
+    {
+      "restaurant_name": "본정통",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 남사로 88",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1970937079",
+        "naver_map": "https://m.place.naver.com/restaurant/2073473952/home"
+      }
+    },
+    {
+      "restaurant_name": "상주집",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로93번길 17",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/7931103",
+        "naver_map": "https://m.place.naver.com/restaurant/33875409/home"
+      }
+    },
+    {
+      "restaurant_name": "청계",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "naver": "요리주점"
+      },
+      "road_address": "충북 청주시 상당구 무심동로354번길 43",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/772243724",
+        "naver_map": "https://m.place.naver.com/restaurant/1524844481/home"
+      }
+    },
+    {
+      "restaurant_name": "더덕솥뚜껑삼겹살 서문점",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 34",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1307097683",
+        "naver_map": "https://m.place.naver.com/restaurant/1150598065/home"
+      }
+    },
+    {
+      "restaurant_name": "부산자갈치꼼장어 본점",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 장어",
+        "naver": "해물,생선요리"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 22-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9040307",
+        "naver_map": "https://m.place.naver.com/restaurant/17214441/home"
+      }
+    },
+    {
+      "restaurant_name": "제주에서북경",
+      "category": {
+        "kakao": "음식점 > 샤브샤브",
+        "naver": "해물,생선요리"
+      },
+      "road_address": "충북 청주시 상당구 남사로 70-5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9401935",
+        "naver_map": "https://m.place.naver.com/restaurant/17215803/home"
+      }
+    },
+    {
+      "restaurant_name": "삼겹고수",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 남사로89번길 32",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1400834106",
+        "naver_map": "https://m.place.naver.com/restaurant/1314104581/home"
+      }
+    },
+    {
+      "restaurant_name": "가득담",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한정식"
+      },
+      "road_address": "충북 청주시 상당구 남사로 95",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1277702980",
+        "naver_map": "https://m.place.naver.com/restaurant/2087819423/home"
+      }
+    },
+    {
+      "restaurant_name": "은순이네빨간돼지",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 남사로89번길 47",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/27209362",
+        "naver_map": "https://m.place.naver.com/restaurant/1654588277/home"
+      }
+    },
+    {
+      "restaurant_name": "삼성흑염소",
+      "category": {
+        "kakao": "음식점 > 한식 > 사철탕,영양탕",
+        "naver": "사철,영양탕"
+      },
+      "road_address": "충북 청주시 상당구 남사로84번길 3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1686674272",
+        "naver_map": "https://m.place.naver.com/restaurant/17215381/home"
+      }
+    },
+    {
+      "restaurant_name": "명동식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로 86-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/15464999",
+        "naver_map": "https://m.place.naver.com/restaurant/17215808/home"
+      }
+    },
+    {
+      "restaurant_name": "소나무식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로84번길 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1686826022",
+        "naver_map": "https://m.place.naver.com/restaurant/38618396/home"
+      }
+    },
+    {
+      "restaurant_name": "월드수산",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선",
+        "naver": "수산물가공,제조"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 2-27",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/26940233",
+        "naver_map": "https://m.place.naver.com/restaurant/38607018/home"
+      }
+    },
+    {
+      "restaurant_name": "안양등심해장국",
+      "category": {
+        "kakao": "음식점 > 한식 > 해장국",
+        "naver": "해장국"
+      },
+      "road_address": "충북 청주시 서원구 사직대로 308-8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16336973",
+        "naver_map": "https://m.place.naver.com/restaurant/17459959/home"
+      }
+    },
+    {
+      "restaurant_name": "한식더고기",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 21-14",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/18612017",
+        "naver_map": "https://m.place.naver.com/restaurant/17197622/home"
+      }
+    },
+    {
+      "restaurant_name": "진골짬뽕 청주점",
+      "category": {
+        "kakao": "음식점 > 중식",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 서원구 사운로68번길 50",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1168580996",
+        "naver_map": "https://m.place.naver.com/restaurant/1440804796/home"
+      }
+    },
+    {
+      "restaurant_name": "야간비행",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 남사로89번길 63",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/12567617",
+        "naver_map": "https://m.place.naver.com/restaurant/17215080/home"
+      }
+    },
+    {
+      "restaurant_name": "명륜등심해장국",
+      "category": {
+        "kakao": "음식점 > 한식 > 해장국",
+        "naver": "음식점"
+      },
+      "road_address": "충북 청주시 상당구 무심동로392번길 18",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10341539",
+        "naver_map": "https://m.place.naver.com/restaurant/17214176/home"
+      }
+    },
+    {
+      "restaurant_name": "현이네손칼국수",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수 > 칼국수",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 상당구 무심동로 400",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/11418178",
+        "naver_map": "https://m.place.naver.com/restaurant/30833355/home"
+      }
+    },
+    {
+      "restaurant_name": "만두집 본점",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "만두"
+      },
+      "road_address": "충북 청주시 상당구 무심동로392번길 10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/11630232",
+        "naver_map": "https://m.place.naver.com/restaurant/17214918/home"
+      }
+    },
+    {
+      "restaurant_name": "홀리쉬립스",
+      "category": {
+        "kakao": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
+        "naver": "태국음식"
+      },
+      "road_address": "충북 청주시 상당구 무심동로 398-3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/891240963",
+        "naver_map": "https://m.place.naver.com/restaurant/1961690415/home"
+      }
+    },
+    {
+      "restaurant_name": "하이큔",
+      "category": {
+        "kakao": "음식점 > 일식",
+        "naver": "요리주점"
+      },
+      "road_address": "충북 청주시 상당구 무심동로 398-3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/252500246",
+        "naver_map": "https://m.place.naver.com/restaurant/1180585595/home"
+      }
+    },
+    {
+      "restaurant_name": "호랭이바베큐",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 상당구 무심동로 400",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/417746189",
+        "naver_map": "https://m.place.naver.com/restaurant/2026337220/home"
+      }
+    },
+    {
+      "restaurant_name": "단양생고기촌",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 교서로 89",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10258443",
+        "naver_map": "https://m.place.naver.com/restaurant/17194205/home"
+      }
+    },
+    {
+      "restaurant_name": "해천일식",
+      "category": {
+        "kakao": "음식점 > 일식 > 일식집",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 중앙로61번길 56-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9646669",
+        "naver_map": "https://m.place.naver.com/restaurant/17194795/home"
+      }
+    },
+    {
+      "restaurant_name": "도원일식",
+      "category": {
+        "kakao": "음식점 > 일식 > 일식집",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 무심동로 478",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8268331",
+        "naver_map": "https://m.place.naver.com/restaurant/17194800/home"
+      }
+    },
+    {
+      "restaurant_name": "궁중칼국수",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수 > 칼국수",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 상당구 교서로 80",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8710238",
+        "naver_map": "https://m.place.naver.com/restaurant/17194304/home"
+      }
+    },
+    {
+      "restaurant_name": "운천골생고기",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 서원구 사북로 96",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16739860",
+        "naver_map": "https://m.place.naver.com/restaurant/17453841/home"
+      }
+    },
+    {
+      "restaurant_name": "원조능이흑염소",
+      "category": {
+        "kakao": "음식점 > 한식 > 사철탕,영양탕",
+        "naver": "사철,영양탕"
+      },
+      "road_address": "충북 청주시 상당구 교서로 93",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/40597160",
+        "naver_map": "https://m.place.naver.com/restaurant/2089186857/home"
+      }
+    },
+    {
+      "restaurant_name": "육거리춘천닭갈비",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "naver": "닭갈비"
+      },
+      "road_address": "충북 청주시 상당구 상당로29번길 17-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8104039",
+        "naver_map": "https://m.place.naver.com/restaurant/20343523/home"
+      }
+    },
+    {
+      "restaurant_name": "고향축산물불고기 본점",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 불고기,두루치기",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 상당로13번길 39-5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8753475",
+        "naver_map": "https://m.place.naver.com/restaurant/17205812/home"
+      }
+    },
+    {
+      "restaurant_name": "청주 무카타&시푸드",
+      "category": {
+        "kakao": "음식점 > 아시아음식 > 동남아음식 > 태국음식",
+        "naver": "태국음식"
+      },
+      "road_address": "충북 청주시 상당구 상당로13번길 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1752933136",
+        "naver_map": "https://m.place.naver.com/restaurant/1100665097/home"
+      }
+    },
+    {
+      "restaurant_name": "돌고래횟집",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 회",
+        "naver": "생선회"
+      },
+      "road_address": "충북 청주시 상당구 상당로25번길 20-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/24212230",
+        "naver_map": "https://m.place.naver.com/restaurant/1926466494/home"
+      }
+    },
+    {
+      "restaurant_name": "백곡소머리곰탕",
+      "category": {
+        "kakao": "음식점",
+        "naver": "곰탕,설렁탕"
+      },
+      "road_address": "충북 청주시 상당구 성안로 74",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2064757272",
+        "naver_map": "https://m.place.naver.com/restaurant/2050697896/home"
+      }
+    },
+    {
+      "restaurant_name": "행운식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로3번길 42",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/18480445",
+        "naver_map": "https://m.place.naver.com/restaurant/1356597602/home"
+      }
+    },
+    {
+      "restaurant_name": "고향손칼국수",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수 > 칼국수",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 상당구 상당로13번길 39-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10164847",
+        "naver_map": "https://m.place.naver.com/restaurant/17205623/home"
+      }
+    },
+    {
+      "restaurant_name": "희주네2",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "만두"
+      },
+      "road_address": "충북 청주시 상당구 상당로13번길 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1580080550",
+        "naver_map": "https://m.place.naver.com/restaurant/2047602659/home"
+      }
+    },
+    {
+      "restaurant_name": "시장불고기",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로112번길 54",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9187558",
+        "naver_map": "https://m.place.naver.com/restaurant/36265306/home"
+      }
+    },
+    {
+      "restaurant_name": "부산식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로112번길 35-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21451422",
+        "naver_map": "https://m.place.naver.com/restaurant/1199673773/home"
+      }
+    },
+    {
+      "restaurant_name": "오다가다",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 곱창,막창",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로140번길 58",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/14532518",
+        "naver_map": "https://m.place.naver.com/restaurant/1299012052/home"
+      }
+    },
+    {
+      "restaurant_name": "자매식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로140번길 58",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/15734892",
+        "naver_map": "https://m.place.naver.com/restaurant/1644331341/home"
+      }
+    },
+    {
+      "restaurant_name": "동네닭집",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "naver": "축산업"
+      },
+      "road_address": "충북 청주시 상당구 무심동로292번길 18",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/19934062",
+        "naver_map": "https://m.place.naver.com/restaurant/1130209236/home"
+      }
+    },
+    {
+      "restaurant_name": "코끼리만두",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "만두"
+      },
+      "road_address": "충북 청주시 상당구 남사로 133-5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/17297647",
+        "naver_map": "https://m.place.naver.com/restaurant/17206910/home"
+      }
+    },
+    {
+      "restaurant_name": "원조고추만두국집",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "만두"
+      },
+      "road_address": "충북 청주시 상당구 사직대로350번길 61",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8751538",
+        "naver_map": "https://m.place.naver.com/restaurant/12908774/home"
+      }
+    },
+    {
+      "restaurant_name": "성안골",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 37-6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9876341",
+        "naver_map": "https://m.place.naver.com/restaurant/20091577/home"
+      }
+    },
+    {
+      "restaurant_name": "닭갈비제작소 청주성안점",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "naver": "닭갈비"
+      },
+      "road_address": "충북 청주시 상당구 성안로 26-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1465179901",
+        "naver_map": "https://m.place.naver.com/restaurant/38257134/home"
+      }
+    },
+    {
+      "restaurant_name": "청송통닭",
+      "category": {
+        "kakao": "음식점 > 치킨",
+        "naver": "백숙,삼계탕"
+      },
+      "road_address": "충북 청주시 상당구 남사로 116",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10849752",
+        "naver_map": "https://m.place.naver.com/restaurant/17207394/home"
+      }
+    },
+    {
+      "restaurant_name": "짱구만두",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "만두"
+      },
+      "road_address": "충북 청주시 상당구 사직대로350번길 69",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/15382469",
+        "naver_map": "https://m.place.naver.com/restaurant/17772234/home"
+      }
+    },
+    {
+      "restaurant_name": "오복원조칼국수 청주본점",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수 > 칼국수",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 41",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/12761398",
+        "naver_map": "https://m.place.naver.com/restaurant/19370023/home"
+      }
+    },
+    {
+      "restaurant_name": "옹고집",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 47-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/678363487",
+        "naver_map": "https://m.place.naver.com/restaurant/722784608/home"
+      }
+    },
+    {
+      "restaurant_name": "오레가노 청주",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 72-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1385087812",
+        "naver_map": "https://m.place.naver.com/restaurant/2059974229/home"
+      }
+    },
+    {
+      "restaurant_name": "다누끼",
+      "category": {
+        "kakao": "음식점 > 일식",
+        "naver": "초밥,롤"
+      },
+      "road_address": "충북 청주시 상당구 상당로55번길 34",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8289470",
+        "naver_map": "https://m.place.naver.com/restaurant/21037900/home"
+      }
+    },
+    {
+      "restaurant_name": "왕짜장",
+      "category": {
+        "kakao": "음식점 > 중식 > 중국요리",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 상당구 남사로 133-16",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/13271291",
+        "naver_map": "https://m.place.naver.com/restaurant/37664076/home"
+      }
+    },
+    {
+      "restaurant_name": "백로 식당 본점",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 불고기,두루치기",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 성안로 47-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/27446577",
+        "naver_map": "https://m.place.naver.com/restaurant/36874435/home"
+      }
+    },
+    {
+      "restaurant_name": "토담한정식",
+      "category": {
+        "kakao": "음식점 > 한식 > 한정식",
+        "naver": "한정식"
+      },
+      "road_address": "충북 청주시 상당구 상당로59번길 45-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10898918",
+        "naver_map": "https://m.place.naver.com/restaurant/1178574928/home"
+      }
+    },
+    {
+      "restaurant_name": "시타라 인도커리",
+      "category": {
+        "kakao": "음식점 > 아시아음식 > 인도음식",
+        "naver": "인도음식"
+      },
+      "road_address": "충북 청주시 상당구 남사로 133-14",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1299600733",
+        "naver_map": "https://m.place.naver.com/restaurant/1138728148/home"
+      }
+    },
+    {
+      "restaurant_name": "다이너 청주점",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 상당로69번길 55",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/324741920",
+        "naver_map": "https://m.place.naver.com/restaurant/1215756480/home"
+      }
+    },
+    {
+      "restaurant_name": "조선면옥",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 갈비",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 상당구 상당로69번길 58",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/11161843",
+        "naver_map": "https://m.place.naver.com/restaurant/17214310/home"
+      }
+    },
+    {
+      "restaurant_name": "육쌈냉면 청주점",
+      "category": {
+        "kakao": "음식점 > 한식 > 냉면 > 육쌈냉면",
+        "naver": "냉면"
+      },
+      "road_address": "충북 청주시 상당구 상당로55번길 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/13624165",
+        "naver_map": "https://m.place.naver.com/restaurant/1917665464/home"
+      }
+    },
+    {
+      "restaurant_name": "온고지신",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 남사로 120-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16827888",
+        "naver_map": "https://m.place.naver.com/restaurant/17206993/home"
+      }
+    },
+    {
+      "restaurant_name": "소망순대",
+      "category": {
+        "kakao": "음식점 > 한식 > 순대",
+        "naver": "순대,순댓국"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 39",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/16135112",
+        "naver_map": "https://m.place.naver.com/restaurant/1601089628/home"
+      }
+    },
+    {
+      "restaurant_name": "더투뿔한우정육식당",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "소고기구이"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 44",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/608872614",
+        "naver_map": "https://m.place.naver.com/restaurant/1070479820/home"
+      }
+    },
+    {
+      "restaurant_name": "필라델피아",
+      "category": {
+        "kakao": "음식점 > 양식 > 햄버거",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 무심동로372번길 44",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1112159341",
+        "naver_map": "https://m.place.naver.com/restaurant/1572670241/home"
+      }
+    },
+    {
+      "restaurant_name": "우암산호랭이",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 5-7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2135073544",
+        "naver_map": "https://m.place.naver.com/restaurant/1174232381/home"
+      }
+    },
+    {
+      "restaurant_name": "안면도전통손칼국수",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수 > 칼국수",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 상당구 성안로 8-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/11431824",
+        "naver_map": "https://m.place.naver.com/restaurant/17195785/home"
+      }
+    },
+    {
+      "restaurant_name": "동그라미",
+      "category": {
+        "kakao": "음식점 > 양식 > 햄버거",
+        "naver": "종합분식"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 53",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/7842940",
+        "naver_map": "https://m.place.naver.com/restaurant/17214103/home"
+      }
+    },
+    {
+      "restaurant_name": "송학식당",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 사직대로350번길 38-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/15535807",
+        "naver_map": "https://m.place.naver.com/restaurant/61320756/home"
+      }
+    },
+    {
+      "restaurant_name": "이자와 청주성안길점",
+      "category": {
+        "kakao": "음식점 > 일식",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 성안로 24",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/717973162",
+        "naver_map": "https://m.place.naver.com/restaurant/861951272/home"
+      }
+    },
+    {
+      "restaurant_name": "상상공장",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "요리주점"
+      },
+      "road_address": "충북 청주시 상당구 상당로91번길 26",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/12121939",
+        "naver_map": "https://m.place.naver.com/restaurant/20183238/home"
+      }
+    },
+    {
+      "restaurant_name": "다이닝원 청주점",
+      "category": {
+        "kakao": "음식점 > 뷔페 > 해산물뷔페",
+        "naver": "일식,초밥뷔페"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 63",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/210015092",
+        "naver_map": "https://m.place.naver.com/restaurant/2099408394/home"
+      }
+    },
+    {
+      "restaurant_name": "홍대개미 성안길점",
+      "category": {
+        "kakao": "음식점 > 퓨전요리 > 퓨전일식",
+        "naver": "덮밥"
+      },
+      "road_address": "충북 청주시 상당구 성안로 3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1052078114",
+        "naver_map": "https://m.place.naver.com/restaurant/1339851625/home"
+      }
+    },
+    {
+      "restaurant_name": "탄포포",
+      "category": {
+        "kakao": "음식점 > 퓨전요리 > 퓨전일식",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 26",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2092421336",
+        "naver_map": "https://m.place.naver.com/restaurant/37433151/home"
+      }
+    },
+    {
+      "restaurant_name": "틈새라면 청주성안점",
+      "category": {
+        "kakao": "음식점 > 분식 > 틈새라면",
+        "naver": "분식"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 17",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8117043",
+        "naver_map": "https://m.place.naver.com/restaurant/1612377868/home"
+      }
+    },
+    {
+      "restaurant_name": "삼미당 청주점",
+      "category": {
+        "kakao": "음식점 > 일식 > 일본식라면",
+        "naver": "일본식라면"
+      },
+      "road_address": "충북 청주시 상당구 상당로91번길 39-6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1720878364",
+        "naver_map": "https://m.place.naver.com/restaurant/1682835870/home"
+      }
+    },
+    {
+      "restaurant_name": "미도인 청주성안길",
+      "category": {
+        "kakao": "음식점 > 퓨전요리",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 9",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/980129056",
+        "naver_map": "https://m.place.naver.com/restaurant/1107581009/home"
+      }
+    },
+    {
+      "restaurant_name": "버니스",
+      "category": {
+        "kakao": "음식점 > 패밀리레스토랑",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 상당로91번길 7-7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1187410911",
+        "naver_map": "https://m.place.naver.com/restaurant/1758840340/home"
+      }
+    },
+    {
+      "restaurant_name": "코우너",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "멕시코,남미음식"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 14-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1841382145",
+        "naver_map": "https://m.place.naver.com/restaurant/2020138741/home"
+      }
+    },
+    {
+      "restaurant_name": "미오키친",
+      "category": {
+        "kakao": "음식점 > 양식 > 이탈리안",
+        "naver": "스파게티,파스타전문"
+      },
+      "road_address": "충북 청주시 상당구 상당로81번길 9-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/25116354",
+        "naver_map": "https://m.place.naver.com/restaurant/35365984/home"
+      }
+    },
+    {
+      "restaurant_name": "도우도우",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "베이커리"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/560030898",
+        "naver_map": "https://m.place.naver.com/restaurant/1740755905/home"
+      }
+    },
+    {
+      "restaurant_name": "테디헤이데이",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 상당로 89",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1920562059",
+        "naver_map": "https://m.place.naver.com/restaurant/1764593846/home"
+      }
+    },
+    {
+      "restaurant_name": "서문돌짜장",
+      "category": {
+        "kakao": "음식점 > 중식",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 상당구 사직대로350번길 32",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2128281977",
+        "naver_map": "https://m.place.naver.com/restaurant/1272771733/home"
+      }
+    },
+    {
+      "restaurant_name": "우미노미",
+      "category": {
+        "kakao": "음식점 > 일식",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 사직대로 354-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1104652789",
+        "naver_map": "https://m.place.naver.com/restaurant/1265543780/home"
+      }
+    },
+    {
+      "restaurant_name": "서원경비빔밥",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "비빔밥"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9162673",
+        "naver_map": "https://m.place.naver.com/restaurant/1694145403/home"
+      }
+    },
+    {
+      "restaurant_name": "낭만소갈비",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 갈비",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 14-11",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1688872090",
+        "naver_map": "https://m.place.naver.com/restaurant/1255719082/home"
+      }
+    },
+    {
+      "restaurant_name": "쇼겐",
+      "category": {
+        "kakao": "음식점 > 일식 > 일식집",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 사직대로 367-7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1086848111",
+        "naver_map": "https://m.place.naver.com/restaurant/1293332297/home"
+      }
+    },
+    {
+      "restaurant_name": "홍콩반점0410 청주성안로점",
+      "category": {
+        "kakao": "음식점 > 중식 > 중국요리 > 홍콩반점0410",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 상당구 성안로 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/26821079",
+        "naver_map": "https://m.place.naver.com/restaurant/36782826/home"
+      }
+    },
+    {
+      "restaurant_name": "중앙모밀",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 41-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8565363",
+        "naver_map": "https://m.place.naver.com/restaurant/11856996/home"
+      }
+    },
+    {
+      "restaurant_name": "극동반점",
+      "category": {
+        "kakao": "음식점 > 중식 > 중국요리",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 60",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8670111",
+        "naver_map": "https://m.place.naver.com/restaurant/17194468/home"
+      }
+    },
+    {
+      "restaurant_name": "오스테리아문",
+      "category": {
+        "kakao": "음식점 > 양식 > 이탈리안",
+        "naver": "이탈리아음식"
+      },
+      "road_address": "충북 청주시 상당구 상당로143번길 31-22",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/570749895",
+        "naver_map": "https://m.place.naver.com/restaurant/1240867035/home"
+      }
+    },
+    {
+      "restaurant_name": "중앙로파돈까스",
+      "category": {
+        "kakao": "음식점 > 일식 > 돈까스,우동",
+        "naver": "돈가스"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 39",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1186524723",
+        "naver_map": "https://m.place.naver.com/restaurant/1237631243/home"
+      }
+    },
+    {
+      "restaurant_name": "평양면옥",
+      "category": {
+        "kakao": "음식점 > 한식 > 냉면",
+        "naver": "냉면"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 51",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/11222039",
+        "naver_map": "https://m.place.naver.com/restaurant/17202343/home"
+      }
+    },
+    {
+      "restaurant_name": "무심천드래곤",
+      "category": {
+        "kakao": "음식점 > 퓨전요리 > 퓨전중식",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 34",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1872404464",
+        "naver_map": "https://m.place.naver.com/restaurant/1163691074/home"
+      }
+    },
+    {
+      "restaurant_name": "마가레뜨",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 41-4",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1698649496",
+        "naver_map": "https://m.place.naver.com/restaurant/1495563036/home"
+      }
+    },
+    {
+      "restaurant_name": "한방명가왕족발 본점",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 족발,보쌈",
+        "naver": "족발,보쌈"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/17640336",
+        "naver_map": "https://m.place.naver.com/restaurant/21672769/home"
+      }
+    },
+    {
+      "restaurant_name": "청주미식",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 39",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1348428589",
+        "naver_map": "https://m.place.naver.com/restaurant/1551180586/home"
+      }
+    },
+    {
+      "restaurant_name": "파피",
+      "category": {
+        "kakao": "음식점 > 양식 > 이탈리안",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 교서로 22-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1006382105",
+        "naver_map": "https://m.place.naver.com/restaurant/1055393577/home"
+      }
+    },
+    {
+      "restaurant_name": "제주올래국수",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수",
+        "naver": "국수"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 99",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1430809655",
+        "naver_map": "https://m.place.naver.com/restaurant/1226447132/home"
+      }
+    },
+    {
+      "restaurant_name": "덕원식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1032662127",
+        "naver_map": "https://m.place.naver.com/restaurant/1079372834/home"
+      }
+    },
+    {
+      "restaurant_name": "청수복집",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 복어",
+        "naver": "복어요리"
+      },
+      "road_address": "충북 청주시 상당구 상당로131번길 8-10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/17597056",
+        "naver_map": "https://m.place.naver.com/restaurant/13421318/home"
+      }
+    },
+    {
+      "restaurant_name": "공간슬아",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "양식"
+      },
+      "road_address": "충북 청주시 상당구 상당로115번길 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/680141246",
+        "naver_map": "https://m.place.naver.com/restaurant/1674397435/home"
+      }
+    },
+    {
+      "restaurant_name": "도군샤부",
+      "category": {
+        "kakao": "음식점 > 샤브샤브",
+        "naver": "샤브샤브"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 43",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1198538302",
+        "naver_map": "https://m.place.naver.com/restaurant/1500829455/home"
+      }
+    },
+    {
+      "restaurant_name": "한칸 성안점",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "요리주점"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 7-7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/27822206",
+        "naver_map": "https://m.place.naver.com/restaurant/1128055729/home"
+      }
+    },
+    {
+      "restaurant_name": "고기마케트",
+      "category": {
+        "kakao": "음식점 > 일식",
+        "naver": "오므라이스"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 18",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1868455709",
+        "naver_map": "https://m.place.naver.com/restaurant/1916893475/home"
+      }
+    },
+    {
+      "restaurant_name": "노다지식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로121번길 50",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21450530",
+        "naver_map": "https://m.place.naver.com/restaurant/17194201/home"
+      }
+    },
+    {
+      "restaurant_name": "육수당 청주북문로점",
+      "category": {
+        "kakao": "음식점 > 한식 > 국밥 > 육수당",
+        "naver": "국밥"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 33",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/430569979",
+        "naver_map": "https://m.place.naver.com/restaurant/1827074007/home"
+      }
+    },
+    {
+      "restaurant_name": "오늘도 우리 집으로",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 53-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1999784072",
+        "naver_map": "https://m.place.naver.com/restaurant/1374712724/home"
+      }
+    },
+    {
+      "restaurant_name": "김부자염소탕",
+      "category": {
+        "kakao": "음식점 > 한식 > 사철탕,영양탕",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 81",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/173111735",
+        "naver_map": "https://m.place.naver.com/restaurant/32186479/home"
+      }
+    },
+    {
+      "restaurant_name": "바우골",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로143번길 34-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1549546154",
+        "naver_map": "https://m.place.naver.com/restaurant/1922455531/home"
+      }
+    },
+    {
+      "restaurant_name": "문",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "요리주점"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 80",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1719623534",
+        "naver_map": "https://m.place.naver.com/restaurant/1268685528/home"
+      }
+    },
+    {
+      "restaurant_name": "장수설렁탕",
+      "category": {
+        "kakao": "음식점 > 한식 > 설렁탕",
+        "naver": "곰탕,설렁탕"
+      },
+      "road_address": "충북 청주시 상당구 상당로131번길 7-6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/26641745",
+        "naver_map": "https://m.place.naver.com/restaurant/11554051/home"
+      }
+    },
+    {
+      "restaurant_name": "누나랑동생",
+      "category": {
+        "kakao": "음식점 > 한식 > 한정식",
+        "naver": "한정식"
+      },
+      "road_address": "충북 청주시 상당구 중앙로61번길 8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/600276187",
+        "naver_map": "https://m.place.naver.com/restaurant/1063507834/home"
+      }
+    },
+    {
+      "restaurant_name": "모린",
+      "category": {
+        "kakao": "음식점 > 양식 > 이탈리안",
+        "naver": "카페"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 158-10",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2005893202",
+        "naver_map": "https://m.place.naver.com/restaurant/1376421073/home"
+      }
+    },
+    {
+      "restaurant_name": "사성식당",
+      "category": {
+        "kakao": "음식점 > 기사식당",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 55",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/669995990",
+        "naver_map": "https://m.place.naver.com/restaurant/1073744218/home"
+      }
+    },
+    {
+      "restaurant_name": "수암면옥",
+      "category": {
+        "kakao": "음식점 > 한식 > 냉면",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 상당구 상당로 174-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/927018566",
+        "naver_map": "https://m.place.naver.com/restaurant/1109646375/home"
+      }
+    },
+    {
+      "restaurant_name": "사잇길",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 53",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/24347108",
+        "naver_map": "https://m.place.naver.com/restaurant/35116527/home"
+      }
+    },
+    {
+      "restaurant_name": "왕천파닭 중앙점",
+      "category": {
+        "kakao": "음식점 > 치킨",
+        "naver": "치킨,닭강정"
+      },
+      "road_address": "충북 청주시 상당구 중앙로 53",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9274807",
+        "naver_map": "https://m.place.naver.com/restaurant/12786460/home"
+      }
+    },
+    {
+      "restaurant_name": "노가정",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선",
+        "naver": "주꾸미요리"
+      },
+      "road_address": "충북 청주시 상당구 사직대로361번길 174",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1208844118",
+        "naver_map": "https://m.place.naver.com/restaurant/1107215240/home"
+      }
+    },
+    {
+      "restaurant_name": "수돈돈",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "돼지고기구이"
+      },
+      "road_address": "충북 청주시 상당구 상당로 174-2",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1108369672",
+        "naver_map": "https://m.place.naver.com/restaurant/1698330148/home"
+      }
+    },
+    {
+      "restaurant_name": "청운불고기",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 불고기,두루치기",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 상당구 상당로25번길 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9446196",
+        "naver_map": "https://m.place.naver.com/restaurant/17205543/home"
+      }
+    },
+    {
+      "restaurant_name": "화진다실",
+      "category": {
+        "kakao": "음식점 > 일식",
+        "naver": "차"
+      },
+      "road_address": "충북 청주시 상당구 상당로70번길 20-12",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2053026648",
+        "naver_map": "https://m.place.naver.com/restaurant/1621348182/home"
+      }
+    },
+    {
+      "restaurant_name": "용용생고기",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기",
+        "naver": "육류,고기요리"
+      },
+      "road_address": "충북 청주시 상당구 대성로 88",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1570871760",
+        "naver_map": "https://m.place.naver.com/restaurant/1404504414/home"
+      }
+    },
+    {
+      "restaurant_name": "대추나무집",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로 40-12",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1125893462",
+        "naver_map": "https://m.place.naver.com/restaurant/17211127/home"
+      }
+    },
+    {
+      "restaurant_name": "해원",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 아구",
+        "naver": "아귀찜,해물찜"
+      },
+      "road_address": "충북 청주시 상당구 상당로36번길 14",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9587483",
+        "naver_map": "https://m.place.naver.com/restaurant/11852996/home"
+      }
+    },
+    {
+      "restaurant_name": "원조중원탑막국수 충북도청점",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수",
+        "naver": "막국수"
+      },
+      "road_address": "충북 청주시 상당구 상당로58번길 17",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/824846903",
+        "naver_map": "https://m.place.naver.com/restaurant/1161794035/home"
+      }
+    },
+    {
+      "restaurant_name": "굽네치킨 청주성안점",
+      "category": {
+        "kakao": "음식점 > 치킨 > 굽네치킨",
+        "naver": "치킨,닭강정"
+      },
+      "road_address": "충북 청주시 상당구 용담로 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/2036490880",
+        "naver_map": "https://m.place.naver.com/restaurant/2093991704/home"
+      }
+    },
+    {
+      "restaurant_name": "킷사동구리",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 용담로 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1174329082",
+        "naver_map": "https://m.place.naver.com/restaurant/1513726850/home"
+      }
+    },
+    {
+      "restaurant_name": "데이데이데이",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "브런치"
+      },
+      "road_address": "충북 청주시 상당구 상당로58번길 11-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/582626525",
+        "naver_map": "https://m.place.naver.com/restaurant/1264466598/home"
+      }
+    },
+    {
+      "restaurant_name": "BHC치킨 청주성안점",
+      "category": {
+        "kakao": "음식점 > 치킨 > BHC치킨",
+        "naver": "치킨,닭강정"
+      },
+      "road_address": "충북 청주시 상당구 용담로 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1558883",
+        "naver_map": "https://m.place.naver.com/restaurant/2096725946/home"
+      }
+    },
+    {
+      "restaurant_name": "오리골",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 오리",
+        "naver": "오리요리"
+      },
+      "road_address": "충북 청주시 상당구 대성로 98-8",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8451114",
+        "naver_map": "https://m.place.naver.com/restaurant/17207650/home"
+      }
+    },
+    {
+      "restaurant_name": "어부가",
+      "category": {
+        "kakao": "음식점 > 일식 > 일식집",
+        "naver": "일식당"
+      },
+      "road_address": "충북 청주시 상당구 상당로 66",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1069314290",
+        "naver_map": "https://m.place.naver.com/restaurant/1365687306/home"
+      }
+    },
+    {
+      "restaurant_name": "본가",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로58번길 11-13",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21245873",
+        "naver_map": "https://m.place.naver.com/restaurant/17207614/home"
+      }
+    },
+    {
+      "restaurant_name": "문화동본가",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 대성로 102-15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1259206310",
+        "naver_map": "https://m.place.naver.com/restaurant/17207656/home"
+      }
+    },
+    {
+      "restaurant_name": "우리식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로 40-6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1665811977",
+        "naver_map": "https://m.place.naver.com/restaurant/1292164145/home"
+      }
+    },
+    {
+      "restaurant_name": "갤리604",
+      "category": {
+        "kakao": "음식점 > 양식",
+        "naver": "와인"
+      },
+      "road_address": "충북 청주시 상당구 용담로 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1485961097",
+        "naver_map": "https://m.place.naver.com/restaurant/1833176002/home"
+      }
+    },
+    {
+      "restaurant_name": "가자12시뼈해장국",
+      "category": {
+        "kakao": "음식점 > 한식 > 해장국",
+        "naver": "감자탕"
+      },
+      "road_address": "충북 청주시 상당구 탑동로1번길 104",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8566392",
+        "naver_map": "https://m.place.naver.com/restaurant/17261942/home"
+      }
+    },
+    {
+      "restaurant_name": "일봉홍탁집",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "해물,생선요리"
+      },
+      "road_address": "충북 청주시 상당구 대성로 98-4",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1565478919",
+        "naver_map": "https://m.place.naver.com/restaurant/17208128/home"
+      }
+    },
+    {
+      "restaurant_name": "류가네칼국수",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 상당구 상당로 38-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1338821668",
+        "naver_map": "https://m.place.naver.com/restaurant/1792903745/home"
+      }
+    },
+    {
+      "restaurant_name": "골목길",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "종합분식"
+      },
+      "road_address": "충북 청주시 상당구 상당로 40-6",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/681553887",
+        "naver_map": "https://m.place.naver.com/restaurant/1005016513/home"
+      }
+    },
+    {
+      "restaurant_name": "상큼치킨",
+      "category": {
+        "kakao": "음식점 > 치킨",
+        "naver": "치킨,닭강정"
+      },
+      "road_address": "충북 청주시 상당구 탑동로1번길 104",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1847792617",
+        "naver_map": "https://m.place.naver.com/restaurant/1461083928/home"
+      }
+    },
+    {
+      "restaurant_name": "수동보리밭",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 대성로122번길 5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10926764",
+        "naver_map": "https://m.place.naver.com/restaurant/19925633/home"
+      }
+    },
+    {
+      "restaurant_name": "김집사",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "김밥"
+      },
+      "road_address": "충북 청주시 상당구 교동로 38-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1428948484",
+        "naver_map": "https://m.place.naver.com/restaurant/1863486093/home"
+      }
+    },
+    {
+      "restaurant_name": "또화식당",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 대성로122번길 17-3",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9789212",
+        "naver_map": "https://m.place.naver.com/restaurant/32186857/home"
+      }
+    },
+    {
+      "restaurant_name": "신미만두",
+      "category": {
+        "kakao": "음식점 > 분식",
+        "naver": "만두"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 52",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/26630777",
+        "naver_map": "https://m.place.naver.com/restaurant/17211224/home"
+      }
+    },
+    {
+      "restaurant_name": "고려삼계탕",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 닭요리 > 삼계탕",
+        "naver": "백숙,삼계탕"
+      },
+      "road_address": "충북 청주시 상당구 우암산로 7",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21345691",
+        "naver_map": "https://m.place.naver.com/restaurant/17223616/home"
+      }
+    },
+    {
+      "restaurant_name": "군산아구찜",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선 > 아구",
+        "naver": "아귀찜,해물찜"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 82",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8823563",
+        "naver_map": "https://m.place.naver.com/restaurant/17224313/home"
+      }
+    },
+    {
+      "restaurant_name": "매생이집",
+      "category": {
+        "kakao": "음식점 > 한식 > 해물,생선",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 54",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/7861676",
+        "naver_map": "https://m.place.naver.com/restaurant/1129713279/home"
+      }
+    },
+    {
+      "restaurant_name": "송원",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "칼국수,만두"
+      },
+      "road_address": "충북 청주시 상당구 우암산로 5",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/10545258",
+        "naver_map": "https://m.place.naver.com/restaurant/32186824/home"
+      }
+    },
+    {
+      "restaurant_name": "상당회관",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 35",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8388510",
+        "naver_map": "https://m.place.naver.com/restaurant/17198599/home"
+      }
+    },
+    {
+      "restaurant_name": "금문도",
+      "category": {
+        "kakao": "음식점 > 중식 > 중국요리",
+        "naver": "중식당"
+      },
+      "road_address": "충북 청주시 상당구 상당로144번길 15",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8700946",
+        "naver_map": "https://m.place.naver.com/restaurant/17224236/home"
+      }
+    },
+    {
+      "restaurant_name": "묵사발 청주본점",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 교동로3번길 76-1",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/8304636",
+        "naver_map": "https://m.place.naver.com/restaurant/17224070/home"
+      }
+    },
+    {
+      "restaurant_name": "행복한국수집",
+      "category": {
+        "kakao": "음식점 > 한식 > 국수",
+        "naver": "국수"
+      },
+      "road_address": "충북 청주시 상당구 교동로27번길 30",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1596436872",
+        "naver_map": "https://m.place.naver.com/restaurant/1943171542/home"
+      }
+    },
+    {
+      "restaurant_name": "봄날의보리밥",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로144번길 22",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21346880",
+        "naver_map": "https://m.place.naver.com/restaurant/36004117/home"
+      }
+    },
+    {
+      "restaurant_name": "두꺼비부대찌개 청주점",
+      "category": {
+        "kakao": "음식점 > 한식 > 찌개,전골",
+        "naver": "찌개,전골"
+      },
+      "road_address": "충북 청주시 상당구 대성로161번길 18",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/429995345",
+        "naver_map": "https://m.place.naver.com/restaurant/2032778102/home"
+      }
+    },
+    {
+      "restaurant_name": "산촌에가면",
+      "category": {
+        "kakao": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 상당로144번길 33",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/9118756",
+        "naver_map": "https://m.place.naver.com/restaurant/17224569/home"
+      }
+    },
+    {
+      "restaurant_name": "점심시간한식뷔페",
+      "category": {
+        "kakao": "음식점 > 뷔페 > 한식뷔페",
+        "naver": "한식뷔페"
+      },
+      "road_address": "충북 청주시 상당구 대성로 164",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1669548597",
+        "naver_map": "https://m.place.naver.com/restaurant/1286238189/home"
+      }
+    },
+    {
+      "restaurant_name": "사이사이",
+      "category": {
+        "kakao": "음식점 > 한식",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 우암산로 16",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/1802718271",
+        "naver_map": "https://m.place.naver.com/restaurant/1351019580/home"
+      }
+    },
+    {
+      "restaurant_name": "진성짜글이",
+      "category": {
+        "kakao": "음식점 > 한식 > 찌개,전골",
+        "naver": "한식"
+      },
+      "road_address": "충북 청주시 상당구 대성로199번길 22",
+      "links": {
+        "kakao_map": "https://place.map.kakao.com/21092296",
+        "naver_map": "https://m.place.naver.com/restaurant/33429280/home"
+      }
+    }
+  ]
+}

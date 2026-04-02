@@ -11,6 +11,13 @@ export interface RestaurantProperties {
   total_good_points: number;
   kakao_link: string;
   naver_link: string;
+  // Date index scores (added by process_data.py)
+  score_atmosphere?: number;
+  score_noise?: number;
+  score_waiting?: number;
+  score_distance?: number;
+  score_date_ratio?: number;
+  date_index?: number;
 }
 
 export interface RestaurantFeature {
@@ -42,6 +49,13 @@ export interface Restaurant {
   naverLink: string;
   lat: number;
   lng: number;
+  // Date index scores
+  scoreAtmosphere: number;
+  scoreNoise: number;
+  scoreWaiting: number;
+  scoreDistance: number;
+  scoreDateRatio: number;
+  dateIndex: number;
 }
 
 // [TYPE-03] Category types
@@ -75,7 +89,7 @@ export type LayerKey =
   | 'sidewalkCenterline' | 'sidewalkBoundary' | 'pedOnlyRoad' | 'streetLamps' | 'routingNodes';
 
 // [TYPE-07] Sort mode
-export type SortMode = 'rating' | 'reviews' | 'name';
+export type SortMode = 'rating' | 'reviews' | 'name' | 'dateIndex';
 
 // [TYPE-08] Tab
 export type TabType = 'restaurants' | 'navigation' | 'layers';

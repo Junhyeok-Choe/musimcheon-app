@@ -27,17 +27,30 @@ export default function Home() {
     async function loadData() {
       try {
         console.log('[PAGE-02] Loading data...');
-        const [restaurantsRes, graphRes] = await Promise.all([
+        const [restaurantsRes, graphRes, cafesRes] = await Promise.all([
           fetch('/geojson/restaurants.geojson'),
           fetch('/geojson/routing_graph.json'),
+          fetch('/geojson/cafes.geojson').catch(() => null),
         ]);
 
         const restaurantsData = await restaurantsRes.json();
         const graphData = await graphRes.json();
 
+        // [PAGE-02a] Merge cafes into restaurants if available
+        if (cafesRes && cafesRes.ok) {
+          const cafesData = await cafesRes.json();
+          if (cafesData.features && cafesData.features.length > 0) {
+            restaurantsData.features = [
+              ...restaurantsData.features,
+              ...cafesData.features,
+            ];
+            console.log(`[PAGE-02] Merged ${cafesData.features.length} cafes`);
+          }
+        }
+
         setRestaurants(restaurantsData);
         setRoutingGraph(graphData);
-        console.log(`[PAGE-02] Loaded ${restaurantsData.features.length} restaurants, ${Object.keys(graphData.nodes).length} routing nodes`);
+        console.log(`[PAGE-02] Loaded ${restaurantsData.features.length} total places, ${Object.keys(graphData.nodes).length} routing nodes`);
       } catch (err) {
         console.error('[PAGE-02] Failed to load data:', err);
       } finally {

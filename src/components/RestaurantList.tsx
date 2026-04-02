@@ -8,6 +8,7 @@ import { CategoryType, SortMode } from '@/types';
 const CATEGORIES = Object.keys(CATEGORY_COLORS) as CategoryType[];
 
 const SORT_OPTIONS: { key: SortMode; label: string }[] = [
+  { key: 'dateIndex', label: '데이트지수' },
   { key: 'rating', label: '평점순' },
   { key: 'reviews', label: '리뷰순' },
   { key: 'name', label: '이름순' },
@@ -97,7 +98,7 @@ export default function RestaurantList() {
 
       {/* [LIST-05] Count */}
       <div className="text-[12px] text-slate-400">
-        {list.length}개 식당
+        {list.length}개 장소
       </div>
 
       {/* [LIST-06] Restaurant cards */}
@@ -137,6 +138,11 @@ export default function RestaurantList() {
                 <span className="text-slate-400">
                   리뷰 {totalReviews}
                 </span>
+                {r.dateIndex > 0 && (
+                  <span className="ml-auto text-rose-500 font-semibold text-[12px]">
+                    {r.dateIndex.toFixed(1)}
+                  </span>
+                )}
               </div>
             </div>
           );

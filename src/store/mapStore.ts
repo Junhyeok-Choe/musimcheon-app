@@ -17,6 +17,13 @@ function processRestaurants(geojson: RestaurantGeoJSON): Restaurant[] {
     naverLink: f.properties.naver_link,
     lat: f.geometry.coordinates[1],
     lng: f.geometry.coordinates[0],
+    // Date index scores
+    scoreAtmosphere: f.properties.score_atmosphere ?? 0,
+    scoreNoise: f.properties.score_noise ?? 0,
+    scoreWaiting: f.properties.score_waiting ?? 0,
+    scoreDistance: f.properties.score_distance ?? 0,
+    scoreDateRatio: f.properties.score_date_ratio ?? 0,
+    dateIndex: f.properties.date_index ?? 0,
   }));
 }
 
@@ -127,7 +134,9 @@ export const useMapStore = create<MapState>((set, get) => ({
     }
 
     // Sort
-    if (sortMode === 'rating') {
+    if (sortMode === 'dateIndex') {
+      list.sort((a, b) => b.dateIndex - a.dateIndex || b.rating - a.rating);
+    } else if (sortMode === 'rating') {
       list.sort((a, b) => b.rating - a.rating || (b.reviewsKakao + b.reviewsNaver) - (a.reviewsKakao + a.reviewsNaver));
     } else if (sortMode === 'reviews') {
       list.sort((a, b) => (b.reviewsKakao + b.reviewsNaver) - (a.reviewsKakao + a.reviewsNaver));
