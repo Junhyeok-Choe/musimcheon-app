@@ -308,36 +308,106 @@ def process_cafes(cafes_path, api_key_id=None, api_key=None):
     return features
 
 
-def add_scores_to_restaurants(geojson):
-    """[PROCESS-04e] Add placeholder scores to existing restaurant features."""
+# [PROCESS-04e-1] Restaurant-specific atmosphere keywords (date-friendly)
+RESTAURANT_ATMO_KEYWORDS = {
+    "인테리어가 멋져요": 3.0,
+    "특별한 날 가기 좋아요": 4.0,
+    "대화하기 좋아요": 3.0,
+    "아늑해요": 2.5,
+    "사진이 잘 나와요": 2.5,
+    "컨셉이 독특해요": 2.0,
+    "차분한 분위기예요": 2.5,
+    "음악이 좋아요": 1.5,
+    "뷰가 좋아요": 2.5,
+    "매장이 청결해요": 1.0,
+    "화장실이 깨끗해요": 0.5,
+    "매장이 넓어요": 0.5,
+}
+
+# [PROCESS-04e-2] Franchise/fast-food name patterns (penalty applied)
+FRANCHISE_PATTERNS = [
+    "치킨", "BHC", "BBQ", "굽네", "교촌", "bhc", "네네", "호식이",
+    "맥도날드", "롯데리아", "버거킹", "KFC", "피자헛", "도미노",
+    "김밥천국", "편의점",
+]
+
+CATEGORY_PENALTY = {"chicken": 0.6, "other": 0.7}
+
+
+def add_scores_to_restaurants(geojson, step2_path=None):
+    """[PROCESS-04e] Add keyword-based scores to restaurants using step2 review data."""
+
+    # [PROCESS-04e-3] Load step2 review data and build lookup by name
+    step2_lookup = {}
+    if step2_path and os.path.exists(step2_path):
+        with open(step2_path, "r", encoding="utf-8") as f:
+            step2_data = json.load(f)["restaurants"]
+        for r in step2_data:
+            step2_lookup[r["restaurant_name"]] = r.get("reviews", {})
+        print(f"  [PROCESS-04e] Loaded step2 review data for {len(step2_lookup)} restaurants")
+
     for feat in geojson["features"]:
         props = feat["properties"]
         lat = feat["geometry"]["coordinates"][1]
         lng = feat["geometry"]["coordinates"][0]
+        name = props.get("restaurant_name", "")
+        category = props.get("category", "other")
+        cat_display = props.get("category_display", "")
 
-        # Restaurants don't have detailed review data yet,
-        # so use rating + review count as proxy
-        rating = props.get("avg_rating") or 0
-        review_count = (props.get("review_count_kakao") or 0) + (props.get("review_count_naver") or 0)
+        # [PROCESS-04e-4] Get step2 review data for this restaurant
+        reviews = step2_lookup.get(name, {})
+        has_keyword_data = bool(reviews)
 
-        # Proxy atmosphere from rating (higher rating -> better atmosphere)
-        atmo = max(1, min(10, round(rating * 2, 1))) if rating > 0 else 3.0
+        if has_keyword_data:
+            # Use keyword-based scoring (same approach as cafes)
+            scores = compute_scores(reviews)
 
-        # Proxy noise: assume average (5) for restaurants without keyword data
-        noise = 5.0
+            # Override atmosphere with restaurant-specific keywords
+            naver = reviews.get("naver", {})
+            good_points = naver.get("good_points", [])
+            total_gp = sum(gp.get("count", 0) for gp in good_points)
 
-        # Proxy waiting: use review count as popularity indicator
-        # More reviews = likely more popular = more waiting
-        if review_count > 80:
-            waiting = 4.0
-        elif review_count > 40:
-            waiting = 6.0
+            if total_gp > 0:
+                atmo_raw = 0
+                for gp in good_points:
+                    kw = gp["keyword"]
+                    cnt = gp.get("count", 0)
+                    if kw in RESTAURANT_ATMO_KEYWORDS:
+                        atmo_raw += RESTAURANT_ATMO_KEYWORDS[kw] * cnt
+                atmo = max(1, min(10, round(atmo_raw / total_gp * 5, 1)))
+            else:
+                atmo = scores["atmosphere"]
+
+            noise = scores["noise"]
+            waiting = scores["waiting"]
+            date_ratio = scores["date_ratio"]
         else:
-            waiting = 8.0
+            # Fallback: rating-based proxy
+            rating = props.get("avg_rating") or 0
+            atmo = max(1, min(7.0, round(rating * 1.4, 1))) if rating > 0 else 2.0
+            noise = 5.0
+            review_count = (props.get("review_count_kakao") or 0) + (props.get("review_count_naver") or 0)
+            if review_count > 80: waiting = 4.0
+            elif review_count > 40: waiting = 6.0
+            else: waiting = 8.0
+            date_ratio = 0.25
+
+        # [PROCESS-04e-5] Category and franchise penalties
+        is_franchise = any(pat in name or pat in cat_display for pat in FRANCHISE_PATTERNS)
+        cat_pen = CATEGORY_PENALTY.get(category, 1.0)
+        atmo = round(atmo * cat_pen, 1)
+        if is_franchise:
+            atmo = round(atmo * 0.5, 1)
+            date_ratio = min(date_ratio, 0.05)
+
+        # [PROCESS-04e-6] Review count confidence penalty
+        review_count = (props.get("review_count_kakao") or 0) + (props.get("review_count_naver") or 0)
+        if review_count < 5:
+            atmo = min(atmo, 3.0)
+        elif review_count < 10:
+            atmo = round(atmo * 0.85, 1)
 
         dist_sc = distance_score(lat, lng)
-        date_ratio = 0.3  # default assumption for restaurants
-
         date_idx = compute_date_index(
             {"atmosphere": atmo, "noise": noise, "waiting": waiting, "date_ratio": date_ratio},
             dist_sc,
@@ -349,6 +419,15 @@ def add_scores_to_restaurants(geojson):
         props["score_distance"] = dist_sc
         props["score_date_ratio"] = date_ratio
         props["date_index"] = date_idx
+
+        # [PROCESS-04e-7] Extract top keywords from step2 good_points
+        if has_keyword_data:
+            naver_data = reviews.get("naver", {})
+            gp_list = naver_data.get("good_points", [])
+            sorted_gp = sorted(gp_list, key=lambda x: x.get("count", 0), reverse=True)
+            props["top_keywords"] = [gp["keyword"] for gp in sorted_gp[:5]]
+        elif not props.get("top_keywords"):
+            props["top_keywords"] = []
 
     return geojson
 
@@ -375,7 +454,8 @@ def main():
     # --- Step 1: Process existing restaurants ---
     print("\n[PROCESS-04e] Processing existing restaurants...")
     restaurants_geojson = load_existing_restaurants()
-    restaurants_geojson = add_scores_to_restaurants(restaurants_geojson)
+    step2_path = os.path.join(project_dir, "data", "restaurants_step2.json")
+    restaurants_geojson = add_scores_to_restaurants(restaurants_geojson, step2_path)
     print(f"  Processed {len(restaurants_geojson['features'])} restaurants with scores")
 
     # Save updated restaurants
