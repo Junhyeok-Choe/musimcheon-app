@@ -5,8 +5,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { useMapStore } from '@/store/mapStore';
 import { CATEGORY_COLORS, MAP_CENTER, MAP_ZOOM, LAYER_CONFIG } from '@/utils/constants';
-import { buildAdjacencyList, findRoute } from '@/utils/pathfinding';
-import { Restaurant, LayerKey, RoutingGraphData } from '@/types';
+import { buildAdjacencyList } from '@/utils/pathfinding';
 
 export default function MapView() {
   const mapRef = useRef<L.Map | null>(null);
@@ -20,17 +19,17 @@ export default function MapView() {
 
   const {
     restaurants,
+    cafes,
+    activePlaceKind,
     routingGraph,
-    selectedRestaurant,
-    activeTab,
+    selectedPlace,
     visibleLayers,
-    startPoint,
-    destination,
+    startRestaurant,
     routeResult,
-    selectRestaurant,
-    setStartPoint,
-    setRouteResult,
+    selectPlace,
   } = useMapStore();
+
+  const visiblePlaces = activePlaceKind === 'restaurant' ? restaurants : cafes;
 
   // [MAP-01] Initialize Leaflet map
   useEffect(() => {
@@ -50,15 +49,7 @@ export default function MapView() {
     // [MAP-01a] Route layer group
     routeLayerRef.current = L.layerGroup().addTo(map);
 
-    // [MAP-01b] Map click handler for navigation start point
-    map.on('click', (e: L.LeafletMouseEvent) => {
-      const state = useMapStore.getState();
-      if (state.activeTab === 'navigation') {
-        setStartPoint({ lat: e.latlng.lat, lng: e.latlng.lng });
-      }
-    });
-
-    // [MAP-01c] Custom tooltip element
+    // [MAP-01b] Custom tooltip element
     const tooltipEl = document.createElement('div');
     tooltipEl.className = 'map-tooltip';
     tooltipEl.style.cssText = `
@@ -84,32 +75,33 @@ export default function MapView() {
       tooltipEl.remove();
       mapRef.current = null;
     };
-  }, [setStartPoint]);
+  }, []);
 
   // [MAP-02] Render restaurant markers
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || restaurants.length === 0) return;
+    if (!map || visiblePlaces.length === 0) return;
 
     // Clear existing markers
     markersRef.current.forEach((m) => m.remove());
     markersRef.current = [];
 
-    restaurants.forEach((r) => {
+    visiblePlaces.forEach((r) => {
       const color = CATEGORY_COLORS[r.category] || '#6b7280';
-      // [MAP-02] Marker radius proportional to rating: 3.0->4, 4.0->6, 5.0->8
-      const baseRadius = Math.max(3, Math.round(r.rating * 1.6));
+      const baseRadius = r.placeKind === 'cafe'
+        ? Math.max(4, Math.round(r.rating * 1.3))
+        : Math.max(3, Math.round(r.rating * 1.6));
       const marker = L.circleMarker([r.lat, r.lng], {
         radius: baseRadius,
         fillColor: color,
         color: 'white',
-        weight: 1.5,
-        fillOpacity: 0.9,
+        weight: r.placeKind === 'cafe' ? 2.5 : 1.5,
+        fillOpacity: r.placeKind === 'cafe' ? 0.72 : 0.9,
       }).addTo(map);
 
       // [MAP-02a] Click handler
       marker.on('click', () => {
-        selectRestaurant(r);
+        selectPlace(r);
       });
 
       // [MAP-02b] Hover tooltip
@@ -118,7 +110,7 @@ export default function MapView() {
         if (tooltipRef.current) {
           tooltipRef.current.innerHTML = `
             <div style="font-weight:600;margin-bottom:2px">${r.name}</div>
-            <div style="font-size:11px;color:#94a3b8">${r.categoryDisplay}</div>
+            <div style="font-size:11px;color:#94a3b8">${r.placeKind === 'restaurant' ? '식당' : '카페'} · ${r.categoryDisplay}</div>
             <div style="font-size:11px;color:#fbbf24">${r.rating.toFixed(1)}</div>
           `;
           tooltipRef.current.style.display = 'block';
@@ -134,13 +126,13 @@ export default function MapView() {
 
       markersRef.current.push(marker);
     });
-  }, [restaurants, selectRestaurant]);
+  }, [visiblePlaces, selectPlace]);
 
   // [MAP-03] Pan to selected restaurant
   useEffect(() => {
-    if (!mapRef.current || !selectedRestaurant) return;
-    mapRef.current.setView([selectedRestaurant.lat, selectedRestaurant.lng], 18, { animate: false });
-  }, [selectedRestaurant]);
+    if (!mapRef.current || !selectedPlace) return;
+    mapRef.current.setView([selectedPlace.lat, selectedPlace.lng], 18, { animate: false });
+  }, [selectedPlace]);
 
   // [MAP-04] Render start point marker
   useEffect(() => {
@@ -148,16 +140,16 @@ export default function MapView() {
       startMarkerRef.current.remove();
       startMarkerRef.current = null;
     }
-    if (!mapRef.current || !startPoint) return;
+    if (!mapRef.current || !startRestaurant) return;
 
-    startMarkerRef.current = L.circleMarker([startPoint.lat, startPoint.lng], {
+    startMarkerRef.current = L.circleMarker([startRestaurant.lat, startRestaurant.lng], {
       radius: 8,
       fillColor: '#22c55e',
       color: 'white',
       weight: 2,
       fillOpacity: 1,
     }).addTo(mapRef.current);
-  }, [startPoint]);
+  }, [startRestaurant]);
 
   // [MAP-05] Render route
   useEffect(() => {
