@@ -1,11 +1,12 @@
 import { create } from 'zustand';
-import { Restaurant, RestaurantGeoJSON, RoutingGraphData, CategoryType, SortMode, TabType, LayerKey, RouteResult } from '@/types';
+import { Restaurant, RestaurantGeoJSON, RoutingGraphData, CategoryType, SortMode, TabType, LayerKey, RouteResult, PlaceKind } from '@/types';
 import { CrosswalkCoord } from '@/utils/pathfinding';
 
 // [STORE-01] Process raw GeoJSON into UI-friendly Restaurant objects
-function processRestaurants(geojson: RestaurantGeoJSON): Restaurant[] {
+function processPlaces(geojson: RestaurantGeoJSON, placeKind: PlaceKind): Restaurant[] {
   return geojson.features.map((f, idx) => ({
     id: idx,
+    placeKind,
     name: f.properties.restaurant_name,
     category: f.properties.category,
     categoryDisplay: f.properties.category_display || '',
@@ -23,8 +24,16 @@ function processRestaurants(geojson: RestaurantGeoJSON): Restaurant[] {
     scoreNoise: f.properties.score_noise ?? 0,
     scoreWaiting: f.properties.score_waiting ?? 0,
     scoreDistance: f.properties.score_distance ?? 0,
-    scoreDateRatio: f.properties.score_date_ratio ?? 0,
-    dateIndex: f.properties.date_index ?? 0,
+    scoreDateRatio: f.properties.score_visit_target ?? f.properties.score_date_ratio ?? 0,
+    scoreVisitTarget: f.properties.score_visit_target ?? f.properties.score_date_ratio ?? 0,
+    scoreTaste: f.properties.score_taste ?? 0,
+    scoreService: f.properties.score_service ?? 0,
+    scoreBase: f.properties.score_base ?? 0,
+    scoreFinal: f.properties.score_final ?? f.properties.date_index ?? 0,
+    dateIndex: f.properties.score_final ?? f.properties.date_index ?? 0,
+    isFastfood: Boolean(f.properties.is_fastfood),
+    isFranchise: Boolean(f.properties.is_franchise),
+    excludeReason: f.properties.exclude_reason ?? null,
   }));
 }
 
@@ -32,19 +41,21 @@ function processRestaurants(geojson: RestaurantGeoJSON): Restaurant[] {
 interface MapState {
   // Data
   restaurants: Restaurant[];
+  cafes: Restaurant[];
   routingGraph: RoutingGraphData | null;
   crosswalks: CrosswalkCoord[];
   isLoading: boolean;
 
   // UI state
   activeTab: TabType;
-  selectedRestaurant: Restaurant | null;
+  activePlaceKind: PlaceKind;
+  selectedPlace: Restaurant | null;
   searchQuery: string;
   activeCategory: CategoryType | null;
   sortMode: SortMode;
 
   // Navigation state
-  startPoint: { lat: number; lng: number } | null;
+  startRestaurant: Restaurant | null;
   destination: Restaurant | null;
   routeResult: RouteResult | null;
 
@@ -53,38 +64,42 @@ interface MapState {
 
   // Actions
   setRestaurants: (geojson: RestaurantGeoJSON) => void;
+  setCafes: (geojson: RestaurantGeoJSON) => void;
   setRoutingGraph: (graph: RoutingGraphData) => void;
   setCrosswalks: (coords: CrosswalkCoord[]) => void;
   setLoading: (loading: boolean) => void;
   setActiveTab: (tab: TabType) => void;
-  selectRestaurant: (restaurant: Restaurant | null) => void;
+  setActivePlaceKind: (kind: PlaceKind) => void;
+  selectPlace: (place: Restaurant | null) => void;
   setSearchQuery: (query: string) => void;
   setActiveCategory: (category: CategoryType | null) => void;
   setSortMode: (mode: SortMode) => void;
-  setStartPoint: (point: { lat: number; lng: number } | null) => void;
+  setStartRestaurant: (restaurant: Restaurant | null) => void;
   setDestination: (restaurant: Restaurant | null) => void;
   setRouteResult: (result: RouteResult | null) => void;
   toggleLayer: (layer: LayerKey) => void;
   resetNavigation: () => void;
 
   // Computed
-  filteredRestaurants: () => Restaurant[];
+  filteredPlaces: () => Restaurant[];
 }
 
 // [STORE-03] Zustand store
 export const useMapStore = create<MapState>((set, get) => ({
   restaurants: [],
+  cafes: [],
   routingGraph: null,
   crosswalks: [],
   isLoading: true,
 
   activeTab: 'restaurants',
-  selectedRestaurant: null,
+  activePlaceKind: 'restaurant',
+  selectedPlace: null,
   searchQuery: '',
   activeCategory: null,
-  sortMode: 'rating',
+  sortMode: 'dateIndex',
 
-  startPoint: null,
+  startRestaurant: null,
   destination: null,
   routeResult: null,
 
@@ -98,18 +113,33 @@ export const useMapStore = create<MapState>((set, get) => ({
     pedOnlyRoad: false,
     streetLamps: false,
     routingNodes: false,
+    crosswalks: false,
   },
 
-  setRestaurants: (geojson) => set({ restaurants: processRestaurants(geojson) }),
+  setRestaurants: (geojson) =>
+    set({
+      restaurants: processPlaces(geojson, 'restaurant').filter((restaurant) => !restaurant.excludeReason),
+    }),
+  setCafes: (geojson) =>
+    set({
+      cafes: processPlaces(geojson, 'cafe'),
+    }),
   setRoutingGraph: (graph) => set({ routingGraph: graph }),
   setCrosswalks: (coords) => set({ crosswalks: coords }),
   setLoading: (loading) => set({ isLoading: loading }),
   setActiveTab: (tab) => set({ activeTab: tab }),
-  selectRestaurant: (restaurant) => set({ selectedRestaurant: restaurant }),
+  setActivePlaceKind: (kind) =>
+    set((state) => ({
+      activePlaceKind: kind,
+      searchQuery: '',
+      activeCategory: kind === 'restaurant' ? state.activeCategory : null,
+      selectedPlace: state.selectedPlace?.placeKind === kind ? state.selectedPlace : null,
+    })),
+  selectPlace: (place) => set({ selectedPlace: place }),
   setSearchQuery: (query) => set({ searchQuery: query }),
   setActiveCategory: (category) => set({ activeCategory: category }),
   setSortMode: (mode) => set({ sortMode: mode }),
-  setStartPoint: (point) => set({ startPoint: point }),
+  setStartRestaurant: (restaurant) => set({ startRestaurant: restaurant }),
   setDestination: (restaurant) => set({ destination: restaurant }),
   setRouteResult: (result) => set({ routeResult: result }),
   toggleLayer: (layer) =>
@@ -120,15 +150,15 @@ export const useMapStore = create<MapState>((set, get) => ({
       },
     })),
   resetNavigation: () =>
-    set({ startPoint: null, destination: null, routeResult: null }),
+    set({ startRestaurant: null, destination: null, routeResult: null }),
 
-  // [STORE-04] Filtered and sorted restaurant list
-  filteredRestaurants: () => {
-    const { restaurants, searchQuery, activeCategory, sortMode } = get();
-    let list = [...restaurants];
+  // [STORE-04] Filtered and sorted place list
+  filteredPlaces: () => {
+    const { restaurants, cafes, activePlaceKind, searchQuery, activeCategory, sortMode } = get();
+    let list = [...(activePlaceKind === 'restaurant' ? restaurants : cafes)];
 
     // Filter by category
-    if (activeCategory) {
+    if (activePlaceKind === 'restaurant' && activeCategory) {
       list = list.filter((r) => r.category === activeCategory);
     }
 

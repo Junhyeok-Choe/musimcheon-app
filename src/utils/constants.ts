@@ -13,6 +13,7 @@ export const CATEGORY_COLORS: Record<CategoryType, string> = {
   cafe: '#8b5cf6',
   pub: '#ec4899',
   fusion: '#84cc16',
+  shabu: '#10b981',
   other: '#6b7280',
 };
 
@@ -29,6 +30,7 @@ export const CATEGORY_DISPLAY: Record<CategoryType, string> = {
   cafe: '카페',
   pub: '펍',
   fusion: '퓨전',
+  shabu: '샤브샤브',
   other: '기타',
 };
 
@@ -48,4 +50,5 @@ export const LAYER_CONFIG: Record<string, { label: string; file: string; color: 
   pedOnlyRoad: { label: '보행자 전용', file: 'ped_only_road.geojson', color: '#f59e0b', weight: 3, opacity: 0.7 },
   streetLamps: { label: '가로등', file: 'street_lamps.geojson', color: '#fbbf24' },
   routingNodes: { label: '경로 노드', file: 'nodelink_nodes.geojson', color: '#94a3b8' },
+  crosswalks: { label: '횡단보도', file: 'crosswalks.geojson', color: '#f43f5e' },
 };
