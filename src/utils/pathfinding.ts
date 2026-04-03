@@ -21,6 +21,44 @@ interface AdjEntry {
   dist: number;
 }
 
+// [PATH-02a] Crosswalk proximity threshold (meters)
+// Nodes within this distance of a crosswalk are considered "crosswalk-accessible"
+const CROSSWALK_PROXIMITY_M = 30;
+
+// [PATH-02b] Penalty multiplier for edges that lead to nodes without a nearby crosswalk
+// A value of 1.4 means the effective cost is 40% higher, making the pathfinder
+// prefer routes through crosswalk-accessible intersections
+const NO_CROSSWALK_PENALTY = 1.4;
+
+// [PATH-02c] Crosswalk coordinate type: [lng, lat]
+export type CrosswalkCoord = [number, number];
+
+// [PATH-02d] Precompute which routing nodes are near a crosswalk
+// Returns a Set of nodeIds that have at least one crosswalk within threshold
+export function buildCrosswalkIndex(
+  nodes: Record<string, [number, number]>,
+  crosswalks: CrosswalkCoord[]
+): Set<string> {
+  const hasCrosswalk = new Set<string>();
+
+  if (crosswalks.length === 0) return hasCrosswalk;
+
+  for (const [nodeId, coords] of Object.entries(nodes)) {
+    const nodeLat = coords[1];
+    const nodeLng = coords[0];
+
+    for (const cw of crosswalks) {
+      const d = haversine(nodeLat, nodeLng, cw[1], cw[0]);
+      if (d <= CROSSWALK_PROXIMITY_M) {
+        hasCrosswalk.add(nodeId);
+        break; // one match is enough
+      }
+    }
+  }
+
+  return hasCrosswalk;
+}
+
 // [PATH-03] Build adjacency list from routing graph data
 export function buildAdjacencyList(graph: RoutingGraphData): Record<string, AdjEntry[]> {
   const adj: Record<string, AdjEntry[]> = {};
@@ -59,14 +97,15 @@ export function findNearestNode(
   return bestId;
 }
 
-// [PATH-05] A* pathfinding algorithm
+// [PATH-05] A* pathfinding algorithm with crosswalk awareness
 export function findRoute(
   startLat: number,
   startLng: number,
   endLat: number,
   endLng: number,
   graph: RoutingGraphData,
-  adjacencyList: Record<string, AdjEntry[]>
+  adjacencyList: Record<string, AdjEntry[]>,
+  crosswalkNodes?: Set<string>
 ): RouteResult | null {
   const startNode = findNearestNode(startLat, startLng, graph.nodes);
   const endNode = findNearestNode(endLat, endLng, graph.nodes);
@@ -79,6 +118,9 @@ export function findRoute(
   const fScore: Record<string, number> = {};
   const cameFrom: Record<string, string> = {};
   const closedSet = new Set<string>();
+
+  // [PATH-05a-1] Track actual distance separately from penalized cost
+  const realDist: Record<string, number> = { [startNode]: 0 };
 
   const endCoords = graph.nodes[endNode];
   fScore[startNode] = haversine(
@@ -107,7 +149,8 @@ export function findRoute(
       path.unshift([startLat, startLng]);
       path.push([endLat, endLng]);
 
-      const distance = gScore[endNode];
+      // [PATH-05c-1] Use real distance (not penalized) for display
+      const distance = realDist[endNode];
       return {
         path,
         distance: Math.round(distance),
@@ -121,11 +164,19 @@ export function findRoute(
     for (const neighbor of neighbors) {
       if (closedSet.has(neighbor.to)) continue;
 
-      const tentativeG = (gScore[current] ?? Infinity) + neighbor.dist;
+      // [PATH-05d] Apply crosswalk penalty if neighbor node lacks a crosswalk
+      let edgeCost = neighbor.dist;
+      if (crosswalkNodes && crosswalkNodes.size > 0 && !crosswalkNodes.has(neighbor.to)) {
+        edgeCost *= NO_CROSSWALK_PENALTY;
+      }
+
+      const tentativeG = (gScore[current] ?? Infinity) + edgeCost;
+      const tentativeReal = (realDist[current] ?? Infinity) + neighbor.dist;
 
       if (tentativeG < (gScore[neighbor.to] ?? Infinity)) {
         cameFrom[neighbor.to] = current;
         gScore[neighbor.to] = tentativeG;
+        realDist[neighbor.to] = tentativeReal;
         const nCoords = graph.nodes[neighbor.to];
         fScore[neighbor.to] =
           tentativeG + haversine(nCoords[1], nCoords[0], endCoords[1], endCoords[0]);

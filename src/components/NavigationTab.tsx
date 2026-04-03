@@ -2,13 +2,14 @@
 
 import { useState, useMemo } from 'react';
 import { useMapStore } from '@/store/mapStore';
-import { findRoute, buildAdjacencyList } from '@/utils/pathfinding';
+import { findRoute, buildAdjacencyList, buildCrosswalkIndex } from '@/utils/pathfinding';
 
 export default function NavigationTab() {
   const startPoint = useMapStore((s) => s.startPoint);
   const destination = useMapStore((s) => s.destination);
   const routeResult = useMapStore((s) => s.routeResult);
   const routingGraph = useMapStore((s) => s.routingGraph);
+  const crosswalks = useMapStore((s) => s.crosswalks);
   const restaurants = useMapStore((s) => s.restaurants);
   const setDestination = useMapStore((s) => s.setDestination);
   const setRouteResult = useMapStore((s) => s.setRouteResult);
@@ -25,19 +26,30 @@ export default function NavigationTab() {
       .slice(0, 8);
   }, [destSearch, restaurants]);
 
-  // [NAV-02] Calculate route
+  // [NAV-02] Calculate route with crosswalk awareness
   const handleFindRoute = () => {
     if (!startPoint || !destination || !routingGraph) return;
 
     const adj = buildAdjacencyList(routingGraph);
+
+    // [NAV-02a] Build crosswalk index for routing penalty
+    const crosswalkNodes = crosswalks.length > 0
+      ? buildCrosswalkIndex(routingGraph.nodes, crosswalks)
+      : undefined;
+
     const result = findRoute(
       startPoint.lat,
       startPoint.lng,
       destination.lat,
       destination.lng,
       routingGraph,
-      adj
+      adj,
+      crosswalkNodes
     );
+
+    if (crosswalkNodes) {
+      console.log(`[NAV-02] Crosswalk-aware routing: ${crosswalkNodes.size}/${Object.keys(routingGraph.nodes).length} nodes near crosswalks`);
+    }
 
     setRouteResult(result);
   };

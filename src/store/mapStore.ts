@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { Restaurant, RestaurantGeoJSON, RoutingGraphData, CategoryType, SortMode, TabType, LayerKey, RouteResult } from '@/types';
+import { CrosswalkCoord } from '@/utils/pathfinding';
 
 // [STORE-01] Process raw GeoJSON into UI-friendly Restaurant objects
 function processRestaurants(geojson: RestaurantGeoJSON): Restaurant[] {
@@ -32,6 +33,7 @@ interface MapState {
   // Data
   restaurants: Restaurant[];
   routingGraph: RoutingGraphData | null;
+  crosswalks: CrosswalkCoord[];
   isLoading: boolean;
 
   // UI state
@@ -52,6 +54,7 @@ interface MapState {
   // Actions
   setRestaurants: (geojson: RestaurantGeoJSON) => void;
   setRoutingGraph: (graph: RoutingGraphData) => void;
+  setCrosswalks: (coords: CrosswalkCoord[]) => void;
   setLoading: (loading: boolean) => void;
   setActiveTab: (tab: TabType) => void;
   selectRestaurant: (restaurant: Restaurant | null) => void;
@@ -72,6 +75,7 @@ interface MapState {
 export const useMapStore = create<MapState>((set, get) => ({
   restaurants: [],
   routingGraph: null,
+  crosswalks: [],
   isLoading: true,
 
   activeTab: 'restaurants',
@@ -98,6 +102,7 @@ export const useMapStore = create<MapState>((set, get) => ({
 
   setRestaurants: (geojson) => set({ restaurants: processRestaurants(geojson) }),
   setRoutingGraph: (graph) => set({ routingGraph: graph }),
+  setCrosswalks: (coords) => set({ crosswalks: coords }),
   setLoading: (loading) => set({ isLoading: loading }),
   setActiveTab: (tab) => set({ activeTab: tab }),
   selectRestaurant: (restaurant) => set({ selectedRestaurant: restaurant }),

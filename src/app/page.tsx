@@ -19,6 +19,7 @@ const MapView = dynamic(() => import('@/components/MapView'), {
 export default function Home() {
   const setRestaurants = useMapStore((s) => s.setRestaurants);
   const setRoutingGraph = useMapStore((s) => s.setRoutingGraph);
+  const setCrosswalks = useMapStore((s) => s.setCrosswalks);
   const setLoading = useMapStore((s) => s.setLoading);
   const isLoading = useMapStore((s) => s.isLoading);
 
@@ -27,10 +28,11 @@ export default function Home() {
     async function loadData() {
       try {
         console.log('[PAGE-02] Loading data...');
-        const [restaurantsRes, graphRes, cafesRes] = await Promise.all([
+        const [restaurantsRes, graphRes, cafesRes, crosswalksRes] = await Promise.all([
           fetch('/geojson/restaurants.geojson'),
           fetch('/geojson/routing_graph.json'),
           fetch('/geojson/cafes.geojson').catch(() => null),
+          fetch('/geojson/crosswalks.geojson').catch(() => null),
         ]);
 
         const restaurantsData = await restaurantsRes.json();
@@ -48,6 +50,16 @@ export default function Home() {
           }
         }
 
+        // [PAGE-02b] Load crosswalk coordinates for pathfinding
+        if (crosswalksRes && crosswalksRes.ok) {
+          const crosswalksData = await crosswalksRes.json();
+          const coords = crosswalksData.features.map(
+            (f: { geometry: { coordinates: [number, number] } }) => f.geometry.coordinates
+          );
+          setCrosswalks(coords);
+          console.log(`[PAGE-02] Loaded ${coords.length} crosswalk locations`);
+        }
+
         setRestaurants(restaurantsData);
         setRoutingGraph(graphData);
         console.log(`[PAGE-02] Loaded ${restaurantsData.features.length} total places, ${Object.keys(graphData.nodes).length} routing nodes`);
@@ -59,7 +71,7 @@ export default function Home() {
     }
 
     loadData();
-  }, [setRestaurants, setRoutingGraph, setLoading]);
+  }, [setRestaurants, setRoutingGraph, setCrosswalks, setLoading]);
 
   return (
     <main className="flex h-screen overflow-hidden">
