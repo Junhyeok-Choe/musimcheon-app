@@ -17,7 +17,15 @@ export interface RestaurantProperties {
   score_waiting?: number;
   score_distance?: number;
   score_date_ratio?: number;
+  score_visit_target?: number;
+  score_taste?: number;
+  score_service?: number;
+  score_base?: number;
+  score_final?: number;
   date_index?: number;
+  is_fastfood?: boolean;
+  is_franchise?: boolean;
+  exclude_reason?: string | null;
 }
 
 export interface RestaurantFeature {
@@ -37,6 +45,7 @@ export interface RestaurantGeoJSON {
 // [TYPE-02] Processed restaurant for UI use
 export interface Restaurant {
   id: number;
+  placeKind: PlaceKind;
   name: string;
   category: CategoryType;
   categoryDisplay: string;
@@ -55,13 +64,23 @@ export interface Restaurant {
   scoreWaiting: number;
   scoreDistance: number;
   scoreDateRatio: number;
+  scoreVisitTarget: number;
+  scoreTaste: number;
+  scoreService: number;
+  scoreBase: number;
+  scoreFinal: number;
   dateIndex: number;
+  isFastfood: boolean;
+  isFranchise: boolean;
+  excludeReason: string | null;
 }
 
 // [TYPE-03] Category types
 export type CategoryType =
   | 'korean' | 'western' | 'japanese' | 'chinese' | 'asian'
-  | 'meat' | 'chicken' | 'seafood' | 'cafe' | 'pub' | 'fusion' | 'other';
+  | 'meat' | 'chicken' | 'seafood' | 'cafe' | 'pub' | 'fusion' | 'shabu' | 'other';
+
+export type PlaceKind = 'restaurant' | 'cafe';
 
 // [TYPE-04] Routing graph
 export interface RoutingGraphData {
@@ -72,13 +91,13 @@ export interface RoutingGraphData {
     d: number; // distance
     rn?: string; // road name
     rr?: string; // road rank
-    c?: string; // category
+    c?: [number, number][]; // edge polyline coords as [lng, lat][]
   }>;
 }
 
 // [TYPE-05] Route result
 export interface RouteResult {
-  path: [number, number][]; // [[lat, lng], ...]
+  path: [number, number][]; // detailed route polyline as [[lat, lng], ...]
   distance: number; // meters
   time: number; // minutes
 }
@@ -86,7 +105,7 @@ export interface RouteResult {
 // [TYPE-06] Layer key
 export type LayerKey =
   | 'adminDongs' | 'busStops' | 'spatialFacilities' | 'transportFacilities'
-  | 'sidewalkCenterline' | 'sidewalkBoundary' | 'pedOnlyRoad' | 'streetLamps' | 'routingNodes';
+  | 'sidewalkCenterline' | 'sidewalkBoundary' | 'pedOnlyRoad' | 'streetLamps' | 'routingNodes' | 'crosswalks';
 
 // [TYPE-07] Sort mode
 export type SortMode = 'rating' | 'reviews' | 'name' | 'dateIndex';
