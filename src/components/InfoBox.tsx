@@ -67,8 +67,8 @@ export default function InfoBox() {
   const kindLabel = place.placeKind === 'restaurant' ? '식당' : '카페';
 
   return (
-    <div className="absolute inset-x-3 bottom-3 z-30 md:inset-x-4 md:bottom-4">
-      <div className="mx-auto max-w-5xl rounded-[28px] border border-white/70 bg-white/92 p-4 shadow-[0_24px_60px_rgba(15,23,42,0.18)] backdrop-blur-xl md:p-5">
+    <div className="pointer-events-none absolute inset-x-3 bottom-3 z-[1100] md:inset-x-4 md:bottom-4">
+      <div className="pointer-events-auto mx-auto max-w-5xl rounded-[28px] border border-white/70 bg-white/92 p-4 shadow-[0_24px_60px_rgba(15,23,42,0.18)] backdrop-blur-xl md:p-5">
         <div className="flex flex-col gap-5 md:flex-row md:items-start">
           <div className="min-w-0 flex-1">
             <div className="flex items-start gap-3">
