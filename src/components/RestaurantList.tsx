@@ -21,19 +21,19 @@ export default function RestaurantList() {
   const setActiveCategory = useMapStore((s) => s.setActiveCategory);
   const sortMode = useMapStore((s) => s.sortMode);
   const setSortMode = useMapStore((s) => s.setSortMode);
-  const selectRestaurant = useMapStore((s) => s.selectRestaurant);
-  const selectedRestaurant = useMapStore((s) => s.selectedRestaurant);
-  const filteredRestaurants = useMapStore((s) => s.filteredRestaurants);
+  const selectPlace = useMapStore((s) => s.selectPlace);
+  const selectedPlace = useMapStore((s) => s.selectedPlace);
+  const filteredPlaces = useMapStore((s) => s.filteredPlaces);
   const listRef = useRef<HTMLDivElement>(null);
 
-  const list = filteredRestaurants();
+  const list = filteredPlaces();
 
   // [LIST-01] Scroll selected card into view
   useEffect(() => {
-    if (!selectedRestaurant) return;
-    const el = document.getElementById(`card-${selectedRestaurant.id}`);
+    if (!selectedPlace) return;
+    const el = document.getElementById(`card-${selectedPlace.placeKind}-${selectedPlace.id}`);
     if (el) el.scrollIntoView({ behavior: 'auto', block: 'nearest' });
-  }, [selectedRestaurant]);
+  }, [selectedPlace]);
 
   const handleCategoryClick = useCallback(
     (cat: CategoryType) => {
@@ -105,14 +105,14 @@ export default function RestaurantList() {
       <div ref={listRef} className="flex flex-col gap-2">
         {list.map((r) => {
           const color = CATEGORY_COLORS[r.category] || '#6b7280';
-          const isActive = selectedRestaurant?.id === r.id;
+          const isActive = selectedPlace?.placeKind === r.placeKind && selectedPlace.id === r.id;
           const totalReviews = r.reviewsKakao + r.reviewsNaver;
 
           return (
             <div
               key={r.id}
-              id={`card-${r.id}`}
-              onClick={() => selectRestaurant(r)}
+              id={`card-${r.placeKind}-${r.id}`}
+              onClick={() => selectPlace(r)}
               className={`p-3 rounded-lg border cursor-pointer transition-colors ${
                 isActive
                   ? 'border-blue-500 bg-blue-50/50'
