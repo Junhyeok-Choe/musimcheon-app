@@ -37,6 +37,13 @@ export default function MapView() {
   const visiblePlaces = activePlaceKind === 'restaurant' ? restaurants : cafes;
   const originSelectionModeRef = useRef(originSelectionMode);
   const roiGeometryRef = useRef(roiGeometry);
+  const suppressHoverRef = useRef(false);
+
+  const hideTooltip = useCallback(() => {
+    if (tooltipRef.current) {
+      tooltipRef.current.style.display = 'none';
+    }
+  }, []);
 
   useEffect(() => {
     originSelectionModeRef.current = originSelectionMode;
@@ -75,12 +82,27 @@ export default function MapView() {
     document.body.appendChild(tooltipEl);
     tooltipRef.current = tooltipEl;
 
-    map.getContainer().addEventListener('mousemove', (event: MouseEvent) => {
+    const handleMouseMove = (event: MouseEvent) => {
+      if (suppressHoverRef.current) {
+        suppressHoverRef.current = false;
+      }
+
       if (tooltipEl.style.display !== 'none') {
         tooltipEl.style.left = `${event.clientX + 12}px`;
         tooltipEl.style.top = `${event.clientY - 10}px`;
       }
-    });
+    };
+
+    const beginMapInteraction = () => {
+      suppressHoverRef.current = true;
+      hideTooltip();
+    };
+
+    map.getContainer().addEventListener('mousemove', handleMouseMove);
+    map.getContainer().addEventListener('mouseleave', hideTooltip);
+    map.on('zoomstart', beginMapInteraction);
+    map.on('movestart', beginMapInteraction);
+    map.on('dragstart', beginMapInteraction);
 
     map.on('click', (event) => {
       if (originSelectionModeRef.current !== 'map') {
@@ -108,11 +130,16 @@ export default function MapView() {
     mapRef.current = map;
 
     return () => {
+      map.getContainer().removeEventListener('mousemove', handleMouseMove);
+      map.getContainer().removeEventListener('mouseleave', hideTooltip);
+      map.off('zoomstart', beginMapInteraction);
+      map.off('movestart', beginMapInteraction);
+      map.off('dragstart', beginMapInteraction);
       tooltipEl.remove();
       map.remove();
       mapRef.current = null;
     };
-  }, [setOrigin, setOriginSelectionMode, setPlannerError]);
+  }, [hideTooltip, setOrigin, setOriginSelectionMode, setPlannerError]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -138,6 +165,9 @@ export default function MapView() {
 
       marker.on('click', () => selectPlace(place));
       marker.on('mouseover', () => {
+        if (suppressHoverRef.current) {
+          return;
+        }
         marker.setRadius(baseRadius + 4);
         if (tooltipRef.current) {
           tooltipRef.current.innerHTML = `
@@ -150,14 +180,12 @@ export default function MapView() {
       });
       marker.on('mouseout', () => {
         marker.setRadius(baseRadius);
-        if (tooltipRef.current) {
-          tooltipRef.current.style.display = 'none';
-        }
+        hideTooltip();
       });
 
       markersRef.current.push(marker);
     });
-  }, [selectPlace, visiblePlaces]);
+  }, [hideTooltip, selectPlace, visiblePlaces]);
 
   useEffect(() => {
     if (!mapRef.current || !selectedPlace) {
