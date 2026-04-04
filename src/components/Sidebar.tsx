@@ -3,12 +3,12 @@
 import { useMapStore } from '@/store/mapStore';
 import { TabType } from '@/types';
 import LayersTab from './LayersTab';
-import NavigationTab from './NavigationTab';
+import PlannerPanel from './PlannerPanel';
 import RestaurantList from './RestaurantList';
 
 const TABS: { key: TabType; label: string }[] = [
   { key: 'restaurants', label: '장소' },
-  { key: 'navigation', label: '플래너' },
+  { key: 'planner', label: '플래너' },
   { key: 'layers', label: '레이어' },
 ];
 
@@ -85,7 +85,7 @@ export default function Sidebar() {
 
       <div className="min-h-0 flex-1 overflow-y-auto">
         {activeTab === 'restaurants' && <RestaurantList />}
-        {activeTab === 'navigation' && <NavigationTab />}
+        {activeTab === 'planner' && <PlannerPanel />}
         {activeTab === 'layers' && <LayersTab />}
       </div>
     </aside>

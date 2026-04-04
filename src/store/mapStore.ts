@@ -121,7 +121,7 @@ export const useMapStore = create<MapState>((set, get) => ({
   roiGeometry: null,
   isLoading: true,
 
-  activeTab: 'restaurants',
+  activeTab: 'planner',
   activePlaceKind: 'restaurant',
   selectedPlace: null,
   searchQuery: '',
