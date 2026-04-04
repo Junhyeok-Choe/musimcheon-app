@@ -103,44 +103,26 @@ export default function Home() {
   ]);
 
   return (
-    <main className="h-[100dvh] overflow-hidden bg-[linear-gradient(180deg,#f8fafc_0%,#eef2ff_100%)] p-0 md:min-h-screen md:p-4">
-      <div className="relative flex h-full min-h-0 flex-col overflow-hidden bg-white md:h-[calc(100vh-2rem)] md:flex-row md:rounded-[32px] md:border md:border-white/60 md:shadow-[0_24px_80px_rgba(15,23,42,0.14)]">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(59,130,246,0.08),transparent_26%),radial-gradient(circle_at_bottom_right,rgba(249,115,22,0.08),transparent_22%)]" />
+    <main className="h-[100dvh] overflow-hidden bg-slate-50 p-0 md:min-h-screen md:p-4">
+      <div className="relative flex h-full min-h-0 flex-col overflow-hidden bg-white md:h-[calc(100vh-2rem)] md:flex-row md:rounded-[32px] md:border md:border-slate-200/60 md:shadow-[0_20px_60px_rgba(15,23,42,0.10)]">
 
         <Sidebar />
 
         <div className="relative isolate min-h-[42vh] flex-1 overflow-hidden bg-slate-100 md:min-h-0">
           {isLoading ? (
-            <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(135deg,#eff6ff_0%,#f8fafc_42%,#e2e8f0_100%)]">
-              <div className="max-w-sm rounded-[28px] border border-white/70 bg-white/84 px-8 py-7 text-center shadow-[0_20px_50px_rgba(15,23,42,0.08)] backdrop-blur">
-                <div className="mb-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-blue-600">
-                  Musimcheon
-                </div>
-                <div className="text-[22px] font-bold text-slate-900">플래너와 보행 그래프를 불러오는 중</div>
-                <div className="mt-2 text-[13px] leading-6 text-slate-500">
-                  식당, 카페, 서비스 권역, 횡단보도 레이어를 정리하고 있습니다.
-                </div>
-              </div>
+            <div className="flex h-full w-full items-center justify-center bg-slate-50">
+              <div className="text-[15px] font-medium text-slate-400">불러오는 중...</div>
             </div>
           ) : loadError ? (
-            <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(135deg,#fff1f2_0%,#f8fafc_45%,#eff6ff_100%)] p-6">
-              <div className="max-w-md rounded-[28px] border border-rose-100 bg-white px-7 py-6 shadow-[0_20px_50px_rgba(15,23,42,0.08)]">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-rose-500">
-                  Load Error
-                </div>
-                <div className="mt-2 text-[22px] font-bold text-slate-900">초기 데이터 로딩에 실패했습니다</div>
-                <div className="mt-3 text-[14px] leading-6 text-slate-600">{loadError}</div>
+            <div className="flex h-full w-full items-center justify-center bg-slate-50 p-6">
+              <div className="max-w-md rounded-[20px] border border-rose-100 bg-white px-6 py-5">
+                <div className="text-[18px] font-semibold text-slate-900">데이터 로딩 실패</div>
+                <div className="mt-2 text-[14px] text-slate-600">{loadError}</div>
               </div>
             </div>
           ) : (
             <>
               <MapView />
-              <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.34),transparent_24%),linear-gradient(180deg,rgba(15,23,42,0.02),transparent_22%,rgba(15,23,42,0.14))]" />
-              <div className="pointer-events-none absolute left-4 top-4 z-[900] hidden md:block">
-                <div className="rounded-full border border-white/60 bg-white/84 px-4 py-2 text-[12px] font-semibold text-slate-700 shadow-[0_12px_28px_rgba(15,23,42,0.10)] backdrop-blur">
-                  현재 위치 기준 optional plan · ROI 검증 · 안전 보행 라우팅
-                </div>
-              </div>
               <InfoBox />
             </>
           )}

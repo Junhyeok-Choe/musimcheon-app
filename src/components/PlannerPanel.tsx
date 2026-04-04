@@ -163,18 +163,10 @@ export default function PlannerPanel() {
 
   return (
     <div className="flex flex-col gap-4 p-4 md:p-5">
-      <section className="rounded-[22px] border border-slate-200/80 bg-white p-4 shadow-[0_10px_28px_rgba(15,23,42,0.04)]">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-blue-600">
-          Planner
-        </div>
-        <div className="mt-1 text-[20px] font-semibold text-slate-900">
-          현재 위치 기준 optional plan
-        </div>
-        <div className="mt-2 text-[13px] leading-6 text-slate-500">
-          출발점은 현재 위치나 지도 위 임의 지점으로 받고, 영업시간과 보행 경로가 맞는 옵션만 최대 3개까지 제안합니다.
-        </div>
+      <section className="rounded-[22px] border border-slate-200/80 bg-white p-4">
+        <div className="text-[18px] font-semibold text-slate-900">플랜 추천</div>
 
-        <div className="mt-4 grid gap-2 sm:grid-cols-3">
+        <div className="mt-3 grid gap-2 sm:grid-cols-3">
           <button
             onClick={handleLocateMe}
             className="rounded-[18px] bg-slate-900 px-4 py-3 text-[13px] font-semibold text-white transition hover:bg-slate-800"
@@ -205,13 +197,10 @@ export default function PlannerPanel() {
           </button>
         </div>
 
-        <div className="mt-4 rounded-[18px] border border-slate-200 bg-slate-50 px-4 py-3">
-          <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">
-            Origin
-          </div>
+        <div className="mt-3 rounded-[18px] border border-slate-200 bg-slate-50 px-4 py-3">
           {origin ? (
             <>
-              <div className="mt-2 flex items-center gap-2">
+              <div className="flex items-center gap-2">
                 <span className="rounded-full bg-white px-2.5 py-1 text-[11px] font-semibold text-slate-700 shadow-sm">
                   {originSourceLabel(origin.source)}
                 </span>
@@ -221,7 +210,7 @@ export default function PlannerPanel() {
               </div>
             </>
           ) : (
-            <div className="mt-2 text-[13px] text-slate-500">출발점이 아직 없습니다.</div>
+            <div className="text-[13px] text-slate-400">출발점을 선택해 주세요.</div>
           )}
         </div>
 
@@ -252,15 +241,10 @@ export default function PlannerPanel() {
       )}
 
       {planOptions.length > 0 && (
-        <section className="rounded-[22px] border border-slate-200/80 bg-white p-4 shadow-[0_10px_28px_rgba(15,23,42,0.04)]">
-          <div className="flex items-end justify-between gap-3">
-            <div>
-              <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">
-                Plan Options
-              </div>
-              <div className="mt-1 text-[18px] font-semibold text-slate-900">실현 가능한 추천안</div>
-            </div>
-            <div className="text-[12px] text-slate-400">최대 3개</div>
+        <section className="rounded-[22px] border border-slate-200/80 bg-white p-4">
+          <div className="flex items-center justify-between gap-3">
+            <div className="text-[16px] font-semibold text-slate-900">추천 코스</div>
+            <div className="text-[12px] text-slate-400">{planOptions.length}개</div>
           </div>
 
           <div className="mt-4 flex flex-col gap-3">
