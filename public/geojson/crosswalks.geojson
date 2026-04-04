@@ -1,1 +1,1977 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4797672, 36.6458023]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4777332, 36.6470189]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4795132, 36.6497478]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4824048, 36.6451225]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4839393, 36.6474929]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.481372, 36.6465531]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4852126, 36.6457935]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4878901, 36.6492301]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4896774, 36.6476191]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4624989, 36.6403111]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4645523, 36.6446551]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4600709, 36.643295]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4698879, 36.641774]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4673398, 36.6430114]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4694679, 36.6448564]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4748053, 36.6438776]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4737493, 36.64154]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.470313, 36.6448152]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4751689, 36.6401196]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4775807, 36.6444804]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4782009, 36.6415707]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4850309, 36.6427875]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4893822, 36.6431715]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4880706, 36.6426189]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4607002, 36.639424]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.460137, 36.6361811]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4635328, 36.637088]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4903162, 36.6398576]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4925053, 36.635196]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4949599, 36.6350135]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.490123, 36.6344549]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4928497, 36.6311519]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4946384, 36.632163]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.495101, 36.630953]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4979779, 36.6320637]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4957462, 36.6348894]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4798321, 36.6296012]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4779893, 36.629801]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4755901, 36.6250232]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4843757, 36.6280985]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.482701, 36.6288507]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4800191, 36.6250562]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4992587, 36.629378]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4993, 36.6272258]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4953952, 36.6253668]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4614968, 36.6249157]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4617105, 36.6226622]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.463696, 36.6201777]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4964838, 36.6200997]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4959537, 36.6203165]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4998477, 36.6229513]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4798345, 36.6177255]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4770455, 36.6159674]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784385, 36.6190613]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5000473, 36.6225347]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.50011, 36.6248525]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5040226, 36.6231045]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4771095, 36.6471341]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4764918, 36.647916]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.475052, 36.6492907]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4751934, 36.6491193]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4752288, 36.6493663]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4760968, 36.6478371]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4765055, 36.6481134]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4788115, 36.6451047]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4783306, 36.6453057]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4785661, 36.6451028]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4763013, 36.6480891]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4762939, 36.6478105]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786317, 36.6493993]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786623, 36.6454322]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4769753, 36.6469875]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4760863, 36.6480589]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4829327, 36.6474673]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4831963, 36.647087]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4825773, 36.6473514]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.483242, 36.6473012]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4844899, 36.6489534]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4847559, 36.648813]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.484107, 36.645293]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4838164, 36.6451172]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4829195, 36.647004]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4807589, 36.6464626]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4804719, 36.6462858]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4822993, 36.6471289]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4805816, 36.6464341]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4822856, 36.6467309]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4807719, 36.6460688]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4820688, 36.6471087]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4824872, 36.6468215]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4815712, 36.6479075]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4817449, 36.6479479]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4835468, 36.6450049]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4801288, 36.649969]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4813396, 36.6482266]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4809684, 36.6461306]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4842857, 36.6451273]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4857854, 36.6498548]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4860596, 36.6499285]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4880576, 36.6473493]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4890489, 36.6489606]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.487951, 36.6477963]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4892453, 36.6490224]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4890298, 36.6491808]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4883609, 36.6450551]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4889478, 36.6499857]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4892263, 36.6492304]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4870736, 36.6487123]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4892534, 36.6467042]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4891522, 36.6477071]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4893598, 36.647916]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4894696, 36.6467029]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4894995, 36.6463971]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4891488, 36.6478822]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4892729, 36.6463972]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4894197, 36.6450449]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.48696, 36.6485794]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4877376, 36.6476935]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4893759, 36.6477457]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4866929, 36.6451268]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4880742, 36.6451054]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4882533, 36.6474318]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4894867, 36.6465492]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4602024, 36.6400979]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4613549, 36.6412605]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4610588, 36.6413219]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4621983, 36.642949]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4627525, 36.6431991]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4622707, 36.6431985]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4624349, 36.643288]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4624939, 36.6428881]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.46904, 36.6417269]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4691822, 36.6429375]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4688606, 36.642699]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4687882, 36.6429523]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4690693, 36.6426362]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4692768, 36.6426954]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4654097, 36.6430772]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4652916, 36.6428432]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4671596, 36.6427722]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4688674, 36.6417845]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4722323, 36.6428508]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4721188, 36.6425932]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4722567, 36.6424658]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4725838, 36.6425864]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4724982, 36.6428241]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4724186, 36.6424042]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4751937, 36.643838]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.475239, 36.6434612]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4792256, 36.640309]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4790807, 36.6410603]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.479015, 36.6402477]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4792843, 36.6410222]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4754006, 36.6438657]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4755034, 36.6436052]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.479149, 36.6419487]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4793637, 36.6420214]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4792117, 36.6439018]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4792247, 36.6437101]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4795004, 36.6436953]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4795202, 36.6439283]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4603843, 36.6350451]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4646071, 36.6350742]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4602375, 36.6351258]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4601723, 36.6395705]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.460462, 36.6399541]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4604239, 36.6398015]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4645932, 36.6353014]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4920715, 36.6375621]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4901691, 36.6372267]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4920781, 36.637346]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4902562, 36.6392203]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4901736, 36.6390534]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.49038, 36.6373012]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4901877, 36.6370526]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4903956, 36.6371077]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4905901, 36.6354929]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4903905, 36.6355195]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4901464, 36.6393783]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4921774, 36.6393154]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4923134, 36.6375943]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.493876, 36.6371527]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4924127, 36.6372921]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4935958, 36.6370386]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4938452, 36.6370041]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4919442, 36.6392027]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4919723, 36.6393784]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4924446, 36.6374859]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4908239, 36.6344966]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4929399, 36.6324191]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4912008, 36.6305835]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4909973, 36.6305887]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4908241, 36.6320167]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4927643, 36.632179]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4942996, 36.6324962]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4948207, 36.6326264]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4942401, 36.6326381]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4926488, 36.6324245]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4910584, 36.6320883]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.491042, 36.6322672]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4907788, 36.6323466]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4906587, 36.6321438]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4925635, 36.6348845]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4925231, 36.633508]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4927759, 36.6336165]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.492509, 36.6336592]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4905488, 36.6342425]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4906921, 36.6346677]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4904542, 36.6345555]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4904961, 36.6343889]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4923188, 36.6348888]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4923625, 36.6346991]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4926241, 36.6346578]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4960811, 36.6313775]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4962603, 36.6312724]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4964269, 36.6323179]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4964347, 36.6321119]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4966555, 36.6320588]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.496683, 36.6322303]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4767342, 36.6286141]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4767195, 36.6287558]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4756501, 36.6267292]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4757612, 36.626607]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786344, 36.6280558]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784493, 36.6282132]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786642, 36.6282611]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786614, 36.628764]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784029, 36.6287879]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786531, 36.6289955]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784607, 36.6266648]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786519, 36.6266472]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4795553, 36.626618]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4793413, 36.6266746]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4951234, 36.6275957]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4965249, 36.6285899]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4966974, 36.6285159]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4966719, 36.6286755]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4955216, 36.6263633]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4957533, 36.6250537]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.495612, 36.6265162]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4997617, 36.6274967]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4999624, 36.6274644]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4961517, 36.6250658]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4641896, 36.6243751]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4642484, 36.6246144]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4638132, 36.6249668]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4634036, 36.6248999]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4632345, 36.6246502]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4634586, 36.6243661]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4642855, 36.6248125]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4639965, 36.6242567]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4607218, 36.6218159]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4608889, 36.6219738]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4608568, 36.6215519]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4637524, 36.6242115]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4636286, 36.6249121]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4958295, 36.6215812]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4956604, 36.6218179]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.49557, 36.6220877]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4954409, 36.6222373]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.495091, 36.6221903]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4955197, 36.6215243]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.495875, 36.624761]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4961455, 36.6247945]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4953228, 36.6215099]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4798743, 36.6185814]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784092, 36.618236]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4754437, 36.6178695]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4768642, 36.6177165]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4771574, 36.6178383]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4769975, 36.6179252]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.478649, 36.6183829]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4785478, 36.6185521]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.475264, 36.6179547]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4797263, 36.6184269]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4754249, 36.6177308]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.478373, 36.6185026]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5019749, 36.6248051]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5017653, 36.624825]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5020336, 36.6249817]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5017353, 36.624967]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5039179, 36.6248432]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5040376, 36.6247358]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5041157, 36.6249288]}, "properties": {"type": "crosswalk"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4703189, 36.6426463]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4788113, 36.6203178]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4962398, 36.6190425]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4898, 36.6420455]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4802699, 36.6290841]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4814237, 36.6292788]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4889738, 36.6246476]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4942716, 36.6214419]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4813981, 36.6266362]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4936095, 36.6213529]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4882062, 36.6449427]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4897205, 36.6410419]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5012215, 36.6349958]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5003595, 36.624803]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4880356, 36.6225571]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4898678, 36.641225]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.488476, 36.6428079]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5019376, 36.633427]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4897925, 36.6432957]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4885724, 36.6410931]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5013944, 36.6347824]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4793967, 36.621741]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4944441, 36.6235466]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4734659, 36.6423167]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4965256, 36.6206164]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4722895, 36.6400677]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4806367, 36.6265657]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4753749, 36.6199644]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4871635, 36.6404122]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4873599, 36.619377]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4723434, 36.6415899]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4836941, 36.629684]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.468864, 36.6422917]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784974, 36.6274349]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4773121, 36.6288652]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.489541, 36.643405]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4924955, 36.6212434]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.473994, 36.6447944]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4686108, 36.6205606]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4773418, 36.626659]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4670513, 36.6430412]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4722429, 36.6414405]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.489605, 36.6447456]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4765893, 36.6266681]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4881438, 36.6226929]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4777117, 36.62947]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4747866, 36.6432813]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4810624, 36.6296832]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4893284, 36.6409224]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.494664, 36.6228272]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4871549, 36.6192961]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4882562, 36.6441631]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4765031, 36.6200175]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4709648, 36.6207371]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4871596, 36.6409166]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4855764, 36.6424251]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4875521, 36.6440628]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4861469, 36.6409336]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4899008, 36.6408865]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4869911, 36.6425094]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4775546, 36.6294018]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4895777, 36.6241832]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.474782, 36.6446955]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4861883, 36.6402797]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4766153, 36.6279468]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4825923, 36.6270502]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4885089, 36.6249259]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4920366, 36.6224385]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4849415, 36.6223068]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.48941, 36.6400726]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.483309, 36.6278729]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.479448, 36.6255699]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.470771, 36.6206705]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4927642, 36.6249438]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4893725, 36.6448419]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5003807, 36.6315356]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5007295, 36.6282652]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4913422, 36.6249109]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4884836, 36.6422151]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4757151, 36.6253307]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4862877, 36.6401433]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4923755, 36.6216768]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4862386, 36.6408201]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4759325, 36.6252983]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4881487, 36.6445391]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4970518, 36.6195114]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4815874, 36.6295113]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5005228, 36.6282549]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4957068, 36.6201594]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5011941, 36.6312146]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4838135, 36.6294934]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4711807, 36.6197369]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4935839, 36.6248366]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.470084, 36.6429323]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.500969, 36.632945]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4764214, 36.6253076]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4912515, 36.6231664]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.499271, 36.6248992]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4735358, 36.6427133]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5009681, 36.6287482]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4688462, 36.6412027]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4977895, 36.6247758]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4896431, 36.6437389]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4804102, 36.628674]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4769414, 36.6300059]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.501433, 36.6345923]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5010412, 36.6312797]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.499226, 36.6247655]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4734261, 36.6421755]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4818271, 36.629226]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4900011, 36.62403]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4877555, 36.621449]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4706415, 36.6210809]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5015595, 36.6344052]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4988307, 36.6239685]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4983594, 36.6248453]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5004414, 36.6249237]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4687657, 36.6195698]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4743608, 36.6449622]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.479453, 36.6291062]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786557, 36.6235248]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4973035, 36.6207986]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4967162, 36.6197915]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4938668, 36.6247444]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4949976, 36.6229086]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4793719, 36.6219552]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4749607, 36.6433678]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4856242, 36.6421435]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4707944, 36.6211641]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5008907, 36.6285299]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4779289, 36.6299421]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4819077, 36.6283488]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4858405, 36.6418718]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4756529, 36.6259627]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4794281, 36.6258383]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4925006, 36.6197113]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4829429, 36.6274481]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4883426, 36.6425845]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4923002, 36.6213242]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4870074, 36.6194238]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4778402, 36.6266457]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4774631, 36.6290039]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4898741, 36.6424904]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4868903, 36.6440254]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4763461, 36.6287219]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.484861, 36.6289696]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4778839, 36.6296603]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.494215, 36.6235195]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4721423, 36.640699]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4956313, 36.6203097]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4786548, 36.6233421]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4879412, 36.6410034]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4712357, 36.6198682]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.469682, 36.6208186]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4716885, 36.6214273]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4757222, 36.6278351]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4811905, 36.6286539]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4813593, 36.6294855]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4972853, 36.619499]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4961981, 36.6192199]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4896583, 36.6421925]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4756771, 36.6262347]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4824641, 36.6286131]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.475637, 36.6286356]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4804179, 36.6284142]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4734108, 36.6444685]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4732782, 36.6419961]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4879673, 36.6215273]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4792437, 36.6214021]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4886608, 36.6246017]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4897483, 36.6438531]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5008927, 36.6247768]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4870045, 36.6246458]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4876255, 36.6215901]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4889732, 36.643866]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4875241, 36.620621]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4736157, 36.6425753]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4895945, 36.6428574]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.476502, 36.626123]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4882055, 36.6237138]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4862937, 36.6404084]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4959513, 36.6239169]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5018933, 36.6190726]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4766117, 36.6274098]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4835747, 36.6291676]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5014609, 36.631682]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4898527, 36.6400837]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4871838, 36.6401874]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4724332, 36.6430838]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4785286, 36.6197511]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4820448, 36.6285273]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784075, 36.6236185]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.5006719, 36.6358737]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4883876, 36.6437794]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4723779, 36.6409577]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.493533, 36.6246077]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4789809, 36.6290467]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4792375, 36.6241011]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4868449, 36.6449618]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4784958, 36.6192028]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4889282, 36.6448063]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4723927, 36.6206249]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.482262, 36.6286081]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4893283, 36.6405721]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.501603, 36.6318926]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4899858, 36.6411186]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.486595, 36.6409192]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4792342, 36.6257274]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4769643, 36.6266342]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4975997, 36.6190643]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4838428, 36.6275]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4868954, 36.6409354]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4798294, 36.6291486]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4884151, 36.6244218]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4873128, 36.6205157]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4730026, 36.6201367]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4761288, 36.6266232]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4894902, 36.6438418]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4923018, 36.6197938]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.486633, 36.6449935]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4745831, 36.644602]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.4941681, 36.6242021]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [127.49402, 36.6244065]}, "properties": {"type": "crosswalk", "source": "safemap_wms"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4880706,
+          36.6426189
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0023",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.67,
+        "nearest_edge_id": "2700044710_2700044506",
+        "nearest_from_node_id": "2700044710",
+        "nearest_to_node_id": "2700044506",
+        "dedupe_cluster_id": 23,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4925053,
+          36.635196
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0028",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 7.86,
+        "nearest_edge_id": "2700041301_2700042002",
+        "nearest_from_node_id": "2700041301",
+        "nearest_to_node_id": "2700042002",
+        "dedupe_cluster_id": 28,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.490123,
+          36.6344549
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0030",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 6.48,
+        "nearest_edge_id": "2700003304_2700286600",
+        "nearest_from_node_id": "2700003304",
+        "nearest_to_node_id": "2700286600",
+        "dedupe_cluster_id": 30,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4928497,
+          36.6311519
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0031",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.42,
+        "nearest_edge_id": "2700185000_2700037504",
+        "nearest_from_node_id": "2700185000",
+        "nearest_to_node_id": "2700037504",
+        "dedupe_cluster_id": 31,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4779893,
+          36.629801
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0037",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.5,
+        "nearest_edge_id": "2830172700_2830045002",
+        "nearest_from_node_id": "2830172700",
+        "nearest_to_node_id": "2830045002",
+        "dedupe_cluster_id": 37,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4835468,
+          36.6450049
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0092",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.81,
+        "nearest_edge_id": "2700045204_2700044901",
+        "nearest_from_node_id": "2700045204",
+        "nearest_to_node_id": "2700044901",
+        "dedupe_cluster_id": 92,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4883609,
+          36.6450551
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0104",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 1.35,
+        "nearest_edge_id": "2700005005_2700045001",
+        "nearest_from_node_id": "2700005005",
+        "nearest_to_node_id": "2700045001",
+        "dedupe_cluster_id": 104,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4894995,
+          36.6463971
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0112",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.07,
+        "nearest_edge_id": "2840066102_2700535700",
+        "nearest_from_node_id": "2840066102",
+        "nearest_to_node_id": "2700535700",
+        "dedupe_cluster_id": 112,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4792256,
+          36.640309
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0149",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.23,
+        "nearest_edge_id": "2830045901_2830137600",
+        "nearest_from_node_id": "2830045901",
+        "nearest_to_node_id": "2830137600",
+        "dedupe_cluster_id": 149,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4790807,
+          36.6410603
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0150",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.97,
+        "nearest_edge_id": "2830137700_2830045904",
+        "nearest_from_node_id": "2830137700",
+        "nearest_to_node_id": "2830045904",
+        "dedupe_cluster_id": 150,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.479015,
+          36.6402477
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0151",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.18,
+        "nearest_edge_id": "2830137700_2830045904",
+        "nearest_from_node_id": "2830137700",
+        "nearest_to_node_id": "2830045904",
+        "dedupe_cluster_id": 151,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4792843,
+          36.6410222
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0152",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.5,
+        "nearest_edge_id": "2830045901_2830137600",
+        "nearest_from_node_id": "2830045901",
+        "nearest_to_node_id": "2830137600",
+        "dedupe_cluster_id": 152,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.479149,
+          36.6419487
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0155",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.07,
+        "nearest_edge_id": "2830162000_2830137700",
+        "nearest_from_node_id": "2830162000",
+        "nearest_to_node_id": "2830137700",
+        "dedupe_cluster_id": 155,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4793637,
+          36.6420214
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0156",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.62,
+        "nearest_edge_id": "2830137600_2830161900",
+        "nearest_from_node_id": "2830137600",
+        "nearest_to_node_id": "2830161900",
+        "dedupe_cluster_id": 156,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4792247,
+          36.6437101
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0158",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 1.82,
+        "nearest_edge_id": "2830174600_2830046103",
+        "nearest_from_node_id": "2830174600",
+        "nearest_to_node_id": "2830046103",
+        "dedupe_cluster_id": 158,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4795004,
+          36.6436953
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0159",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.96,
+        "nearest_edge_id": "2830219800_2830046102",
+        "nearest_from_node_id": "2830219800",
+        "nearest_to_node_id": "2830046102",
+        "dedupe_cluster_id": 159,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4795202,
+          36.6439283
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0160",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 1.13,
+        "nearest_edge_id": "2830150800_2830046101",
+        "nearest_from_node_id": "2830150800",
+        "nearest_to_node_id": "2830046101",
+        "dedupe_cluster_id": 160,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4920715,
+          36.6375621
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0168",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.9,
+        "nearest_edge_id": "2700043403_2700042504",
+        "nearest_from_node_id": "2700043403",
+        "nearest_to_node_id": "2700042504",
+        "dedupe_cluster_id": 168,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4901691,
+          36.6372267
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0169",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 1.07,
+        "nearest_edge_id": "2700004104_2700268800",
+        "nearest_from_node_id": "2700004104",
+        "nearest_to_node_id": "2700268800",
+        "dedupe_cluster_id": 169,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4920781,
+          36.637346
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0170",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.69,
+        "nearest_edge_id": "2700042503_2700042004",
+        "nearest_from_node_id": "2700042503",
+        "nearest_to_node_id": "2700042004",
+        "dedupe_cluster_id": 170,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4902562,
+          36.6392203
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0171",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 5.64,
+        "nearest_edge_id": "2700043304_2700004501",
+        "nearest_from_node_id": "2700043304",
+        "nearest_to_node_id": "2700004501",
+        "dedupe_cluster_id": 171,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4901736,
+          36.6390534
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0172",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.88,
+        "nearest_edge_id": "2700004101_2700004502",
+        "nearest_from_node_id": "2700004101",
+        "nearest_to_node_id": "2700004502",
+        "dedupe_cluster_id": 172,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.49038,
+          36.6373012
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0173",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.3,
+        "nearest_edge_id": "2700042302_2700004101",
+        "nearest_from_node_id": "2700042302",
+        "nearest_to_node_id": "2700004101",
+        "dedupe_cluster_id": 173,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4901877,
+          36.6370526
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0174",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.59,
+        "nearest_edge_id": "2700004103_2700190600",
+        "nearest_from_node_id": "2700004103",
+        "nearest_to_node_id": "2700190600",
+        "dedupe_cluster_id": 174,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4903956,
+          36.6371077
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0175",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.54,
+        "nearest_edge_id": "2700190700_2700004102",
+        "nearest_from_node_id": "2700190700",
+        "nearest_to_node_id": "2700004102",
+        "dedupe_cluster_id": 175,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4905901,
+          36.6354929
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0176",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.49,
+        "nearest_edge_id": "2700288400_2700190700",
+        "nearest_from_node_id": "2700288400",
+        "nearest_to_node_id": "2700190700",
+        "dedupe_cluster_id": 176,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4903905,
+          36.6355195
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0177",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.93,
+        "nearest_edge_id": "2700190600_2700288300",
+        "nearest_from_node_id": "2700190600",
+        "nearest_to_node_id": "2700288300",
+        "dedupe_cluster_id": 177,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4901464,
+          36.6393783
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0178",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.4,
+        "nearest_edge_id": "2700004501_2700250500",
+        "nearest_from_node_id": "2700004501",
+        "nearest_to_node_id": "2700250500",
+        "dedupe_cluster_id": 178,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4921774,
+          36.6393154
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0179",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.5,
+        "nearest_edge_id": "2700043402_2700043401",
+        "nearest_from_node_id": "2700043402",
+        "nearest_to_node_id": "2700043401",
+        "dedupe_cluster_id": 179,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4923134,
+          36.6375943
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0180",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 7.91,
+        "nearest_edge_id": "2700042501_2700266300",
+        "nearest_from_node_id": "2700042501",
+        "nearest_to_node_id": "2700266300",
+        "dedupe_cluster_id": 180,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.493876,
+          36.6371527
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0181",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.98,
+        "nearest_edge_id": "2700333100_2700235800",
+        "nearest_from_node_id": "2700333100",
+        "nearest_to_node_id": "2700235800",
+        "dedupe_cluster_id": 181,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4935958,
+          36.6370386
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0183",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.72,
+        "nearest_edge_id": "2700042502_2700556000",
+        "nearest_from_node_id": "2700042502",
+        "nearest_to_node_id": "2700556000",
+        "dedupe_cluster_id": 183,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4938452,
+          36.6370041
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0184",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.83,
+        "nearest_edge_id": "2700042502_2700556000",
+        "nearest_from_node_id": "2700042502",
+        "nearest_to_node_id": "2700556000",
+        "dedupe_cluster_id": 184,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4919442,
+          36.6392027
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0185",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 5.43,
+        "nearest_edge_id": "2700043302_2700043403",
+        "nearest_from_node_id": "2700043302",
+        "nearest_to_node_id": "2700043403",
+        "dedupe_cluster_id": 185,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4919723,
+          36.6393784
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0186",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.77,
+        "nearest_edge_id": "2700043404_2700043301",
+        "nearest_from_node_id": "2700043404",
+        "nearest_to_node_id": "2700043301",
+        "dedupe_cluster_id": 186,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4924446,
+          36.6374859
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0187",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.75,
+        "nearest_edge_id": "2700235800_2700042501",
+        "nearest_from_node_id": "2700235800",
+        "nearest_to_node_id": "2700042501",
+        "dedupe_cluster_id": 187,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4908239,
+          36.6344966
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0188",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.81,
+        "nearest_edge_id": "2700003302_2700277300",
+        "nearest_from_node_id": "2700003302",
+        "nearest_to_node_id": "2700277300",
+        "dedupe_cluster_id": 188,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4912008,
+          36.6305835
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0190",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.93,
+        "nearest_edge_id": "2700001701_2700324700",
+        "nearest_from_node_id": "2700001701",
+        "nearest_to_node_id": "2700324700",
+        "dedupe_cluster_id": 190,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4909973,
+          36.6305887
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0191",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 5.14,
+        "nearest_edge_id": "2700237800_2700301400",
+        "nearest_from_node_id": "2700237800",
+        "nearest_to_node_id": "2700301400",
+        "dedupe_cluster_id": 191,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4908241,
+          36.6320167
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0192",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 6.49,
+        "nearest_edge_id": "2700002003_2700225700",
+        "nearest_from_node_id": "2700002003",
+        "nearest_to_node_id": "2700225700",
+        "dedupe_cluster_id": 192,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4927643,
+          36.632179
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0193",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 5.09,
+        "nearest_edge_id": "2700002103_2700002102",
+        "nearest_from_node_id": "2700002103",
+        "nearest_to_node_id": "2700002102",
+        "dedupe_cluster_id": 193,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4942996,
+          36.6324962
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0194",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.1,
+        "nearest_edge_id": "2700320700_2700257200",
+        "nearest_from_node_id": "2700320700",
+        "nearest_to_node_id": "2700257200",
+        "dedupe_cluster_id": 194,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4926488,
+          36.6324245
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0197",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.47,
+        "nearest_edge_id": "2700040603_2700002104",
+        "nearest_from_node_id": "2700040603",
+        "nearest_to_node_id": "2700002104",
+        "dedupe_cluster_id": 197,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4910584,
+          36.6320883
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0198",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.07,
+        "nearest_edge_id": "2700225800_2700002002",
+        "nearest_from_node_id": "2700225800",
+        "nearest_to_node_id": "2700002002",
+        "dedupe_cluster_id": 198,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.491042,
+          36.6322672
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0199",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.5,
+        "nearest_edge_id": "2700002001_2700360100",
+        "nearest_from_node_id": "2700002001",
+        "nearest_to_node_id": "2700360100",
+        "dedupe_cluster_id": 199,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4907788,
+          36.6323466
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0200",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 7.0,
+        "nearest_edge_id": "2700342300_2700002004",
+        "nearest_from_node_id": "2700342300",
+        "nearest_to_node_id": "2700002004",
+        "dedupe_cluster_id": 200,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4906587,
+          36.6321438
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0201",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 5.75,
+        "nearest_edge_id": "2700340800_2700002003",
+        "nearest_from_node_id": "2700340800",
+        "nearest_to_node_id": "2700002003",
+        "dedupe_cluster_id": 201,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4925231,
+          36.633508
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0203",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.01,
+        "nearest_edge_id": "2700040603_2700002104",
+        "nearest_from_node_id": "2700040603",
+        "nearest_to_node_id": "2700002104",
+        "dedupe_cluster_id": 203,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4905488,
+          36.6342425
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0206",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 5.99,
+        "nearest_edge_id": "2700003303_2700342300",
+        "nearest_from_node_id": "2700003303",
+        "nearest_to_node_id": "2700342300",
+        "dedupe_cluster_id": 206,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4906921,
+          36.6346677
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0207",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.33,
+        "nearest_edge_id": "2700003301_2700288400",
+        "nearest_from_node_id": "2700003301",
+        "nearest_to_node_id": "2700288400",
+        "dedupe_cluster_id": 207,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4904542,
+          36.6345555
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0208",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.65,
+        "nearest_edge_id": "2700003304_2700286600",
+        "nearest_from_node_id": "2700003304",
+        "nearest_to_node_id": "2700286600",
+        "dedupe_cluster_id": 208,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4904961,
+          36.6343889
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0209",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.98,
+        "nearest_edge_id": "2700286500_2700003303",
+        "nearest_from_node_id": "2700286500",
+        "nearest_to_node_id": "2700003303",
+        "dedupe_cluster_id": 209,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4923188,
+          36.6348888
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0210",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.03,
+        "nearest_edge_id": "2700042003_2700041304",
+        "nearest_from_node_id": "2700042003",
+        "nearest_to_node_id": "2700041304",
+        "dedupe_cluster_id": 210,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4923625,
+          36.6346991
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0211",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.66,
+        "nearest_edge_id": "2700041303_2700041302",
+        "nearest_from_node_id": "2700041303",
+        "nearest_to_node_id": "2700041302",
+        "dedupe_cluster_id": 211,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4964347,
+          36.6321119
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0216",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.66,
+        "nearest_edge_id": "2700257200_2700277500",
+        "nearest_from_node_id": "2700257200",
+        "nearest_to_node_id": "2700277500",
+        "dedupe_cluster_id": 216,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4966555,
+          36.6320588
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0217",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 4.69,
+        "nearest_edge_id": "2700257200_2700277500",
+        "nearest_from_node_id": "2700257200",
+        "nearest_to_node_id": "2700277500",
+        "dedupe_cluster_id": 217,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.496683,
+          36.6322303
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0218",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.43,
+        "nearest_edge_id": "2700189000_2700262800",
+        "nearest_from_node_id": "2700189000",
+        "nearest_to_node_id": "2700262800",
+        "dedupe_cluster_id": 218,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4767342,
+          36.6286141
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0219",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.84,
+        "nearest_edge_id": "2830044102_2830044503",
+        "nearest_from_node_id": "2830044102",
+        "nearest_to_node_id": "2830044503",
+        "dedupe_cluster_id": 219,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4767195,
+          36.6287558
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0220",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.87,
+        "nearest_edge_id": "2830044504_2830044101",
+        "nearest_from_node_id": "2830044504",
+        "nearest_to_node_id": "2830044101",
+        "dedupe_cluster_id": 220,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4756501,
+          36.6267292
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0221",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.66,
+        "nearest_edge_id": "2830043601_2830043604",
+        "nearest_from_node_id": "2830043601",
+        "nearest_to_node_id": "2830043604",
+        "dedupe_cluster_id": 221,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4757612,
+          36.626607
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0222",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.74,
+        "nearest_edge_id": "2830043602_2830044403",
+        "nearest_from_node_id": "2830043602",
+        "nearest_to_node_id": "2830044403",
+        "dedupe_cluster_id": 222,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4786531,
+          36.6289955
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0228",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 1.42,
+        "nearest_edge_id": "2830155700_2830045301",
+        "nearest_from_node_id": "2830155700",
+        "nearest_to_node_id": "2830045301",
+        "dedupe_cluster_id": 228,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4784607,
+          36.6266648
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0229",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 1.71,
+        "nearest_edge_id": "2830162400_2830044401",
+        "nearest_from_node_id": "2830162400",
+        "nearest_to_node_id": "2830044401",
+        "dedupe_cluster_id": 229,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4786519,
+          36.6266472
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0230",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.89,
+        "nearest_edge_id": "2830046304_2830162400",
+        "nearest_from_node_id": "2830046304",
+        "nearest_to_node_id": "2830162400",
+        "dedupe_cluster_id": 230,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4795553,
+          36.626618
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0231",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.5,
+        "nearest_edge_id": "2830186100_2830046301",
+        "nearest_from_node_id": "2830186100",
+        "nearest_to_node_id": "2830046301",
+        "dedupe_cluster_id": 231,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4793413,
+          36.6266746
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0232",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 2.96,
+        "nearest_edge_id": "2830046304_2830162400",
+        "nearest_from_node_id": "2830046304",
+        "nearest_to_node_id": "2830162400",
+        "dedupe_cluster_id": 232,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4951234,
+          36.6275957
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0233",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 3.05,
+        "nearest_edge_id": "2700034801_2700035304",
+        "nearest_from_node_id": "2700034801",
+        "nearest_to_node_id": "2700035304",
+        "dedupe_cluster_id": 233,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4955216,
+          36.6263633
+        ]
+      },
+      "properties": {
+        "type": "crosswalk",
+        "candidate_id": "seed_existing_base_0237",
+        "source": "existing_base",
+        "source_run_id": "seed_migration",
+        "status": "validated",
+        "confidence_initial": 0.8,
+        "distance_to_graph_m": 0.05,
+        "nearest_edge_id": "2700034803_2700248600",
+        "nearest_from_node_id": "2700034803",
+        "nearest_to_node_id": "2700248600",
+        "dedupe_cluster_id": 237,
+        "review_note": null,
+        "rejection_reason": null,
+        "validated_by": "auto_validator",
+        "validated_at": "2026-04-04T07:02:05.541169+00:00",
+        "crossing_context_approx": true,
+        "confidence_adjusted": 0.95
+      }
+    }
+  ]
+}

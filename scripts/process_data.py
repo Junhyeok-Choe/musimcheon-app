@@ -187,8 +187,8 @@ def geocode_address(address, api_key_id, api_key):
 # [PROCESS-04] Main Processing Pipeline
 # ============================================================
 
-# Musimcheon center for distance calculation
-MUSIMCHEON_CENTER = (36.635, 127.490)
+# Cheongju bridge midpoint for ROI-friendly distance scoring
+MUSIMCHEON_CENTER = (36.636700925, 127.48641145)
 
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -297,6 +297,14 @@ def process_cafes(cafes_path, api_key_id=None, api_key=None):
                 "score_distance": dist_score,
                 "score_date_ratio": scores["date_ratio"],
                 "date_index": date_idx,
+                "operating_schedule_summary": cafe.get("operating_schedule_summary"),
+                "open_time": cafe.get("open_time") or cafe.get("operating_hours_structured", {}).get("open"),
+                "close_time": cafe.get("close_time") or cafe.get("operating_hours_structured", {}).get("close"),
+                "break_time": cafe.get("break_time") or cafe.get("operating_hours_structured", {}).get("break_time"),
+                "holiday": cafe.get("holiday") or cafe.get("operating_hours_structured", {}).get("holiday"),
+                "last_order": cafe.get("last_order") or cafe.get("operating_hours_structured", {}).get("last_order"),
+                "hours_confidence": "high" if cafe.get("operating_schedule_summary") else "low",
+                "hours_source": "cafes_step2",
             },
         }
         features.append(feature)
@@ -419,6 +427,14 @@ def add_scores_to_restaurants(geojson, step2_path=None):
         props["score_distance"] = dist_sc
         props["score_date_ratio"] = date_ratio
         props["date_index"] = date_idx
+        props["operating_schedule_summary"] = props.get("operating_schedule_summary")
+        props["open_time"] = props.get("open_time")
+        props["close_time"] = props.get("close_time")
+        props["break_time"] = props.get("break_time")
+        props["holiday"] = props.get("holiday")
+        props["last_order"] = props.get("last_order")
+        props["hours_confidence"] = props.get("hours_confidence") or ("high" if props.get("operating_schedule_summary") else "low")
+        props["hours_source"] = props.get("hours_source") or ("restaurants_geojson" if props.get("operating_schedule_summary") else None)
 
         # [PROCESS-04e-7] Extract top keywords from step2 good_points
         if has_keyword_data:

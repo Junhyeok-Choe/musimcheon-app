@@ -1,23 +1,21 @@
 import { CategoryType } from '@/types';
 
-// [CONST-01] Category color mapping
 export const CATEGORY_COLORS: Record<CategoryType, string> = {
-  korean: '#ef4444',
-  western: '#3b82f6',
-  japanese: '#f97316',
-  chinese: '#eab308',
-  asian: '#a855f7',
-  meat: '#dc2626',
+  korean: '#d94841',
+  western: '#2563eb',
+  japanese: '#ea580c',
+  chinese: '#ca8a04',
+  asian: '#0f766e',
+  meat: '#b91c1c',
   chicken: '#f59e0b',
-  seafood: '#06b6d4',
-  cafe: '#8b5cf6',
-  pub: '#ec4899',
-  fusion: '#84cc16',
-  shabu: '#10b981',
-  other: '#6b7280',
+  seafood: '#0891b2',
+  cafe: '#7c5a3a',
+  pub: '#be185d',
+  fusion: '#65a30d',
+  shabu: '#059669',
+  other: '#64748b',
 };
 
-// [CONST-02] Category display names
 export const CATEGORY_DISPLAY: Record<CategoryType, string> = {
   korean: '한식',
   western: '양식',
@@ -34,12 +32,40 @@ export const CATEGORY_DISPLAY: Record<CategoryType, string> = {
   other: '기타',
 };
 
-// [CONST-03] Map defaults
-export const MAP_CENTER: [number, number] = [36.635, 127.490];
-export const MAP_ZOOM = 17;
-export const WALKING_SPEED_M_PER_MIN = 67; // ~4km/h
+export const MAP_CENTER: [number, number] = [36.635, 127.49];
+export const MAP_ZOOM = 16;
+export const WALKING_SPEED_M_PER_MIN = 67;
 
-// [CONST-04] Layer definitions
+export const ROI_ADMIN_DONG_CODES = [
+  '43112101',
+  '43112103',
+  '43111109',
+  '43111110',
+  '43111102',
+  '43111103',
+  '43111104',
+  '43111105',
+  '43111106',
+  '43111107',
+  '43111101',
+  '43111108',
+  '43111111',
+  '43111118',
+  '43111112',
+] as const;
+
+export const ROI_NAME_NORMALIZATION: Record<string, string> = {
+  문화로: '문화동',
+  사직2동: '사직동',
+};
+
+export const ROI_BRIDGE_CENTER: [number, number] = [127.48641145, 36.636700925];
+export const ROI_BRIDGE_BUFFER_M = 1000;
+export const ROUTE_ATTACHMENT_WARN_M = 60;
+export const ROUTE_ATTACHMENT_FAIL_M = 100;
+export const RESTAURANT_DWELL_MIN = 70;
+export const CAFE_DWELL_MIN = 45;
+
 export const LAYER_CONFIG: Record<string, { label: string; file: string; color: string; weight?: number; opacity?: number; dashArray?: string }> = {
   adminDongs: { label: '행정구역', file: 'admin_dongs.geojson', color: '#475569', weight: 2.5, opacity: 0.7, dashArray: '6,4' },
   busStops: { label: '버스 정류장', file: 'bus_stops.geojson', color: '#22c55e' },
@@ -50,5 +76,5 @@ export const LAYER_CONFIG: Record<string, { label: string; file: string; color: 
   pedOnlyRoad: { label: '보행자 전용', file: 'ped_only_road.geojson', color: '#f59e0b', weight: 3, opacity: 0.7 },
   streetLamps: { label: '가로등', file: 'street_lamps.geojson', color: '#fbbf24' },
   routingNodes: { label: '경로 노드', file: 'nodelink_nodes.geojson', color: '#94a3b8' },
-  crosswalks: { label: '횡단보도', file: 'crosswalks.geojson', color: '#f43f5e' },
+  crosswalks: { label: '검증 횡단보도', file: 'crosswalks.geojson', color: '#f43f5e' },
 };

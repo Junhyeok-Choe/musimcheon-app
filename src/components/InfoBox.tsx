@@ -108,6 +108,12 @@ export default function InfoBox() {
 
                 <div className="mt-3 text-[13px] leading-6 text-slate-500">{place.address}</div>
 
+                {place.operatingScheduleSummary && (
+                  <div className="mt-3 rounded-[18px] border border-amber-100 bg-amber-50 px-3 py-2 text-[12px] leading-5 text-amber-800">
+                    {place.operatingScheduleSummary}
+                  </div>
+                )}
+
                 {place.keywords.length > 0 && (
                   <div className="mt-3 flex flex-wrap gap-2">
                     {place.keywords.slice(0, 5).map((keyword) => (
