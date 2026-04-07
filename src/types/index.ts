@@ -1,4 +1,3 @@
-// [TYPE-01] GeoJSON feature types for restaurant data
 export interface RestaurantProperties {
   restaurant_name: string;
   category: CategoryType;
@@ -11,7 +10,6 @@ export interface RestaurantProperties {
   total_good_points: number;
   kakao_link: string;
   naver_link: string;
-  // Date index scores (added by process_data.py)
   score_atmosphere?: number;
   score_noise?: number;
   score_waiting?: number;
@@ -26,13 +24,21 @@ export interface RestaurantProperties {
   is_fastfood?: boolean;
   is_franchise?: boolean;
   exclude_reason?: string | null;
+  operating_schedule_summary?: string | null;
+  open_time?: string | null;
+  close_time?: string | null;
+  break_time?: string | null;
+  holiday?: string | null;
+  last_order?: string | null;
+  hours_confidence?: HoursConfidence | null;
+  hours_source?: string | null;
 }
 
 export interface RestaurantFeature {
   type: 'Feature';
   geometry: {
     type: 'Point';
-    coordinates: [number, number]; // [lng, lat]
+    coordinates: [number, number];
   };
   properties: RestaurantProperties;
 }
@@ -42,7 +48,6 @@ export interface RestaurantGeoJSON {
   features: RestaurantFeature[];
 }
 
-// [TYPE-02] Processed restaurant for UI use
 export interface Restaurant {
   id: number;
   placeKind: PlaceKind;
@@ -58,7 +63,6 @@ export interface Restaurant {
   naverLink: string;
   lat: number;
   lng: number;
-  // Date index scores
   scoreAtmosphere: number;
   scoreNoise: number;
   scoreWaiting: number;
@@ -73,42 +77,149 @@ export interface Restaurant {
   isFastfood: boolean;
   isFranchise: boolean;
   excludeReason: string | null;
+  operatingScheduleSummary: string | null;
+  openTime: string | null;
+  closeTime: string | null;
+  breakTime: string | null;
+  holiday: string | null;
+  lastOrder: string | null;
+  hoursConfidence: HoursConfidence;
+  hoursSource: string | null;
 }
 
-// [TYPE-03] Category types
 export type CategoryType =
   | 'korean' | 'western' | 'japanese' | 'chinese' | 'asian'
   | 'meat' | 'chicken' | 'seafood' | 'cafe' | 'pub' | 'fusion' | 'shabu' | 'other';
 
 export type PlaceKind = 'restaurant' | 'cafe';
 
-// [TYPE-04] Routing graph
+export interface RoutingGraphEdge {
+  f: string;
+  t: string;
+  d: number;
+  rn?: string;
+  rr?: string;
+  c?: [number, number][];
+}
+
 export interface RoutingGraphData {
-  nodes: Record<string, [number, number]>; // nodeId -> [lng, lat]
-  edges: Array<{
-    f: string; // from node
-    t: string; // to node
-    d: number; // distance
-    rn?: string; // road name
-    rr?: string; // road rank
-    c?: [number, number][]; // edge polyline coords as [lng, lat][]
-  }>;
+  nodes: Record<string, [number, number]>;
+  edges: RoutingGraphEdge[];
 }
 
-// [TYPE-05] Route result
+export type RouteConfidence = 'high' | 'medium' | 'low';
+export type HoursConfidence = 'high' | 'low';
+export type EdgeKind =
+  | 'approach'
+  | 'sidewalk'
+  | 'validated_crossing'
+  | 'candidate_crossing'
+  | 'implicit_local_crossing';
+
+export interface RouteSegment {
+  kind: EdgeKind;
+  path: [number, number][];
+}
+
 export interface RouteResult {
-  path: [number, number][]; // detailed route polyline as [[lat, lng], ...]
-  distance: number; // meters
-  time: number; // minutes
+  path: [number, number][];
+  segments: RouteSegment[];
+  distance: number;
+  time: number;
+  confidence: RouteConfidence;
+  warnings: string[];
+  startAttachmentM: number;
+  endAttachmentM: number;
+  usedCandidateCrossings: number;
+  usedImplicitLocalCrossings: number;
 }
 
-// [TYPE-06] Layer key
+export type RouteFailureCode =
+  | 'start_attachment_too_far'
+  | 'end_attachment_too_far'
+  | 'major_road_crossing_blocked'
+  | 'no_connected_pedestrian_path';
+
+export interface RouteAttempt {
+  route: RouteResult | null;
+  failureCode?: RouteFailureCode;
+}
+
 export type LayerKey =
   | 'adminDongs' | 'busStops' | 'spatialFacilities' | 'transportFacilities'
   | 'sidewalkCenterline' | 'sidewalkBoundary' | 'pedOnlyRoad' | 'streetLamps' | 'routingNodes' | 'crosswalks';
 
-// [TYPE-07] Sort mode
 export type SortMode = 'rating' | 'reviews' | 'name' | 'dateIndex';
 
-// [TYPE-08] Tab
-export type TabType = 'restaurants' | 'navigation' | 'layers';
+export type TabType = 'restaurants' | 'navigation' | 'planner' | 'layers';
+
+export type OriginSource = 'device_location' | 'map_point' | 'debug_override';
+export type OriginSelectionMode = 'idle' | 'map';
+
+export interface OriginPoint {
+  source: OriginSource;
+  lat: number;
+  lng: number;
+  label?: string;
+}
+
+export interface PlannerInput {
+  origin: OriginPoint | null;
+  requestedStartTime: string;
+}
+
+export interface PlannerTimelineItem {
+  label: string;
+  startsAt: string;
+  endsAt?: string;
+  note?: string;
+}
+
+export interface PlanLeg {
+  fromLabel: string;
+  toLabel: string;
+  route: RouteResult;
+}
+
+export type PlanKind =
+  | 'origin_to_restaurant'
+  | 'origin_to_cafe'
+  | 'origin_to_restaurant_to_cafe'
+  | 'origin_to_cafe_to_restaurant';
+
+export interface PlanOption {
+  id: string;
+  kind: PlanKind;
+  title: string;
+  subtitle: string;
+  places: Restaurant[];
+  timeline: PlannerTimelineItem[];
+  legs: PlanLeg[];
+  combinedRoute: RouteResult | null;
+  confidence: RouteConfidence;
+  warnings: string[];
+  score: number;
+  hoursSummary: string[];
+}
+
+export interface GeoJsonFeature {
+  type: 'Feature';
+  geometry: {
+    type: string;
+    coordinates?: unknown;
+    geometries?: Array<{ type: string; coordinates?: unknown }>;
+  };
+  properties?: Record<string, unknown>;
+}
+
+export interface RoiPolygon {
+  outer: [number, number][];
+  holes: [number, number][][];
+}
+
+export interface RoiGeometry {
+  polygons: RoiPolygon[];
+  adminCodes: string[];
+  bridgeCenter: [number, number];
+  bridgeRadiusM: number;
+}

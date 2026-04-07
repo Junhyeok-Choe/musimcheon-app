@@ -1,11 +1,11 @@
 'use client';
 
-import { useEffect, useRef, useCallback } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { useMapStore } from '@/store/mapStore';
-import { CATEGORY_COLORS, MAP_CENTER, MAP_ZOOM, LAYER_CONFIG } from '@/utils/constants';
-import { buildAdjacencyList } from '@/utils/pathfinding';
+import { CATEGORY_COLORS, LAYER_CONFIG, MAP_CENTER, MAP_ZOOM } from '@/utils/constants';
+import { getRoiValidationError, isPointInRoi } from '@/utils/roi';
 
 export default function MapView() {
   const mapRef = useRef<L.Map | null>(null);
@@ -13,27 +13,50 @@ export default function MapView() {
   const markersRef = useRef<L.CircleMarker[]>([]);
   const layerGroupsRef = useRef<Record<string, L.LayerGroup>>({});
   const routeLayerRef = useRef<L.LayerGroup | null>(null);
-  const startMarkerRef = useRef<L.CircleMarker | null>(null);
-  const adjacencyListRef = useRef<Record<string, { to: string; dist: number }[]>>({});
+  const originMarkerRef = useRef<L.CircleMarker | null>(null);
+  const planMarkersRef = useRef<L.CircleMarker[]>([]);
   const tooltipRef = useRef<HTMLDivElement | null>(null);
 
   const {
     restaurants,
     cafes,
     activePlaceKind,
-    routingGraph,
     selectedPlace,
     visibleLayers,
-    startRestaurant,
+    origin,
+    originSelectionMode,
+    roiGeometry,
     routeResult,
+    selectedPlan,
     selectPlace,
+    setOrigin,
+    setOriginSelectionMode,
+    setPlannerError,
   } = useMapStore();
 
   const visiblePlaces = activePlaceKind === 'restaurant' ? restaurants : cafes;
+  const originSelectionModeRef = useRef(originSelectionMode);
+  const roiGeometryRef = useRef(roiGeometry);
+  const suppressHoverRef = useRef(false);
 
-  // [MAP-01] Initialize Leaflet map
+  const hideTooltip = useCallback(() => {
+    if (tooltipRef.current) {
+      tooltipRef.current.style.display = 'none';
+    }
+  }, []);
+
   useEffect(() => {
-    if (mapRef.current || !mapContainerRef.current) return;
+    originSelectionModeRef.current = originSelectionMode;
+  }, [originSelectionMode]);
+
+  useEffect(() => {
+    roiGeometryRef.current = roiGeometry;
+  }, [roiGeometry]);
+
+  useEffect(() => {
+    if (mapRef.current || !mapContainerRef.current) {
+      return;
+    }
 
     const map = L.map(mapContainerRef.current, {
       zoomAnimation: false,
@@ -46,175 +69,257 @@ export default function MapView() {
       maxZoom: 19,
     }).addTo(map);
 
-    // [MAP-01a] Route layer group
     routeLayerRef.current = L.layerGroup().addTo(map);
 
-    // [MAP-01b] Custom tooltip element
     const tooltipEl = document.createElement('div');
     tooltipEl.className = 'map-tooltip';
     tooltipEl.style.cssText = `
       position: fixed; display: none; pointer-events: none; z-index: 1000;
       background: rgba(20,20,20,0.92); color: white; padding: 8px 12px;
-      border-radius: 8px; font-size: 12px; max-width: 200px;
+      border-radius: 8px; font-size: 12px; max-width: 220px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     `;
     document.body.appendChild(tooltipEl);
     tooltipRef.current = tooltipEl;
 
-    map.getContainer().addEventListener('mousemove', (e: MouseEvent) => {
-      if (tooltipEl.style.display !== 'none') {
-        tooltipEl.style.left = e.clientX + 12 + 'px';
-        tooltipEl.style.top = e.clientY - 10 + 'px';
+    const handleMouseMove = (event: MouseEvent) => {
+      if (suppressHoverRef.current) {
+        suppressHoverRef.current = false;
       }
+
+      if (tooltipEl.style.display !== 'none') {
+        tooltipEl.style.left = `${event.clientX + 12}px`;
+        tooltipEl.style.top = `${event.clientY - 10}px`;
+      }
+    };
+
+    const beginMapInteraction = () => {
+      suppressHoverRef.current = true;
+      hideTooltip();
+    };
+
+    map.getContainer().addEventListener('mousemove', handleMouseMove);
+    map.getContainer().addEventListener('mouseleave', hideTooltip);
+    map.on('zoomstart', beginMapInteraction);
+    map.on('movestart', beginMapInteraction);
+    map.on('dragstart', beginMapInteraction);
+
+    map.on('click', (event) => {
+      if (originSelectionModeRef.current !== 'map') {
+        return;
+      }
+
+      const lat = event.latlng.lat;
+      const lng = event.latlng.lng;
+      const inRoi = isPointInRoi(lat, lng, roiGeometryRef.current);
+      if (!inRoi) {
+        setPlannerError(getRoiValidationError(false));
+        return;
+      }
+
+      setOrigin({
+        source: 'map_point',
+        lat,
+        lng,
+        label: '지도 선택',
+      });
+      setOriginSelectionMode('idle');
+      setPlannerError(null);
     });
 
     mapRef.current = map;
 
     return () => {
-      map.remove();
+      map.getContainer().removeEventListener('mousemove', handleMouseMove);
+      map.getContainer().removeEventListener('mouseleave', hideTooltip);
+      map.off('zoomstart', beginMapInteraction);
+      map.off('movestart', beginMapInteraction);
+      map.off('dragstart', beginMapInteraction);
       tooltipEl.remove();
+      map.remove();
       mapRef.current = null;
     };
-  }, []);
+  }, [hideTooltip, setOrigin, setOriginSelectionMode, setPlannerError]);
 
-  // [MAP-02] Render restaurant markers
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || visiblePlaces.length === 0) return;
+    if (!map) {
+      return;
+    }
 
-    // Clear existing markers
-    markersRef.current.forEach((m) => m.remove());
+    markersRef.current.forEach((marker) => marker.remove());
     markersRef.current = [];
 
-    visiblePlaces.forEach((r) => {
-      const color = CATEGORY_COLORS[r.category] || '#6b7280';
-      const baseRadius = r.placeKind === 'cafe'
-        ? Math.max(4, Math.round(r.rating * 1.3))
-        : Math.max(3, Math.round(r.rating * 1.6));
-      const marker = L.circleMarker([r.lat, r.lng], {
+    visiblePlaces.forEach((place) => {
+      const color = CATEGORY_COLORS[place.category] || '#64748b';
+      const baseRadius = place.placeKind === 'cafe'
+        ? Math.max(4, Math.round(place.rating * 1.2))
+        : Math.max(4, Math.round(place.rating * 1.45));
+      const marker = L.circleMarker([place.lat, place.lng], {
         radius: baseRadius,
         fillColor: color,
         color: 'white',
-        weight: r.placeKind === 'cafe' ? 2.5 : 1.5,
-        fillOpacity: r.placeKind === 'cafe' ? 0.72 : 0.9,
+        weight: place.placeKind === 'cafe' ? 2.2 : 1.4,
+        fillOpacity: place.placeKind === 'cafe' ? 0.72 : 0.92,
       }).addTo(map);
 
-      // [MAP-02a] Click handler
-      marker.on('click', () => {
-        selectPlace(r);
-      });
-
-      // [MAP-02b] Hover tooltip
+      marker.on('click', () => selectPlace(place));
       marker.on('mouseover', () => {
+        if (suppressHoverRef.current) {
+          return;
+        }
         marker.setRadius(baseRadius + 4);
         if (tooltipRef.current) {
           tooltipRef.current.innerHTML = `
-            <div style="font-weight:600;margin-bottom:2px">${r.name}</div>
-            <div style="font-size:11px;color:#94a3b8">${r.placeKind === 'restaurant' ? '식당' : '카페'} · ${r.categoryDisplay}</div>
-            <div style="font-size:11px;color:#fbbf24">${r.rating.toFixed(1)}</div>
+            <div style="font-weight:600;margin-bottom:2px">${place.name}</div>
+            <div style="font-size:11px;color:#cbd5e1">${place.placeKind === 'restaurant' ? '식당' : '카페'} · ${place.categoryDisplay}</div>
+            <div style="font-size:11px;color:#fbbf24">평점 ${place.rating.toFixed(1)} · 지수 ${place.dateIndex.toFixed(1)}</div>
           `;
           tooltipRef.current.style.display = 'block';
         }
       });
-
       marker.on('mouseout', () => {
         marker.setRadius(baseRadius);
-        if (tooltipRef.current) {
-          tooltipRef.current.style.display = 'none';
-        }
+        hideTooltip();
       });
 
       markersRef.current.push(marker);
     });
-  }, [visiblePlaces, selectPlace]);
+  }, [hideTooltip, selectPlace, visiblePlaces]);
 
-  // [MAP-03] Pan to selected restaurant
   useEffect(() => {
-    if (!mapRef.current || !selectedPlace) return;
+    if (!mapRef.current || !selectedPlace) {
+      return;
+    }
     mapRef.current.setView([selectedPlace.lat, selectedPlace.lng], 18, { animate: false });
   }, [selectedPlace]);
 
-  // [MAP-04] Render start point marker
   useEffect(() => {
-    if (startMarkerRef.current) {
-      startMarkerRef.current.remove();
-      startMarkerRef.current = null;
+    if (originMarkerRef.current) {
+      originMarkerRef.current.remove();
+      originMarkerRef.current = null;
     }
-    if (!mapRef.current || !startRestaurant) return;
 
-    startMarkerRef.current = L.circleMarker([startRestaurant.lat, startRestaurant.lng], {
-      radius: 8,
-      fillColor: '#22c55e',
-      color: 'white',
-      weight: 2,
+    if (!mapRef.current || !origin) {
+      return;
+    }
+
+    originMarkerRef.current = L.circleMarker([origin.lat, origin.lng], {
+      radius: 9,
+      fillColor: '#111827',
+      color: '#ffffff',
+      weight: 2.5,
       fillOpacity: 1,
-    }).addTo(mapRef.current);
-  }, [startRestaurant]);
+    })
+      .bindTooltip(origin.label ?? '출발점', { direction: 'top', offset: [0, -8] })
+      .addTo(mapRef.current);
+  }, [origin]);
 
-  // [MAP-05] Render route
   useEffect(() => {
-    if (!routeLayerRef.current) return;
+    planMarkersRef.current.forEach((marker) => marker.remove());
+    planMarkersRef.current = [];
+
+    if (!mapRef.current || !selectedPlan) {
+      return;
+    }
+
+    selectedPlan.places.forEach((place, index) => {
+      const marker = L.circleMarker([place.lat, place.lng], {
+        radius: 10,
+        fillColor: index === 0 ? '#2563eb' : '#f97316',
+        color: '#ffffff',
+        weight: 2.5,
+        fillOpacity: 1,
+      })
+        .bindTooltip(`${index + 1}. ${place.name}`, { direction: 'top', offset: [0, -8] })
+        .addTo(mapRef.current!);
+      planMarkersRef.current.push(marker);
+    });
+  }, [selectedPlan]);
+
+  useEffect(() => {
+    if (!routeLayerRef.current) {
+      return;
+    }
+
     routeLayerRef.current.clearLayers();
 
-    if (!routeResult || routeResult.path.length === 0) return;
+    if (!routeResult || routeResult.segments.length === 0) {
+      return;
+    }
 
-    L.polyline(routeResult.path, {
-      color: '#3b82f6',
-      weight: 5,
-      opacity: 0.8,
-    }).addTo(routeLayerRef.current);
+    routeResult.segments.forEach((segment) => {
+      const isFallback = segment.kind === 'candidate_crossing' || segment.kind === 'implicit_local_crossing';
+      L.polyline(segment.path, {
+        color: segment.kind === 'approach' ? '#0f172a' : '#2563eb',
+        weight: segment.kind === 'approach' ? 4 : 5,
+        opacity: 0.88,
+        dashArray: isFallback ? '10,8' : undefined,
+      }).addTo(routeLayerRef.current!);
+    });
+
+    if (mapRef.current) {
+      mapRef.current.fitBounds(routeResult.path, {
+        padding: [42, 42],
+        animate: false,
+      });
+    }
   }, [routeResult]);
 
-  // [MAP-06] Load and manage GeoJSON layers
   const loadLayer = useCallback(async (key: string) => {
-    if (layerGroupsRef.current[key]) return;
+    if (layerGroupsRef.current[key]) {
+      return;
+    }
 
     const config = LAYER_CONFIG[key];
-    if (!config) return;
+    if (!config) {
+      return;
+    }
 
     try {
-      const res = await fetch(`/geojson/${config.file}`);
-      const data = await res.json();
-
+      const response = await fetch(`/geojson/${config.file}`);
+      const data = await response.json();
       const group = L.layerGroup();
 
-      // [MAP-06a] Handle different geometry types
       if (data.type === 'FeatureCollection') {
         L.geoJSON(data, {
           style: () => ({
             color: config.color,
             weight: config.weight || 2,
             opacity: config.opacity || 0.6,
-            fillOpacity: 0.1,
+            fillOpacity: 0.08,
             dashArray: config.dashArray,
           }),
-          pointToLayer: (feature, latlng) => {
-            return L.circleMarker(latlng, {
-              radius: 3,
-              fillColor: config.color,
-              color: config.color,
-              weight: 1,
-              fillOpacity: 0.7,
-            });
-          },
+          pointToLayer: (_, latlng) => L.circleMarker(latlng, {
+            radius: 3,
+            fillColor: config.color,
+            color: config.color,
+            weight: 1,
+            fillOpacity: 0.72,
+          }),
           onEachFeature: (feature, layer) => {
-            const name = feature.properties?.DONG_NM || feature.properties?.name || feature.properties?.BUSSTOP_NM || '';
+            const name = feature.properties?.DONG_NM
+              || feature.properties?.EMD_NM
+              || feature.properties?.name
+              || feature.properties?.BUSSTOP_NM
+              || '';
             if (name) {
-              layer.bindTooltip(name, { sticky: true, opacity: 0.9 });
+              layer.bindTooltip(String(name), { sticky: true, opacity: 0.9 });
             }
           },
         }).addTo(group);
       }
 
       layerGroupsRef.current[key] = group;
-    } catch (err) {
-      console.error(`[MAP-06] Failed to load layer ${key}:`, err);
+    } catch (error) {
+      console.error(`[map] Failed to load layer ${key}`, error);
     }
   }, []);
 
-  // [MAP-07] Toggle layer visibility
   useEffect(() => {
-    if (!mapRef.current) return;
+    if (!mapRef.current) {
+      return;
+    }
 
     Object.entries(visibleLayers).forEach(([key, visible]) => {
       if (visible) {
@@ -226,21 +331,21 @@ export default function MapView() {
         });
       } else {
         const group = layerGroupsRef.current[key];
-        if (group && mapRef.current?.hasLayer(group)) {
+        if (group && mapRef.current && mapRef.current.hasLayer(group)) {
           mapRef.current.removeLayer(group);
         }
       }
     });
-  }, [visibleLayers, loadLayer]);
-
-  // [MAP-08] Build adjacency list when routing graph loads
-  useEffect(() => {
-    if (!routingGraph) return;
-    adjacencyListRef.current = buildAdjacencyList(routingGraph);
-    console.log(`[MAP-08] Adjacency list built: ${Object.keys(adjacencyListRef.current).length} nodes`);
-  }, [routingGraph]);
+  }, [loadLayer, visibleLayers]);
 
   return (
-    <div ref={mapContainerRef} className="w-full h-full" id="map" />
+    <div className="relative h-full w-full">
+      <div ref={mapContainerRef} className="h-full w-full" id="map" />
+      {originSelectionMode === 'map' && (
+        <div className="pointer-events-none absolute left-1/2 top-4 z-[500] -translate-x-1/2 rounded-full bg-slate-900/88 px-4 py-2 text-[12px] font-semibold text-white shadow-[0_12px_28px_rgba(15,23,42,0.18)]">
+          서비스 권역 안에서 출발점을 클릭해 주세요
+        </div>
+      )}
+    </div>
   );
 }

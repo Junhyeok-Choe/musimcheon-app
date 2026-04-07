@@ -1,108 +1,132 @@
 import { create } from 'zustand';
-import { Restaurant, RestaurantGeoJSON, RoutingGraphData, CategoryType, SortMode, TabType, LayerKey, RouteResult, PlaceKind } from '@/types';
+import {
+  CategoryType,
+  LayerKey,
+  OriginPoint,
+  OriginSelectionMode,
+  PlanOption,
+  PlannerInput,
+  PlaceKind,
+  Restaurant,
+  RestaurantGeoJSON,
+  RoiGeometry,
+  RouteResult,
+  RoutingGraphData,
+  SortMode,
+  TabType,
+} from '@/types';
 import { CrosswalkCoord } from '@/utils/pathfinding';
+import { normalizeRequestedTime } from '@/utils/hours';
 
-// [STORE-01] Process raw GeoJSON into UI-friendly Restaurant objects
 function processPlaces(geojson: RestaurantGeoJSON, placeKind: PlaceKind): Restaurant[] {
-  return geojson.features.map((f, idx) => ({
-    id: idx,
+  return geojson.features.map((feature, index) => ({
+    id: index,
     placeKind,
-    name: f.properties.restaurant_name,
-    category: f.properties.category,
-    categoryDisplay: f.properties.category_display || '',
-    rating: f.properties.avg_rating ?? 0,
-    reviewsKakao: f.properties.review_count_kakao ?? 0,
-    reviewsNaver: f.properties.review_count_naver ?? 0,
-    address: f.properties.road_address,
-    keywords: f.properties.top_keywords || [],
-    kakaoLink: f.properties.kakao_link,
-    naverLink: f.properties.naver_link,
-    lat: f.geometry.coordinates[1],
-    lng: f.geometry.coordinates[0],
-    // Date index scores
-    scoreAtmosphere: f.properties.score_atmosphere ?? 0,
-    scoreNoise: f.properties.score_noise ?? 0,
-    scoreWaiting: f.properties.score_waiting ?? 0,
-    scoreDistance: f.properties.score_distance ?? 0,
-    scoreDateRatio: f.properties.score_visit_target ?? f.properties.score_date_ratio ?? 0,
-    scoreVisitTarget: f.properties.score_visit_target ?? f.properties.score_date_ratio ?? 0,
-    scoreTaste: f.properties.score_taste ?? 0,
-    scoreService: f.properties.score_service ?? 0,
-    scoreBase: f.properties.score_base ?? 0,
-    scoreFinal: f.properties.score_final ?? f.properties.date_index ?? 0,
-    dateIndex: f.properties.score_final ?? f.properties.date_index ?? 0,
-    isFastfood: Boolean(f.properties.is_fastfood),
-    isFranchise: Boolean(f.properties.is_franchise),
-    excludeReason: f.properties.exclude_reason ?? null,
+    name: feature.properties.restaurant_name,
+    category: feature.properties.category,
+    categoryDisplay: feature.properties.category_display || '',
+    rating: feature.properties.avg_rating ?? 0,
+    reviewsKakao: feature.properties.review_count_kakao ?? 0,
+    reviewsNaver: feature.properties.review_count_naver ?? 0,
+    address: feature.properties.road_address,
+    keywords: feature.properties.top_keywords || [],
+    kakaoLink: feature.properties.kakao_link,
+    naverLink: feature.properties.naver_link,
+    lat: feature.geometry.coordinates[1],
+    lng: feature.geometry.coordinates[0],
+    scoreAtmosphere: feature.properties.score_atmosphere ?? 0,
+    scoreNoise: feature.properties.score_noise ?? 0,
+    scoreWaiting: feature.properties.score_waiting ?? 0,
+    scoreDistance: feature.properties.score_distance ?? 0,
+    scoreDateRatio: feature.properties.score_visit_target ?? feature.properties.score_date_ratio ?? 0,
+    scoreVisitTarget: feature.properties.score_visit_target ?? feature.properties.score_date_ratio ?? 0,
+    scoreTaste: feature.properties.score_taste ?? 0,
+    scoreService: feature.properties.score_service ?? 0,
+    scoreBase: feature.properties.score_base ?? 0,
+    scoreFinal: feature.properties.score_final ?? feature.properties.date_index ?? 0,
+    dateIndex: feature.properties.score_final ?? feature.properties.date_index ?? 0,
+    isFastfood: Boolean(feature.properties.is_fastfood),
+    isFranchise: Boolean(feature.properties.is_franchise),
+    excludeReason: feature.properties.exclude_reason ?? null,
+    operatingScheduleSummary: feature.properties.operating_schedule_summary ?? null,
+    openTime: feature.properties.open_time ?? null,
+    closeTime: feature.properties.close_time ?? null,
+    breakTime: feature.properties.break_time ?? null,
+    holiday: feature.properties.holiday ?? null,
+    lastOrder: feature.properties.last_order ?? null,
+    hoursConfidence: feature.properties.hours_confidence ?? 'low',
+    hoursSource: feature.properties.hours_source ?? null,
   }));
 }
 
-// [STORE-02] Application state interface
 interface MapState {
-  // Data
   restaurants: Restaurant[];
   cafes: Restaurant[];
   routingGraph: RoutingGraphData | null;
-  crosswalks: CrosswalkCoord[];
+  validatedCrosswalks: CrosswalkCoord[];
+  candidateCrosswalks: CrosswalkCoord[];
+  roiGeometry: RoiGeometry | null;
   isLoading: boolean;
 
-  // UI state
   activeTab: TabType;
   activePlaceKind: PlaceKind;
   selectedPlace: Restaurant | null;
   searchQuery: string;
   activeCategory: CategoryType | null;
   sortMode: SortMode;
-
-  // Navigation state
-  startRestaurant: Restaurant | null;
-  destination: Restaurant | null;
-  routeResult: RouteResult | null;
-
-  // Layer visibility
   visibleLayers: Record<LayerKey, boolean>;
 
-  // Actions
+  origin: OriginPoint | null;
+  originSelectionMode: OriginSelectionMode;
+  plannerInput: PlannerInput;
+  plannerError: string | null;
+  planOptions: PlanOption[];
+  selectedPlan: PlanOption | null;
+  routeResult: RouteResult | null;
+
   setRestaurants: (geojson: RestaurantGeoJSON) => void;
   setCafes: (geojson: RestaurantGeoJSON) => void;
   setRoutingGraph: (graph: RoutingGraphData) => void;
-  setCrosswalks: (coords: CrosswalkCoord[]) => void;
+  setValidatedCrosswalks: (coords: CrosswalkCoord[]) => void;
+  setCandidateCrosswalks: (coords: CrosswalkCoord[]) => void;
+  setRoiGeometry: (roi: RoiGeometry) => void;
   setLoading: (loading: boolean) => void;
+
   setActiveTab: (tab: TabType) => void;
   setActivePlaceKind: (kind: PlaceKind) => void;
   selectPlace: (place: Restaurant | null) => void;
   setSearchQuery: (query: string) => void;
   setActiveCategory: (category: CategoryType | null) => void;
   setSortMode: (mode: SortMode) => void;
-  setStartRestaurant: (restaurant: Restaurant | null) => void;
-  setDestination: (restaurant: Restaurant | null) => void;
-  setRouteResult: (result: RouteResult | null) => void;
   toggleLayer: (layer: LayerKey) => void;
-  resetNavigation: () => void;
 
-  // Computed
+  setOrigin: (origin: OriginPoint | null) => void;
+  setOriginSelectionMode: (mode: OriginSelectionMode) => void;
+  setPlannerRequestedStartTime: (time: string) => void;
+  setPlannerError: (message: string | null) => void;
+  setPlanOptions: (options: PlanOption[]) => void;
+  setSelectedPlan: (option: PlanOption | null) => void;
+  setRouteResult: (result: RouteResult | null) => void;
+  resetPlanner: () => void;
+
   filteredPlaces: () => Restaurant[];
 }
 
-// [STORE-03] Zustand store
 export const useMapStore = create<MapState>((set, get) => ({
   restaurants: [],
   cafes: [],
   routingGraph: null,
-  crosswalks: [],
+  validatedCrosswalks: [],
+  candidateCrosswalks: [],
+  roiGeometry: null,
   isLoading: true,
 
-  activeTab: 'restaurants',
+  activeTab: 'planner',
   activePlaceKind: 'restaurant',
   selectedPlace: null,
   searchQuery: '',
   activeCategory: null,
   sortMode: 'dateIndex',
-
-  startRestaurant: null,
-  destination: null,
-  routeResult: null,
-
   visibleLayers: {
     adminDongs: true,
     busStops: false,
@@ -116,17 +140,31 @@ export const useMapStore = create<MapState>((set, get) => ({
     crosswalks: false,
   },
 
+  origin: null,
+  originSelectionMode: 'idle',
+  plannerInput: {
+    origin: null,
+    requestedStartTime: normalizeRequestedTime(''),
+  },
+  plannerError: null,
+  planOptions: [],
+  selectedPlan: null,
+  routeResult: null,
+
   setRestaurants: (geojson) =>
     set({
-      restaurants: processPlaces(geojson, 'restaurant').filter((restaurant) => !restaurant.excludeReason),
+      restaurants: processPlaces(geojson, 'restaurant').filter((place) => !place.excludeReason),
     }),
   setCafes: (geojson) =>
     set({
       cafes: processPlaces(geojson, 'cafe'),
     }),
   setRoutingGraph: (graph) => set({ routingGraph: graph }),
-  setCrosswalks: (coords) => set({ crosswalks: coords }),
+  setValidatedCrosswalks: (coords) => set({ validatedCrosswalks: coords }),
+  setCandidateCrosswalks: (coords) => set({ candidateCrosswalks: coords }),
+  setRoiGeometry: (roi) => set({ roiGeometry: roi }),
   setLoading: (loading) => set({ isLoading: loading }),
+
   setActiveTab: (tab) => set({ activeTab: tab }),
   setActivePlaceKind: (kind) =>
     set((state) => ({
@@ -139,9 +177,6 @@ export const useMapStore = create<MapState>((set, get) => ({
   setSearchQuery: (query) => set({ searchQuery: query }),
   setActiveCategory: (category) => set({ activeCategory: category }),
   setSortMode: (mode) => set({ sortMode: mode }),
-  setStartRestaurant: (restaurant) => set({ startRestaurant: restaurant }),
-  setDestination: (restaurant) => set({ destination: restaurant }),
-  setRouteResult: (result) => set({ routeResult: result }),
   toggleLayer: (layer) =>
     set((state) => ({
       visibleLayers: {
@@ -149,26 +184,65 @@ export const useMapStore = create<MapState>((set, get) => ({
         [layer]: !state.visibleLayers[layer],
       },
     })),
-  resetNavigation: () =>
-    set({ startRestaurant: null, destination: null, routeResult: null }),
 
-  // [STORE-04] Filtered and sorted place list
+  setOrigin: (origin) =>
+    set((state) => ({
+      origin,
+      plannerInput: {
+        ...state.plannerInput,
+        origin,
+      },
+      plannerError: null,
+      planOptions: [],
+      selectedPlan: null,
+      routeResult: null,
+    })),
+  setOriginSelectionMode: (mode) => set({ originSelectionMode: mode }),
+  setPlannerRequestedStartTime: (time) =>
+    set((state) => ({
+      plannerInput: {
+        ...state.plannerInput,
+        requestedStartTime: normalizeRequestedTime(time),
+      },
+      planOptions: [],
+      selectedPlan: null,
+      routeResult: null,
+    })),
+  setPlannerError: (plannerError) => set({ plannerError }),
+  setPlanOptions: (planOptions) => set({ planOptions }),
+  setSelectedPlan: (selectedPlan) =>
+    set({
+      selectedPlan,
+      routeResult: selectedPlan?.combinedRoute ?? null,
+    }),
+  setRouteResult: (routeResult) => set({ routeResult }),
+  resetPlanner: () =>
+    set((state) => ({
+      origin: null,
+      originSelectionMode: 'idle',
+      plannerInput: {
+        ...state.plannerInput,
+        origin: null,
+      },
+      plannerError: null,
+      planOptions: [],
+      selectedPlan: null,
+      routeResult: null,
+    })),
+
   filteredPlaces: () => {
     const { restaurants, cafes, activePlaceKind, searchQuery, activeCategory, sortMode } = get();
     let list = [...(activePlaceKind === 'restaurant' ? restaurants : cafes)];
 
-    // Filter by category
     if (activePlaceKind === 'restaurant' && activeCategory) {
-      list = list.filter((r) => r.category === activeCategory);
+      list = list.filter((place) => place.category === activeCategory);
     }
 
-    // Filter by search
     if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      list = list.filter((r) => r.name.toLowerCase().includes(q));
+      const normalized = searchQuery.toLowerCase();
+      list = list.filter((place) => place.name.toLowerCase().includes(normalized));
     }
 
-    // Sort
     if (sortMode === 'dateIndex') {
       list.sort((a, b) => b.dateIndex - a.dateIndex || b.rating - a.rating);
     } else if (sortMode === 'rating') {
